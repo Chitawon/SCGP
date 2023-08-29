@@ -122,7 +122,7 @@ namespace SCGPServiceGetDeliveryList.Controllers
 
         #endregion
 
-        #region Post SDO02 Result for Delivery List
+        /*#region Post SDO02 Result for Delivery List
 
         [HttpPost("SDO02")]
         public IActionResult RespondDeliveryLists(List<IFormFile> files)
@@ -152,9 +152,9 @@ namespace SCGPServiceGetDeliveryList.Controllers
             return returnList;
         }
 
-        #endregion
+        #endregion*/
 
-        #region Post SDO01 GoodsIssue
+        /*#region Post SDO01 GoodsIssue
 
         [HttpPost("SDO01")]
         public IActionResult PostGoodsIssueDelivery(List<IFormFile> files)
@@ -220,7 +220,7 @@ namespace SCGPServiceGetDeliveryList.Controllers
             }
         }
 
-        #endregion
+        #endregion*/
 
         #region ResultDeliveryList && ZRETURN
 

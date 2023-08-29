@@ -89,12 +89,12 @@
       "PackagePath": "staticwebassets\\images\\Group 2.svg"
     },
     {
-      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\SCGP_Primary Logo-01.png",
-      "PackagePath": "staticwebassets\\images\\SCGP_Primary Logo-01.png"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\SCGPLogo.png",
+      "PackagePath": "staticwebassets\\images\\SCGPLogo.png"
     },
     {
-      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\SCGP_Primary-Logo-02.png",
-      "PackagePath": "staticwebassets\\images\\SCGP_Primary-Logo-02.png"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\SCGP_Primary Logo-01.png",
+      "PackagePath": "staticwebassets\\images\\SCGP_Primary Logo-01.png"
     },
     {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\bg-login-page-dark.svg",
@@ -233,8 +233,16 @@
       "PackagePath": "staticwebassets\\images\\phone-illustration.svg"
     },
     {
-      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\placeholders",
-      "PackagePath": "staticwebassets\\images"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\placeholders\\.DS_Store",
+      "PackagePath": "staticwebassets\\images\\placeholders\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\placeholders\\200x200.jpg",
+      "PackagePath": "staticwebassets\\images\\placeholders\\200x200.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\placeholders\\800x800.jpg",
+      "PackagePath": "staticwebassets\\images\\placeholders\\800x800.jpg"
     },
     {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-1.jpg",
