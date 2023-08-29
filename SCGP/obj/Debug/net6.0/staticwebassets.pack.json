@@ -1,719 +1,711 @@
 {
   "Files": [
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/obj/Debug/net6.0/scopedcss/projectbundle/SCGP.bundle.scp.css",
-      "PackagePath": "staticwebassets/SCGP.bundle.scp.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SCGP.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SCGP.bundle.scp.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/.DS_Store",
-      "PackagePath": "staticwebassets/.DS_Store"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\.DS_Store",
+      "PackagePath": "staticwebassets\\.DS_Store"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/css/_app.css",
-      "PackagePath": "staticwebassets/css/_app.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\css\\_app.css",
+      "PackagePath": "staticwebassets\\css\\_app.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/css/app.css",
-      "PackagePath": "staticwebassets/css/app.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/.DS_Store",
-      "PackagePath": "staticwebassets/fonts/.DS_Store"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\fonts\\.DS_Store"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/LICENSE.txt",
-      "PackagePath": "staticwebassets/fonts/roboto/LICENSE.txt"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\LICENSE.txt"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-Black.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-Black.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Black.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-BlackItalic.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-BlackItalic.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-BlackItalic.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-Bold.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-Bold.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Bold.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-BoldItalic.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-BoldItalic.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-BoldItalic.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-Italic.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-Italic.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Italic.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-Light.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-Light.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Light.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-LightItalic.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-LightItalic.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-LightItalic.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-Medium.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-Medium.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Medium.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-MediumItalic.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-MediumItalic.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-MediumItalic.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-Regular.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-Regular.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Regular.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-Thin.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-Thin.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-Thin.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/fonts/roboto/Roboto-ThinItalic.ttf",
-      "PackagePath": "staticwebassets/fonts/roboto/Roboto-ThinItalic.ttf"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\fonts\\roboto\\Roboto-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\roboto\\Roboto-ThinItalic.ttf"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/.DS_Store",
-      "PackagePath": "staticwebassets/images/.DS_Store"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\images\\.DS_Store"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/Group 1.svg",
-      "PackagePath": "staticwebassets/images/Group 1.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\Group 1.svg",
+      "PackagePath": "staticwebassets\\images\\Group 1.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/Group 2.svg",
-      "PackagePath": "staticwebassets/images/Group 2.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\Group 2.svg",
+      "PackagePath": "staticwebassets\\images\\Group 2.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/SCGPLogo.png",
-      "PackagePath": "staticwebassets/images/SCGPLogo.png"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\SCGP_Primary Logo-01.png",
+      "PackagePath": "staticwebassets\\images\\SCGP_Primary Logo-01.png"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/SCGP_Primary Logo-01.png",
-      "PackagePath": "staticwebassets/images/SCGP_Primary Logo-01.png"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\SCGP_Primary-Logo-02.png",
+      "PackagePath": "staticwebassets\\images\\SCGP_Primary-Logo-02.png"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/bg-login-page-dark.svg",
-      "PackagePath": "staticwebassets/images/bg-login-page-dark.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\bg-login-page-dark.svg",
+      "PackagePath": "staticwebassets\\images\\bg-login-page-dark.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/bg-login-page.svg",
-      "PackagePath": "staticwebassets/images/bg-login-page.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\bg-login-page.svg",
+      "PackagePath": "staticwebassets\\images\\bg-login-page.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/bg-main-dark.svg",
-      "PackagePath": "staticwebassets/images/bg-main-dark.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\bg-main-dark.svg",
+      "PackagePath": "staticwebassets\\images\\bg-main-dark.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/bg-main.svg",
-      "PackagePath": "staticwebassets/images/bg-main.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\bg-main.svg",
+      "PackagePath": "staticwebassets\\images\\bg-main.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/error-illustration.svg",
-      "PackagePath": "staticwebassets/images/error-illustration.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\error-illustration.svg",
+      "PackagePath": "staticwebassets\\images\\error-illustration.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-1.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-1.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-1.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-1.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-10.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-10.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-10.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-10.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-11.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-11.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-11.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-11.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-12.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-12.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-12.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-12.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-13.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-13.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-13.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-13.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-14.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-14.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-14.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-14.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-15.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-15.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-15.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-15.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-16.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-16.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-16.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-16.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-17.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-17.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-17.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-17.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-18.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-18.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-18.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-18.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-19.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-19.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-19.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-19.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-2.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-2.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-2.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-2.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-3.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-3.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-3.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-3.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-4.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-4.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-4.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-4.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-5.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-5.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-5.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-5.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-6.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-6.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-6.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-6.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-7.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-7.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-7.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-7.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-8.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-8.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-8.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-8.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/food-beverage-9.jpg",
-      "PackagePath": "staticwebassets/images/food-beverage-9.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\food-beverage-9.jpg",
+      "PackagePath": "staticwebassets\\images\\food-beverage-9.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/illustration.svg",
-      "PackagePath": "staticwebassets/images/illustration.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\illustration.svg",
+      "PackagePath": "staticwebassets\\images\\illustration.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/illustration2.svg",
-      "PackagePath": "staticwebassets/images/illustration2.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\illustration2.svg",
+      "PackagePath": "staticwebassets\\images\\illustration2.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/logo.svg",
-      "PackagePath": "staticwebassets/images/logo.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/map-marker-dark.svg",
-      "PackagePath": "staticwebassets/images/map-marker-dark.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\map-marker-dark.svg",
+      "PackagePath": "staticwebassets\\images\\map-marker-dark.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/map-marker-region-dark.svg",
-      "PackagePath": "staticwebassets/images/map-marker-region-dark.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\map-marker-region-dark.svg",
+      "PackagePath": "staticwebassets\\images\\map-marker-region-dark.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/map-marker-region.png",
-      "PackagePath": "staticwebassets/images/map-marker-region.png"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\map-marker-region.png",
+      "PackagePath": "staticwebassets\\images\\map-marker-region.png"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/map-marker-region.svg",
-      "PackagePath": "staticwebassets/images/map-marker-region.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\map-marker-region.svg",
+      "PackagePath": "staticwebassets\\images\\map-marker-region.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/map-marker.png",
-      "PackagePath": "staticwebassets/images/map-marker.png"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\map-marker.png",
+      "PackagePath": "staticwebassets\\images\\map-marker.png"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/map-marker.svg",
-      "PackagePath": "staticwebassets/images/map-marker.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\map-marker.svg",
+      "PackagePath": "staticwebassets\\images\\map-marker.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/phone-illustration.svg",
-      "PackagePath": "staticwebassets/images/phone-illustration.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\phone-illustration.svg",
+      "PackagePath": "staticwebassets\\images\\phone-illustration.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/placeholders/.DS_Store",
-      "PackagePath": "staticwebassets/images/placeholders/.DS_Store"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\placeholders",
+      "PackagePath": "staticwebassets\\images"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/placeholders/200x200.jpg",
-      "PackagePath": "staticwebassets/images/placeholders/200x200.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-1.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-1.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/placeholders/800x800.jpg",
-      "PackagePath": "staticwebassets/images/placeholders/800x800.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-10.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-10.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-1.jpg",
-      "PackagePath": "staticwebassets/images/preview-1.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-11.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-11.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-10.jpg",
-      "PackagePath": "staticwebassets/images/preview-10.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-12.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-12.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-11.jpg",
-      "PackagePath": "staticwebassets/images/preview-11.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-13.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-13.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-12.jpg",
-      "PackagePath": "staticwebassets/images/preview-12.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-14.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-14.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-13.jpg",
-      "PackagePath": "staticwebassets/images/preview-13.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-15.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-15.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-14.jpg",
-      "PackagePath": "staticwebassets/images/preview-14.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-16.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-16.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-15.jpg",
-      "PackagePath": "staticwebassets/images/preview-15.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-17.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-17.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-16.jpg",
-      "PackagePath": "staticwebassets/images/preview-16.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-18.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-18.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-17.jpg",
-      "PackagePath": "staticwebassets/images/preview-17.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-19.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-19.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-18.jpg",
-      "PackagePath": "staticwebassets/images/preview-18.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-2.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-2.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-19.jpg",
-      "PackagePath": "staticwebassets/images/preview-19.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-3.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-3.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-2.jpg",
-      "PackagePath": "staticwebassets/images/preview-2.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-4.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-4.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-3.jpg",
-      "PackagePath": "staticwebassets/images/preview-3.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-5.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-5.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-4.jpg",
-      "PackagePath": "staticwebassets/images/preview-4.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-6.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-6.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-5.jpg",
-      "PackagePath": "staticwebassets/images/preview-5.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-7.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-7.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-6.jpg",
-      "PackagePath": "staticwebassets/images/preview-6.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-8.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-8.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-7.jpg",
-      "PackagePath": "staticwebassets/images/preview-7.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-9.jpg",
+      "PackagePath": "staticwebassets\\images\\preview-9.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-8.jpg",
-      "PackagePath": "staticwebassets/images/preview-8.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-1.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-1.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/preview-9.jpg",
-      "PackagePath": "staticwebassets/images/preview-9.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-10.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-10.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-1.jpg",
-      "PackagePath": "staticwebassets/images/profile-1.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-11.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-11.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-10.jpg",
-      "PackagePath": "staticwebassets/images/profile-10.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-12.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-12.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-11.jpg",
-      "PackagePath": "staticwebassets/images/profile-11.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-13.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-13.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-12.jpg",
-      "PackagePath": "staticwebassets/images/profile-12.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-14.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-14.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-13.jpg",
-      "PackagePath": "staticwebassets/images/profile-13.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-15.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-15.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-14.jpg",
-      "PackagePath": "staticwebassets/images/profile-14.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-16.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-16.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-15.jpg",
-      "PackagePath": "staticwebassets/images/profile-15.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-17.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-17.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-16.jpg",
-      "PackagePath": "staticwebassets/images/profile-16.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-18.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-18.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-17.jpg",
-      "PackagePath": "staticwebassets/images/profile-17.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-19.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-19.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-18.jpg",
-      "PackagePath": "staticwebassets/images/profile-18.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-2.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-2.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-19.jpg",
-      "PackagePath": "staticwebassets/images/profile-19.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-3.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-3.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-2.jpg",
-      "PackagePath": "staticwebassets/images/profile-2.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-4.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-4.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-3.jpg",
-      "PackagePath": "staticwebassets/images/profile-3.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-5.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-5.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-4.jpg",
-      "PackagePath": "staticwebassets/images/profile-4.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-6.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-6.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-5.jpg",
-      "PackagePath": "staticwebassets/images/profile-5.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-7.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-7.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-6.jpg",
-      "PackagePath": "staticwebassets/images/profile-6.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-8.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-8.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-7.jpg",
-      "PackagePath": "staticwebassets/images/profile-7.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-9.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-9.jpg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-8.jpg",
-      "PackagePath": "staticwebassets/images/profile-8.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\scgp_banner.png",
+      "PackagePath": "staticwebassets\\images\\scgp_banner.png"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/profile-9.jpg",
-      "PackagePath": "staticwebassets/images/profile-9.jpg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\scgp_banner_03.png",
+      "PackagePath": "staticwebassets\\images\\scgp_banner_03.png"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/scgp_banner.png",
-      "PackagePath": "staticwebassets/images/scgp_banner.png"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\undraw_checking_boxes_re_9h8m.svg",
+      "PackagePath": "staticwebassets\\images\\undraw_checking_boxes_re_9h8m.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/scgp_banner_03.png",
-      "PackagePath": "staticwebassets/images/scgp_banner_03.png"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\undraw_control_panel_re_y3ar.svg",
+      "PackagePath": "staticwebassets\\images\\undraw_control_panel_re_y3ar.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/undraw_checking_boxes_re_9h8m.svg",
-      "PackagePath": "staticwebassets/images/undraw_checking_boxes_re_9h8m.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\undraw_online_stats_0g94.svg",
+      "PackagePath": "staticwebassets\\images\\undraw_online_stats_0g94.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/undraw_control_panel_re_y3ar.svg",
-      "PackagePath": "staticwebassets/images/undraw_control_panel_re_y3ar.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\woman-illustration.svg",
+      "PackagePath": "staticwebassets\\images\\woman-illustration.svg"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/undraw_online_stats_0g94.svg",
-      "PackagePath": "staticwebassets/images/undraw_online_stats_0g94.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/images/woman-illustration.svg",
-      "PackagePath": "staticwebassets/images/woman-illustration.svg"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\app.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\app.js.LICENSE.txt"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/app.js",
-      "PackagePath": "staticwebassets/js/app.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\ckeditor-balloon-block.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor-balloon-block.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/app.js.LICENSE.txt",
-      "PackagePath": "staticwebassets/js/app.js.LICENSE.txt"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\ckeditor-balloon-block.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\ckeditor-balloon-block.js.LICENSE.txt"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/ckeditor-balloon-block.js",
-      "PackagePath": "staticwebassets/js/ckeditor-balloon-block.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\ckeditor-balloon.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor-balloon.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/ckeditor-balloon-block.js.LICENSE.txt",
-      "PackagePath": "staticwebassets/js/ckeditor-balloon-block.js.LICENSE.txt"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\ckeditor-balloon.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\ckeditor-balloon.js.LICENSE.txt"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/ckeditor-balloon.js",
-      "PackagePath": "staticwebassets/js/ckeditor-balloon.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\ckeditor-classic.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor-classic.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/ckeditor-balloon.js.LICENSE.txt",
-      "PackagePath": "staticwebassets/js/ckeditor-balloon.js.LICENSE.txt"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\ckeditor-classic.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\ckeditor-classic.js.LICENSE.txt"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/ckeditor-classic.js",
-      "PackagePath": "staticwebassets/js/ckeditor-classic.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\ckeditor-document.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor-document.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/ckeditor-classic.js.LICENSE.txt",
-      "PackagePath": "staticwebassets/js/ckeditor-classic.js.LICENSE.txt"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\ckeditor-document.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\ckeditor-document.js.LICENSE.txt"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/ckeditor-document.js",
-      "PackagePath": "staticwebassets/js/ckeditor-document.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\ckeditor-inline.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor-inline.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/ckeditor-document.js.LICENSE.txt",
-      "PackagePath": "staticwebassets/js/ckeditor-document.js.LICENSE.txt"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\ckeditor-inline.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\ckeditor-inline.js.LICENSE.txt"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/ckeditor-inline.js",
-      "PackagePath": "staticwebassets/js/ckeditor-inline.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\custom-script.js",
+      "PackagePath": "staticwebassets\\js\\custom-script.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/ckeditor-inline.js.LICENSE.txt",
-      "PackagePath": "staticwebassets/js/ckeditor-inline.js.LICENSE.txt"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/js/custom-script.js",
-      "PackagePath": "staticwebassets/js/custom-script.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/LICENSE",
-      "PackagePath": "staticwebassets/lib/bootstrap"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery-validation/LICENSE.md",
-      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery-validation/dist/additional-methods.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery/dist/jquery.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery/dist/jquery.min.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
-    },
-    {
-      "Id": "/Users/tun/Projects/SCGP/SCGP/wwwroot/lib/jquery/dist/jquery.min.map",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
-    },
-    {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.SCGP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SCGP.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.SCGP.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SCGP.props",
       "PackagePath": "build\\SCGP.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.SCGP.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SCGP.props",
       "PackagePath": "buildMultiTargeting\\SCGP.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.SCGP.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SCGP.props",
       "PackagePath": "buildTransitive\\SCGP.props"
     }
   ],

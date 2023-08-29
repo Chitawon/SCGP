@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Z5rMRADPsaI/+s/7oPntKmmDG1AfaXBv7b4j45GdHg8=",
+  "Source": "SCGPServiceGetDeliveryList",
+  "BasePath": "_content/SCGPServiceGetDeliveryList",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

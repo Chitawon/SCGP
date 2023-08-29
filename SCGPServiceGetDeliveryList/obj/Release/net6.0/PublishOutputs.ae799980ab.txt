@@ -1,0 +1,11 @@
+D:\Work\Orange\SCGP\SCGPServiceGetDeliveryList\obj\Release\net6.0\PubTmp\Out\SCGPServiceGetDeliveryList.exe
+D:\Work\Orange\SCGP\SCGPServiceGetDeliveryList\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Work\Orange\SCGP\SCGPServiceGetDeliveryList\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Work\Orange\SCGP\SCGPServiceGetDeliveryList\obj\Release\net6.0\PubTmp\Out\SCGPServiceGetDeliveryList.dll
+D:\Work\Orange\SCGP\SCGPServiceGetDeliveryList\obj\Release\net6.0\PubTmp\Out\SCGPServiceGetDeliveryList.deps.json
+D:\Work\Orange\SCGP\SCGPServiceGetDeliveryList\obj\Release\net6.0\PubTmp\Out\SCGPServiceGetDeliveryList.runtimeconfig.json
+D:\Work\Orange\SCGP\SCGPServiceGetDeliveryList\obj\Release\net6.0\PubTmp\Out\SCGPServiceGetDeliveryList.pdb
+D:\Work\Orange\SCGP\SCGPServiceGetDeliveryList\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Work\Orange\SCGP\SCGPServiceGetDeliveryList\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Work\Orange\SCGP\SCGPServiceGetDeliveryList\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Work\Orange\SCGP\SCGPServiceGetDeliveryList\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../buildMultiTargeting/SCGP.props" />
+  <Import Project="..\buildMultiTargeting\SCGP.props" />
 </Project>
