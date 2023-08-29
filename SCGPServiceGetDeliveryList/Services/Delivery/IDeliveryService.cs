@@ -1,10 +1,11 @@
 ﻿using SCGPServiceGetDeliveryList.Models;
+using System;
 
 namespace SCGPServiceGetDeliveryList.Services.Delivery
 {
     public interface IDeliveryService
     {
-        void ReceiveDelivery(DeliveryList deliveryList);
-        DeliveryList GetDelivery(Guid deliveryKey);
+        Exception ReceiveDelivery(DeliveryList deliveryList);
+        DeliveryList GetDelivery(string deliveryKey);
     }
 }

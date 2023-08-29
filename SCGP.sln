@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCGP", "SCGP\SCGP.csproj", "{4493B17D-3DA6-4F8D-990E-4732077292A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCGPServiceGetDeliveryList", "SCGPServiceGetDeliveryList\SCGPServiceGetDeliveryList.csproj", "{1E09DDB3-E27B-4D53-B6BB-CE9CDEAA427C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCGPServiceGetDeliveryList", "SCGPServiceGetDeliveryList\SCGPServiceGetDeliveryList.csproj", "{1E09DDB3-E27B-4D53-B6BB-CE9CDEAA427C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

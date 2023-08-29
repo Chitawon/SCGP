@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SCGPServiceGetDeliveryList.Extension;
 using SCGPServiceGetDeliveryList.Models;
 using SCGPServiceGetDeliveryList.Services.Delivery;
-using System.Collections.Generic;
 using System.Xml;
 
 namespace SCGPServiceGetDeliveryList.Controllers
@@ -14,13 +14,17 @@ namespace SCGPServiceGetDeliveryList.Controllers
 
         private readonly IDeliveryService _deliveryService;
 
+        private static readonly string _rootNode = "/root";
+
         public DeliveryController(ILogger<DeliveryController> logger, IDeliveryService deliveryService)
         {
             _logger = logger;
             _deliveryService = deliveryService;
         }
-        
-        [HttpPost("SDI01 Delivery List")]
+
+        #region Post SDI01 Delivery List
+
+        [HttpPost("SDI01")]
         public IActionResult ReceiveDeliveryLists(List<IFormFile> files)
         {
             if (files.Count <= 0)
@@ -30,48 +34,7 @@ namespace SCGPServiceGetDeliveryList.Controllers
 
             List<ResultDeliveryList> respondDeli = FilesToDeliveryListModals(files);
 
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(respondDeli);
-            }
-
             return Ok(respondDeli);
-        }
-
-        [HttpPost("SDO02 Result for Delivery List")]
-        public IActionResult RespondDeliveryLists(List<IFormFile> files)
-        {
-            if (files.Count <= 0)
-            {
-                return BadRequest("Please Upload File.");
-            }
-
-            var respondDeli = FilesToResultDeliveryModals(files);
-
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(respondDeli);
-            }
-
-            return Ok(respondDeli);
-        }
-
-        [HttpPost("SDO01 - Post Goods Issue Delivery")]
-        public IActionResult PostGoodsIssueDelivery(List<IFormFile> files)
-        {
-            if (files.Count <= 0)
-            {
-                return BadRequest("Please Upload File.");
-            }
-
-            var goodsIssueDeliveryList = FilesToGoodsIssueModals(files);
-
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(goodsIssueDeliveryList);
-            }
-
-            return Ok(goodsIssueDeliveryList);
         }
 
         protected List<ResultDeliveryList> FilesToDeliveryListModals(List<IFormFile> files)
@@ -83,11 +46,95 @@ namespace SCGPServiceGetDeliveryList.Controllers
                 XmlDocument document = new XmlDocument();
                 var streamFile = FileToString(file);
                 document.LoadXml(streamFile);
-                AddDeliveryList(document);
                 AddReturnList(returnList, document, false);
+                AddDeliveryList(document);
             }
 
             return returnList;
+        }
+
+        protected void AddDeliveryList(XmlDocument doc)
+        {
+            List<DeliveryList> list = new List<DeliveryList>();
+            List<ZDELIVERY> deliList = new List<ZDELIVERY>();
+            DeliveryList deliveryList = new DeliveryList();
+
+            var deliNode = "/ZDELIVERY/item";
+
+            ExtractKeyInput(deliveryList, doc);
+
+            if (_deliveryService.GetDelivery(deliveryList.ZKEY) != null)
+            {
+                return;
+            }
+
+            ExtractShipment(deliveryList, doc);
+
+            foreach (XmlNode deliveryNode in doc.SelectNodes(_rootNode + deliNode))
+            {
+                ZDELIVERY deliveryItem = new ZDELIVERY(deliveryNode);
+                deliList.Add(deliveryItem);
+            }
+
+            deliveryList.ZDELIVERY = deliList;
+
+            _deliveryService.ReceiveDelivery(deliveryList);
+
+            list.Add(deliveryList);
+        }
+
+        protected void ExtractKeyInput(DeliveryList delivery, XmlDocument doc)
+        {
+            foreach (XmlNode inputNode in doc.SelectNodes(_rootNode))
+            {
+                delivery.ZKEY = inputNode.CheckNode("ZKEY") ?? "";
+                delivery.MESSAGE_ID = inputNode.CheckNode("MESSAGE_ID");
+            }
+        }
+
+        protected void ExtractShipment(DeliveryList delivery, XmlDocument doc)
+        {
+            var shipNode = "/ZSHIPMENT/item";
+
+            foreach (XmlNode shipmentNode in doc.SelectNodes(_rootNode + shipNode))
+            {
+                ZSHIPMENT deliveryShipment = new ZSHIPMENT(shipmentNode);
+                delivery.ZSHIPMENT = deliveryShipment;
+            }
+        }
+
+        #endregion
+
+        #region Get SDI01 Delivery List
+
+        [HttpGet("GetSDI01/{zkey}")]
+        public IActionResult GetDeliveryLists(string zkey)
+        {
+            if (zkey.Length <= 0)
+            {
+                return BadRequest("Please Enter A Key.");
+            }
+
+            DeliveryList? respondDeli = _deliveryService.GetDelivery(zkey);
+
+            return Ok(respondDeli);
+        }
+
+        #endregion
+
+        #region Post SDO02 Result for Delivery List
+
+        [HttpPost("SDO02")]
+        public IActionResult RespondDeliveryLists(List<IFormFile> files)
+        {
+            if (files.Count <= 0)
+            {
+                return BadRequest("Please Upload File.");
+            }
+
+            var respondDeli = FilesToResultDeliveryModals(files);
+
+            return Ok(respondDeli);
         }
 
         protected List<ResultDeliveryList> FilesToResultDeliveryModals(List<IFormFile> files)
@@ -105,6 +152,23 @@ namespace SCGPServiceGetDeliveryList.Controllers
             return returnList;
         }
 
+        #endregion
+
+        #region Post SDO01 GoodsIssue
+
+        [HttpPost("SDO01")]
+        public IActionResult PostGoodsIssueDelivery(List<IFormFile> files)
+        {
+            if (files.Count <= 0)
+            {
+                return BadRequest("Please Upload File.");
+            }
+
+            var goodsIssueDeliveryList = FilesToGoodsIssueModals(files);
+
+            return Ok(goodsIssueDeliveryList);
+        }
+
         protected List<GoodsIssueDeliveryOutput> FilesToGoodsIssueModals(List<IFormFile> files)
         {
             var goodsList = new List<GoodsIssueDeliveryOutput>();
@@ -120,138 +184,108 @@ namespace SCGPServiceGetDeliveryList.Controllers
             return goodsList;
         }
 
-        protected void AddDeliveryList(XmlDocument doc)
+        protected void AddGoodsIssueDeliveryList(List<GoodsIssueDeliveryOutput> goodsList, XmlDocument doc)
         {
-            List <DeliveryList> list = new List<DeliveryList>();
-            List<ZDELIVERY> deliList = new List<ZDELIVERY>();
-            DeliveryList deliveryList = new DeliveryList();
-            var rootNode = "/root";
-            var deliNode = "/ZDELIVERY/item";
+            var deliNode = "/ZITEM";
 
-            ExtractShipment(deliveryList, doc, rootNode);
+            GoodsIssueDeliveryInput goodsIssueInput = new GoodsIssueDeliveryInput();
 
-            foreach (XmlNode deliveryNode in doc.SelectNodes(rootNode + deliNode))
+            GoodsIssueDeliveryOutput goodsIssueOutput = new GoodsIssueDeliveryOutput();
+
+            foreach (XmlNode itemNode in doc.SelectNodes(_rootNode + deliNode))
             {
-                ZDELIVERY deliveryItem = new ZDELIVERY(deliveryNode);
-                deliList.Add(deliveryItem);
+                ZITEM item = new ZITEM(itemNode);
+                goodsIssueInput.ZITEM = item;
+                break;
             }
 
-            deliveryList.ZDELIVERY = deliList;
-            deliveryList.DeliveryId = new Guid();
-            ExtractKeyInput(deliveryList, doc, rootNode);
-            _deliveryService.ReceiveDelivery(deliveryList);
+            ExtractKeyGoodsIssue(goodsIssueInput, doc);
 
-            list.Add(deliveryList);
+            goodsIssueOutput.ZRETURN = new ZRETURN(
+                goodsIssueInput.DELIVERY_NUMBER,
+                goodsIssueInput.ZITEM?.DELIVERY_ITEM_NO
+                );
+
+            goodsList.Add(goodsIssueOutput);
         }
+
+        protected void ExtractKeyGoodsIssue(GoodsIssueDeliveryInput goodsIssueInput, XmlDocument doc)
+        {
+            foreach (XmlNode inputNode in doc.SelectNodes(_rootNode))
+            {
+                goodsIssueInput.IM_VENDOR = inputNode.CheckNode("IM_VENDOR");
+                goodsIssueInput.DELIVERY_NUMBER = inputNode.CheckNode("DELIVERY_NUMBER");
+                goodsIssueInput.GOODS_ISSUE_DATE = inputNode.CheckNode("GOODS_ISSUE_DATE");
+                goodsIssueInput.GOODS_ISSUE_TIME = inputNode.CheckNode("GOODS_ISSUE_TIME");
+            }
+        }
+
+        #endregion
+
+        #region ResultDeliveryList && ZRETURN
 
         protected void AddReturnList(List<ResultDeliveryList> returnList, XmlDocument doc, bool returnDoc)
         {
 
             ResultDeliveryList resultDeliveryList = new ResultDeliveryList();
             List<ZRETURN> returnDeli = new List<ZRETURN>();
-            var rootNode = "/root";
+
+            ExtractKeyInputReturn(resultDeliveryList, doc);
+
+            bool canSaveDB = _deliveryService.GetDelivery(resultDeliveryList.ZKEY) == null;
+
             var deliNode = (returnDoc) ? "/ZRETURN/item" : "/ZDELIVERY/item";
-
-            ExtractKeyInputReturn(resultDeliveryList, doc, rootNode, returnDoc);
-
-            foreach (XmlNode deliveryNode in doc.SelectNodes(rootNode + deliNode))
+            
+            foreach (XmlNode deliveryNode in doc.SelectNodes(_rootNode + deliNode))
             {
-                if (returnDoc)
+                ZRETURN? returnItem = null;
+
+                if (!returnDoc && canSaveDB)
                 {
-                    ZRETURN returnItem = new ZRETURN(deliveryNode, doc);
+                    returnItem = new ZRETURN(deliveryNode);
                     returnDeli.Add(returnItem);
+                    break;
                 }
-                else
+
+                if (!returnDoc && !canSaveDB)
                 {
-                    ZRETURN returnItem = new ZRETURN(deliveryNode);
+                    var catchExp = new DeliveryList();
+                    catchExp.ZKEY = resultDeliveryList.ZKEY;
+                    returnItem = new ZRETURN(deliveryNode, _deliveryService.ReceiveDelivery(catchExp));
                     returnDeli.Add(returnItem);
+                    break;
                 }
+
+                returnItem = new ZRETURN(deliveryNode, doc);
+                returnDeli.Add(returnItem);
             }
 
             resultDeliveryList.ZRETURN = returnDeli;
             returnList.Add(resultDeliveryList);
         }
 
-        protected void AddGoodsIssueDeliveryList(List<GoodsIssueDeliveryOutput> goodsList, XmlDocument doc)
+        protected void ExtractKeyInputReturn(ResultDeliveryList result, XmlDocument doc)
         {
-
-            var rootNode = "/root";
-            var deliNode = "/ZITEM/item";
-
-            GoodsIssueDeliveryInput goodsIssueDeliveryInput = new GoodsIssueDeliveryInput();
-
-            GoodsIssueDeliveryOutput goodsIssueDeliveryOutput = new GoodsIssueDeliveryOutput();
-
-            foreach (XmlNode itemNode in doc.SelectNodes(rootNode + deliNode))
+            foreach (XmlNode inputNode in doc.SelectNodes(_rootNode))
             {
-                ZITEM item = new ZITEM(itemNode);
-                goodsIssueDeliveryInput.ZITEM = item;
-            }
-
-            ExtractKeyGoodsIssue(goodsIssueDeliveryInput, doc, rootNode);
-
-            /*goodsIssueDeliveryOutput
-
-            goodsList.Add();*/
-        }
-
-        protected static void ExtractKeyInput(DeliveryList delivery, XmlDocument doc, string rootNode)
-        {
-            foreach (XmlNode inputNode in doc.SelectNodes(rootNode))
-            {
-                delivery.ZKEY = inputNode["ZKEY"].InnerText;
-                delivery.MESSAGE_ID = inputNode["MESSAGE_ID"].InnerText;
+                result.ZKEY = inputNode.CheckNode("ZKEY");
+                result.MESSAGE_ID_SEND = inputNode.CheckNode("MESSAGE_ID_SEND") ?? "";
+                result.MESSAGE_ID_BACK = inputNode.CheckNode("MESSAGE_ID_BACK") ?? "";
             }
         }
 
-        protected static void ExtractKeyInputReturn(ResultDeliveryList result, XmlDocument doc, string rootNode, bool returnDoc)
-        {
-            foreach (XmlNode inputNode in doc.SelectNodes(rootNode))
-            {
-                result.ZKEY = inputNode["ZKEY"].InnerText;
-
-                if (returnDoc)
-                {
-                    result.MESSAGE_ID_SEND = inputNode["MESSAGE_ID_SEND"].InnerText;
-                    result.MESSAGE_ID_BACK = inputNode["MESSAGE_ID_BACK"].InnerText;
-                }
-                else
-                {
-                    result.MESSAGE_ID_SEND = inputNode["MESSAGE_ID"].InnerText;
-                }
-            }
-        }
-
-        protected static void ExtractKeyGoodsIssue(GoodsIssueDeliveryInput goodsIssueInput, XmlDocument doc, string rootNode)
-        {
-            foreach (XmlNode inputNode in doc.SelectNodes(rootNode))
-            {
-                goodsIssueInput.IM_VENDOR = inputNode["IM_VENDOR"].InnerText;
-                goodsIssueInput.DELIVERY_NUMBER = inputNode["DELIVERY_NUMBER"].InnerText;
-                goodsIssueInput.GOODS_ISSUE_DATE = inputNode["GOODS_ISSUE_DATE"].InnerText;
-                goodsIssueInput.GOODS_ISSUE_TIME = inputNode["GOODS_ISSUE_TIME"].InnerText;
-            }
-        }
-
-        protected void ExtractShipment(DeliveryList delivery, XmlDocument doc, string rootNode)
-        {
-            var shipNode = "/ZSHIPMENT/item";
-
-            foreach (XmlNode shipmentNode in doc.SelectNodes(rootNode + shipNode))
-            {
-                ZSHIPMENT deliveryShipment = new ZSHIPMENT(shipmentNode);
-                delivery.ZSHIPMENT = deliveryShipment;
-            }
-        }
+        #endregion
 
         protected string FileToString(IFormFile file)
         {
             var result = "<root>";
+
             using (var reader = new StreamReader(file.OpenReadStream()))
             {
                 while (reader.Peek() >= 0)
                     result += reader.ReadLine();
             }
+
             result += "</root>";
 
             return result;

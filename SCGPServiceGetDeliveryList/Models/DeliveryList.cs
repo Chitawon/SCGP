@@ -4,8 +4,6 @@ namespace SCGPServiceGetDeliveryList.Models
 {
     public class DeliveryList
     {
-        public Guid DeliveryId { get; set; }
-
         [StringLength(24)]
         public string ZKEY { get; set; }
 

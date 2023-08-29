@@ -1,11 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Xml;
 
 namespace SCGPServiceGetDeliveryList.Models
 {
     public class GoodsIssueDeliveryInput
     {
-
         [Required]
         [StringLength(20)]
         public string? IM_VENDOR { get; set; }

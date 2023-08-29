@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SCGPServiceGetDeliveryList.Extension;
+using System.ComponentModel.DataAnnotations;
 using System.Xml;
 
 namespace SCGPServiceGetDeliveryList.Models
@@ -7,11 +8,11 @@ namespace SCGPServiceGetDeliveryList.Models
     {
         public ZITEM(XmlNode itemNode)
         {
-            DELIVERY_ITEM_NO = itemNode["DELIVERY_ITEM_NO"].InnerText;
-            MATERIAL_NUMBER = itemNode["MATERIAL_NUMBER"].InnerText;
-            BATCH_NUMBER = itemNode["BATCH_NUMBER"].InnerText;
-            DELIVERY_QTY = itemNode["DELIVERY_QTY"].InnerText;
-            DELIVERY_UNIT = itemNode["DELIVERY_UNIT"].InnerText;
+            DELIVERY_ITEM_NO = itemNode.CheckNode("DELIVERY_ITEM_NO");
+            MATERIAL_NUMBER = itemNode.CheckNode("MATERIAL_NUMBER");
+            BATCH_NUMBER = itemNode.CheckNode("BATCH_NUMBER");
+            DELIVERY_QTY = itemNode.CheckNode("DELIVERY_QTY");
+            DELIVERY_UNIT = itemNode.CheckNode("DELIVERY_UNIT");
         }
 
         [Required]

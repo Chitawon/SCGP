@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SCGPServiceGetDeliveryList.Extension;
+using System.ComponentModel.DataAnnotations;
 using System.Xml;
 
 namespace SCGPServiceGetDeliveryList.Models
@@ -7,35 +8,35 @@ namespace SCGPServiceGetDeliveryList.Models
     {
         public ZDELIVERY(XmlNode deliveryNode)
         {
-            DELIVERY_NUMBER = deliveryNode["DELIVERY_NUMBER"].InnerText;
-            DELIVERY_DATE = deliveryNode["DELIVERY_DATE"].InnerText;
-            DELIVERY_CREATE = deliveryNode["DELIVERY_CREATE"].InnerText;
-            DELIVERY_TIME = deliveryNode["DELIVERY_TIME"].InnerText;
-            DELIVERY_ITEM_NO = deliveryNode["DELIVERY_ITEM_NO"].InnerText;
-            SHIPTO_ID = deliveryNode["SHIPTO_ID"].InnerText;
-            SOLDTO_ID = deliveryNode["SOLDTO_ID"].InnerText;
-            SHIPTO_NAME = deliveryNode["SHIPTO_NAME"].InnerText;
-            SOLDTO_NAME = deliveryNode["SOLDTO_NAME"].InnerText;
-            MATERIAL_NUMBER = deliveryNode["MATERIAL_NUMBER"].InnerText;
-            MATERIAL_DES = deliveryNode["MATERIAL_DES"].InnerText;
-            STORAGE = deliveryNode["STORAGE"].InnerText;
-            GRADE = deliveryNode["GRADE"].InnerText;
-            NET_WEIGHT = deliveryNode["NET_WEIGHT"].InnerText;
-            GROSS_WEIGHT = deliveryNode["GROSS_WEIGHT"].InnerText;
-            WEIGHT_UNIT = deliveryNode["WEIGHT_UNIT"].InnerText;
-            PLANT = deliveryNode["PLANT"].InnerText;
-            SHIPPING_POINT = deliveryNode["SHIPPING_POINT"].InnerText;
-            DN_ITEM_QTY = deliveryNode["DN_ITEM_QTY"].InnerText;
-            PI_NUMBER = deliveryNode["PI_NUMBER"].InnerText;
-            SALES_DOCUMENT_NO = deliveryNode["SALES_DOCUMENT_NO"].InnerText;
-            PO_NUMBER = deliveryNode["PO_NUMBER"].InnerText;
-            SALES_ITEM_NO = deliveryNode["SALES_ITEM_NO"].InnerText;
-            BASE_UNIT = deliveryNode["BASE_UNIT"].InnerText;
-            SALES_UNIT = deliveryNode["SALES_UNIT"].InnerText;
-            NUM_OF_PALLET = deliveryNode["NUM_OF_PALLET"].InnerText;
-            WMS_DELIVERY_NO = deliveryNode["WMS_DELIVERY_NO"].InnerText;
-            IC_TO_LOGISTIC = deliveryNode["IC_TO_LOGISTIC"].InnerText;
-            IC_TO_WAREHOUSE = deliveryNode["IC_TO_WAREHOUSE"].InnerText;
+            DELIVERY_NUMBER = deliveryNode.CheckNode("DELIVERY_NUMBER");
+            DELIVERY_DATE = deliveryNode.CheckNode("DELIVERY_DATE");
+            DELIVERY_CREATE = deliveryNode.CheckNode("DELIVERY_CREATE");
+            DELIVERY_TIME = deliveryNode.CheckNode("DELIVERY_TIME");
+            DELIVERY_ITEM_NO = deliveryNode.CheckNode("DELIVERY_ITEM_NO");
+            SHIPTO_ID = deliveryNode.CheckNode("SHIPTO_ID");
+            SOLDTO_ID = deliveryNode.CheckNode("SOLDTO_ID");
+            SHIPTO_NAME = deliveryNode.CheckNode("SHIPTO_NAME");
+            SOLDTO_NAME = deliveryNode.CheckNode("SOLDTO_NAME");
+            MATERIAL_NUMBER = deliveryNode.CheckNode("MATERIAL_NUMBER");
+            MATERIAL_DES = deliveryNode.CheckNode("MATERIAL_DES");
+            STORAGE = deliveryNode.CheckNode("STORAGE");
+            GRADE = deliveryNode.CheckNode("GRADE");
+            NET_WEIGHT = deliveryNode.CheckNode("NET_WEIGHT");
+            GROSS_WEIGHT = deliveryNode.CheckNode("GROSS_WEIGHT");
+            WEIGHT_UNIT = deliveryNode.CheckNode("WEIGHT_UNIT");
+            PLANT = deliveryNode.CheckNode("PLANT");
+            SHIPPING_POINT = deliveryNode.CheckNode("SHIPPING_POINT");
+            DN_ITEM_QTY = deliveryNode.CheckNode("DN_ITEM_QTY");
+            PI_NUMBER = deliveryNode.CheckNode("PI_NUMBER");
+            SALES_DOCUMENT_NO = deliveryNode.CheckNode("SALES_DOCUMENT_NO");
+            PO_NUMBER = deliveryNode.CheckNode("PO_NUMBER");
+            SALES_ITEM_NO = deliveryNode.CheckNode("SALES_ITEM_NO");
+            BASE_UNIT = deliveryNode.CheckNode("BASE_UNIT");
+            SALES_UNIT = deliveryNode.CheckNode("SALES_UNIT");
+            NUM_OF_PALLET = deliveryNode.CheckNode("NUM_OF_PALLET") ?? "";
+            WMS_DELIVERY_NO = deliveryNode.CheckNode("WMS_DELIVERY_NO") ?? "";
+            IC_TO_LOGISTIC = deliveryNode.CheckNode("IC_TO_LOGISTIC") ?? "";
+            IC_TO_WAREHOUSE = deliveryNode.CheckNode("IC_TO_WAREHOUSE") ?? "";
         }
 
         [Required]

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SCGPServiceGetDeliveryList.Extension;
+using System.ComponentModel.DataAnnotations;
 using System.Xml;
 
 namespace SCGPServiceGetDeliveryList.Models
@@ -7,20 +8,38 @@ namespace SCGPServiceGetDeliveryList.Models
     {
         public ZRETURN(XmlNode deliveryNode)
         {
-            DELIVERY_NUMBER = deliveryNode["DELIVERY_NUMBER"].InnerText;
-            DELIVERY_ITEM_NO = deliveryNode["DELIVERY_ITEM_NO"].InnerText;
-            STATUS_TYPE = (DELIVERY_NUMBER.Length > 0) && (DELIVERY_ITEM_NO.Length > 0) ? "S" : "E";
+            DELIVERY_NUMBER = deliveryNode.CheckNode("DELIVERY_NUMBER");
+            DELIVERY_ITEM_NO = deliveryNode.CheckNode("DELIVERY_ITEM_NO");
+            STATUS_TYPE = (DELIVERY_NUMBER != null && DELIVERY_ITEM_NO != null) ? "S" : "E";
             ERROR_CODE = (STATUS_TYPE == "S") ? "" : "Error";
             ERROR_MESSAGE = (STATUS_TYPE == "S") ? "Received delivery successfully" : "Failed delivery";
         }
 
-        public ZRETURN(XmlNode deliveryNode, XmlDocument document)
+        public ZRETURN(XmlNode returnNode, XmlDocument document)
         {
-            DELIVERY_NUMBER = deliveryNode["DELIVERY_NUMBER"].InnerText;
-            DELIVERY_ITEM_NO = deliveryNode["DELIVERY_ITEM_NO"].InnerText;
-            STATUS_TYPE = deliveryNode["STATUS_TYPE"].InnerText;
-            ERROR_CODE = deliveryNode["ERROR_CODE"].InnerText;
-            ERROR_MESSAGE = deliveryNode["ERROR_MESSAGE"].InnerText;
+            DELIVERY_NUMBER = returnNode.CheckNode("DELIVERY_NUMBER");
+            DELIVERY_ITEM_NO = returnNode.CheckNode("DELIVERY_ITEM_NO");
+            STATUS_TYPE = returnNode.CheckNode("STATUS_TYPE");
+            ERROR_CODE = returnNode.CheckNode("ERROR_CODE");
+            ERROR_MESSAGE = returnNode.CheckNode("ERROR_MESSAGE");
+        }
+
+        public ZRETURN(string? dELIVERY_NUMBER, string? dELIVERY_ITEM_NO)
+        {
+            DELIVERY_NUMBER = dELIVERY_NUMBER;
+            DELIVERY_ITEM_NO = dELIVERY_ITEM_NO;
+            STATUS_TYPE = (DELIVERY_NUMBER != null && DELIVERY_ITEM_NO != null) ? "S" : "E";
+            ERROR_CODE = (STATUS_TYPE == "S") ? "" : "Error";
+            ERROR_MESSAGE = (STATUS_TYPE == "S") ? "Received delivery successfully" : "Failed delivery";
+        }
+
+        public ZRETURN(XmlNode deliveryNode, Exception exception)
+        {
+            DELIVERY_NUMBER = deliveryNode.CheckNode("DELIVERY_NUMBER");
+            DELIVERY_ITEM_NO = deliveryNode.CheckNode("DELIVERY_ITEM_NO");
+            ERROR_CODE = (STATUS_TYPE == "S") ? "" : "Error";
+            ERROR_MESSAGE = (exception != null) ? exception.ToString() : "Received delivery successfully";
+            STATUS_TYPE = (exception != null) ? "E" : "S";
         }
 
         [Required]

@@ -1,19 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SCGPServiceGetDeliveryList.Extension;
+using System.ComponentModel.DataAnnotations;
 using System.Xml;
 
 namespace SCGPServiceGetDeliveryList.Models
 {
     public class ZSHIPMENT
     {
-        public ZSHIPMENT(XmlNode shipment) 
+        public ZSHIPMENT(XmlNode shipmentNode) 
         {
-            SHIPMENT_NUMBER = shipment["SHIPMENT_NUMBER"].InnerText;
-            SHIPMENT_TYPE = shipment["SHIPMENT_TYPE"].InnerText;
-            SHIPPING_TYPE = shipment["SHIPPING_TYPE"].InnerText;
-            FWD_ID = shipment["FWD_ID"].InnerText;
-            VEHICLE_ID = shipment["VEHICLE_ID"].InnerText;
-            END_PLAN_DATE = shipment["END_PLAN_DATE"].InnerText;
-            END_PLAN_TIME = shipment["END_PLAN_TIME"].InnerText;
+            SHIPMENT_NUMBER = shipmentNode.CheckNode("SHIPMENT_NUMBER");
+            SHIPMENT_TYPE = shipmentNode.CheckNode("SHIPMENT_TYPE");
+            SHIPPING_TYPE = shipmentNode.CheckNode("SHIPPING_TYPE");
+            FWD_ID = shipmentNode.CheckNode("FWD_ID");
+            VEHICLE_ID = shipmentNode.CheckNode("VEHICLE_ID");
+            END_PLAN_DATE = shipmentNode.CheckNode("END_PLAN_DATE");
+            END_PLAN_TIME = shipmentNode.CheckNode("END_PLAN_TIME");
         }
 
         [Required]
