@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G1rbGVbPKsbX3FHnaDvxgfYilgUlJ/CTd6KO0NOkV6E=",
+  "Hash": "9DXJgxKv5W8rGyDUUm3YWVdjKAPJKGb1pOx1OitqWDk=",
   "Source": "SCGP",
   "BasePath": "_content/SCGP",
   "Mode": "Default",
@@ -986,12 +986,12 @@
       "OriginalItemSpec": "wwwroot\\images\\phone-illustration.svg"
     },
     {
-      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\placeholders",
+      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\placeholders\\.DS_Store",
       "SourceId": "SCGP",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\",
       "BasePath": "_content/SCGP",
-      "RelativePath": "images/placeholders",
+      "RelativePath": "images/placeholders/.DS_Store",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1000,7 +1000,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\placeholders"
+      "OriginalItemSpec": "wwwroot\\images\\placeholders\\.DS_Store"
+    },
+    {
+      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\placeholders\\200x200.jpg",
+      "SourceId": "SCGP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\",
+      "BasePath": "_content/SCGP",
+      "RelativePath": "images/placeholders/200x200.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\placeholders\\200x200.jpg"
+    },
+    {
+      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\placeholders\\800x800.jpg",
+      "SourceId": "SCGP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\",
+      "BasePath": "_content/SCGP",
+      "RelativePath": "images/placeholders/800x800.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\placeholders\\800x800.jpg"
     },
     {
       "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-1.jpg",
@@ -1700,12 +1734,12 @@
       "OriginalItemSpec": "wwwroot\\images\\SCGP_Primary Logo-01.png"
     },
     {
-      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\SCGP_Primary-Logo-02.png",
+      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\SCGPLogo.png",
       "SourceId": "SCGP",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\",
       "BasePath": "_content/SCGP",
-      "RelativePath": "images/SCGP_Primary-Logo-02.png",
+      "RelativePath": "images/SCGPLogo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1714,7 +1748,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\SCGP_Primary-Logo-02.png"
+      "OriginalItemSpec": "wwwroot\\images\\SCGPLogo.png"
     },
     {
       "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\undraw_checking_boxes_re_9h8m.svg",

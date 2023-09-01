@@ -15,15 +15,6 @@ namespace SCGPServiceGetDeliveryList.Models
             ERROR_MESSAGE = (STATUS_TYPE == "S") ? "Received delivery successfully" : "Failed delivery";
         }
 
-        public ZRETURN(XmlNode returnNode, XmlDocument document)
-        {
-            DELIVERY_NUMBER = returnNode.CheckNode("DELIVERY_NUMBER");
-            DELIVERY_ITEM_NO = returnNode.CheckNode("DELIVERY_ITEM_NO");
-            STATUS_TYPE = returnNode.CheckNode("STATUS_TYPE");
-            ERROR_CODE = returnNode.CheckNode("ERROR_CODE");
-            ERROR_MESSAGE = returnNode.CheckNode("ERROR_MESSAGE");
-        }
-
         public ZRETURN(string? dELIVERY_NUMBER, string? dELIVERY_ITEM_NO)
         {
             DELIVERY_NUMBER = dELIVERY_NUMBER;

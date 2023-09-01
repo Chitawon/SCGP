@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCGP", "SCGP\SCGP.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCGPServiceGetDeliveryList", "SCGPServiceGetDeliveryList\SCGPServiceGetDeliveryList.csproj", "{1E09DDB3-E27B-4D53-B6BB-CE9CDEAA427C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTTTT", "TTTTT\TTTTT.csproj", "{EF10F939-47FA-4A13-ADE4-B19F0EBA6A06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1E09DDB3-E27B-4D53-B6BB-CE9CDEAA427C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E09DDB3-E27B-4D53-B6BB-CE9CDEAA427C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E09DDB3-E27B-4D53-B6BB-CE9CDEAA427C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF10F939-47FA-4A13-ADE4-B19F0EBA6A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF10F939-47FA-4A13-ADE4-B19F0EBA6A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF10F939-47FA-4A13-ADE4-B19F0EBA6A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF10F939-47FA-4A13-ADE4-B19F0EBA6A06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

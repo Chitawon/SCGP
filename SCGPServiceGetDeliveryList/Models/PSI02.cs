@@ -2,7 +2,7 @@
 
 namespace SCGPServiceGetDeliveryList.Models
 {
-    public class MaterialBatchTransactionView
+    public class PSI02
     {
         [StringLength(10)]
         public string BATCH_NUMBER { get; set; }

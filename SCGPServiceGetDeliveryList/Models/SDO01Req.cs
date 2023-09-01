@@ -2,7 +2,7 @@
 
 namespace SCGPServiceGetDeliveryList.Models
 {
-    public class GoodsIssueDeliveryInput
+    public class SDO01Req
     {
         [Required]
         [StringLength(20)]

@@ -2,7 +2,7 @@
 
 namespace SCGPServiceGetDeliveryList.Models
 {
-    public class ResultDeliveryList
+    public class SDO02
     {
         [StringLength(24)]
         public string? ZKEY { get; set; }

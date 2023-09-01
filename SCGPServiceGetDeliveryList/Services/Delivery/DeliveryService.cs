@@ -5,9 +5,9 @@ namespace SCGPServiceGetDeliveryList.Services.Delivery
 {
     public class DeliveryService : IDeliveryService
     {
-        private static readonly Dictionary<string, DeliveryList> _deliveryDB = new();
+        private static readonly Dictionary<string, SDI01> _deliveryDB = new();
 
-        public Exception ReceiveDelivery(DeliveryList deliveryList)
+        public Exception ReceiveDelivery(SDI01 deliveryList)
         {
             try
             {
@@ -20,9 +20,9 @@ namespace SCGPServiceGetDeliveryList.Services.Delivery
             }
         }
 
-        public DeliveryList? GetDelivery(string deliveryKey)
+        public SDI01? GetDelivery(string deliveryKey)
         {
-            DeliveryList? value = null;
+            SDI01? value = null;
             try
             {
                 value = _deliveryDB[deliveryKey];
