@@ -25,7 +25,6 @@
     <Folder Include="Views\Role\" />
     <Folder Include="Views\Server\" />
     <Folder Include="Views\Plant\" />
-    <Folder Include="Views\Storage\" />
     <Folder Include="Views\Problems\" />
     <Folder Include="Views\GoodsTransfer\" />
     <Folder Include="Views\GoodsIssue\" />
@@ -36,5 +35,17 @@
   <ItemGroup>
     <Content Remove="wwwroot\js\" />
     <Content Remove="wwwroot\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="jQuery.UI" Version="1.12.1.1" />
+    <PackageReference Include="jQuery.UI.Combined" Version="1.13.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 </Project>

@@ -1,9 +1,11 @@
-﻿using Microsoft.Extensions.FileProviders;
+﻿using Microsoft.EntityFrameworkCore;
+using SCGP.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer());
 
 var app = builder.Build();
 

@@ -1,4 +1,5 @@
-﻿@page
+﻿@using SCGP.Models.MasterData
+@* @model IEnumerable<Plant> *@
 @{
 }
 
@@ -52,6 +53,24 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @* @foreach (var plant in Model)
+                    {
+                        <tr class="intro-x h-16">
+                            <td class="font-medium whitespace-nowrap">@Html.DisplayFor(s => plant.server.ServerName)</td>
+                            <td class="text-center whitespace-nowrap">@Html.DisplayFor(n => plant.PlantNO)</td>
+                            <td class="text-center whitespace-nowrap">@Html.DisplayFor(l => plant.Location)</td>
+                            <td class="text-center whitespace-nowrap">@Html.DisplayFor(d => plant.Plant_Description)</td>
+
+                            <td class="table-report__action w-56">
+                                <div class="flex justify-center items-center">
+                                    <a class="flex items-center text-primary mr-3" href="javascript:;" data-tw-toggle="modal" data-tw-target="#view-data-modal"> <i data-lucide="search" class="w-4 h-4 mr-1"></i> View </a>
+                                    <a class="flex items-center mr-3" href="javascript:;" data-tw-toggle="modal" data-tw-target="#edit-data-modal"> <i data-lucide="check-square" class="w-4 h-4 mr-1"></i> Edit </a>
+                                    <a class="flex items-center text-danger" href="javascript:;" data-tw-toggle="modal" data-tw-target="#delete-confirmation-modal"> <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
+                                </div>
+                            </td>
+                        </tr>
+                    } *@
+
                     <tr class="intro-x h-16">
                         <td class="font-medium whitespace-nowrap"></td>
                         <td class="text-center whitespace-nowrap">7567</td>

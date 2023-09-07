@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tun/Projects/SCGP/SCGP/SCGP.csproj": {}
+    "D:\\Work\\Orange\\SCGP\\SCGP\\SCGP.csproj": {}
   },
   "projects": {
-    "/Users/tun/Projects/SCGP/SCGP/SCGP.csproj": {
+    "D:\\Work\\Orange\\SCGP\\SCGP\\SCGP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tun/Projects/SCGP/SCGP/SCGP.csproj",
+        "projectUniqueName": "D:\\Work\\Orange\\SCGP\\SCGP\\SCGP.csproj",
         "projectName": "SCGP",
-        "projectPath": "/Users/tun/Projects/SCGP/SCGP/SCGP.csproj",
-        "packagesPath": "/Users/tun/.nuget/packages/",
-        "outputPath": "/Users/tun/Projects/SCGP/SCGP/obj/",
+        "projectPath": "D:\\Work\\Orange\\SCGP\\SCGP\\SCGP.csproj",
+        "packagesPath": "C:\\Users\\Muka\\.nuget\\packages\\",
+        "outputPath": "D:\\Work\\Orange\\SCGP\\SCGP\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/tun/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Muka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +44,38 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "jQuery.UI": {
+              "target": "Package",
+              "version": "[1.12.1.1, )"
+            },
+            "jQuery.UI.Combined": {
+              "target": "Package",
+              "version": "[1.13.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
