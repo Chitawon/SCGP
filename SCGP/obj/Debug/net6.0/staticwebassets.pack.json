@@ -473,6 +473,14 @@
       "PackagePath": "staticwebassets\\js\\custom-script.js"
     },
     {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\plant-script.js",
+      "PackagePath": "staticwebassets\\js\\plant-script.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\server-script.js",
+      "PackagePath": "staticwebassets\\js\\server-script.js"
+    },
+    {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\storage-script.js",
       "PackagePath": "staticwebassets\\js\\storage-script.js"
     },

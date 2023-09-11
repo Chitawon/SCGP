@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SCGP.Data;
-using SCGP.Models.MasterData.Storage;
+using SCGP.Models.MasterData.StorageModel;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -18,8 +18,7 @@ namespace SCGP.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            //IEnumerable<Storage> objStorageList = _db.Storages.ToList();
-            var viweModel = new StorageViweModel();
+            var viweModel = new StorageViewModel();
 
             var testStorage_1 = new Storage();
             testStorage_1.StorageLocation = "okl";
@@ -35,12 +34,13 @@ namespace SCGP.Controllers
 
             IEnumerable<Storage> objStorageList = storageList;
             viweModel.storages = objStorageList;
+            //viweModel.storages = _db.Storages.ToList();
             return View(viweModel);
         }
 
         // Create Storage
         [HttpPost]
-        public IActionResult Create(StorageViweModel obj)
+        public IActionResult Create(StorageViewModel obj)
         {
             if (!ModelState.IsValid)
             {
@@ -52,22 +52,24 @@ namespace SCGP.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Edit(StorageViweModel obj)
+        public IActionResult Edit(StorageViewModel obj)
         {
             if (!ModelState.IsValid)
             {
-                //return View(obj);
+                return View(obj);
             }
 
+            var changeModel = obj.submitStorage;
 
-            _db.SaveChanges();
+
+            //_db.SaveChanges();
             return RedirectToAction("Index");
         }
 
         public IActionResult Delete(Guid id)
         {
 
-            _db.SaveChanges();
+            //_db.SaveChanges();
             return RedirectToAction("Index");
         }
     }

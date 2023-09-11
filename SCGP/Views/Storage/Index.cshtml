@@ -1,5 +1,5 @@
-﻿@using SCGP.Models.MasterData.Storage
-@model StorageViweModel
+﻿@using SCGP.Models.MasterData.StorageModel
+@model StorageViewModel
 
 @{
     ViewData["Title"] = "Storage";
@@ -309,7 +309,7 @@
                 <div class="modal-body p-10 ">
                     <div class="form-inline">
                         <label for="" class="form-label sm:w-32">Plant</label>
-                        <select id="ViwePlantNO" data-placeholder="" class="form-control tom-select w-full" disabled>
+                        <select id="ViewPlantNO" data-placeholder="" class="form-control tom-select w-full" disabled>
                             <option>7521</option>
                             <option>7531</option>
                             <option>7533</option>
@@ -320,11 +320,11 @@
                     </div>
                     <div class="form-inline mt-5">
                         <label for="" class="form-label sm:w-32">Storage Location</label>
-                        <input id="ViweStorageLocation" type="text" class="form-control" value="" placeholder="" readonly>
+                        <input id="ViewStorageLocation" type="text" class="form-control" value="" placeholder="" readonly>
                     </div>
                     <div class="form-inline mt-5">
                         <label for="" class="form-label sm:w-32">Description</label>
-                        <input id="ViweDescription" type="text" class="form-control" value="" placeholder="" readonly>
+                        <input id="ViewDescription" type="text" class="form-control" value="" placeholder="" readonly>
                     </div>
                 </div>
                 <div class="modal-footer">

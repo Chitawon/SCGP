@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SCGP.Models.MasterData;
-using SCGP.Models.MasterData.RoleManagement;
-using SCGP.Models.MasterData.Storage;
+using SCGP.Models.MasterData.PlantModel;
+using SCGP.Models.MasterData.RoleManagementModel;
+using SCGP.Models.MasterData.ServerModel;
+using SCGP.Models.MasterData.StorageModel;
 using SCGP.Models.MasterData.User;
 
 namespace SCGP.Data

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7DZpFWAE/HRwXJpTh5tUR9MaO5gVXg5jl/CV2ZHgmjM=",
+  "Hash": "fXU6gb0qF19ECZI04xborglPzieYBj3z8q3VzSHWQVM=",
   "Source": "SCGP",
   "BasePath": "_content/SCGP",
   "Mode": "Default",
@@ -2038,6 +2038,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\custom-script.js"
+    },
+    {
+      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\plant-script.js",
+      "SourceId": "SCGP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\",
+      "BasePath": "_content/SCGP",
+      "RelativePath": "js/plant-script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\plant-script.js"
+    },
+    {
+      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\server-script.js",
+      "SourceId": "SCGP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\",
+      "BasePath": "_content/SCGP",
+      "RelativePath": "js/server-script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\server-script.js"
     },
     {
       "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\storage-script.js",

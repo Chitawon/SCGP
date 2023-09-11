@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using SCGP.Models.MasterData.RoleManagement;
+using SCGP.Models.MasterData.RoleManagementModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace SCGP.Models.MasterData.User
