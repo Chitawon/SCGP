@@ -20,7 +20,6 @@
     <None Remove="Views\Report\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="wwwroot\js\" />
     <Folder Include="Views\Authorize\" />
     <Folder Include="Views\Role\" />
     <Folder Include="Views\Server\" />

@@ -473,6 +473,10 @@
       "PackagePath": "staticwebassets\\js\\custom-script.js"
     },
     {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\storage-script.js",
+      "PackagePath": "staticwebassets\\js\\storage-script.js"
+    },
+    {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

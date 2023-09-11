@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SCGP.Models.MasterData;
 using SCGP.Models.MasterData.RoleManagement;
+using SCGP.Models.MasterData.Storage;
 using SCGP.Models.MasterData.User;
 
 namespace SCGP.Data

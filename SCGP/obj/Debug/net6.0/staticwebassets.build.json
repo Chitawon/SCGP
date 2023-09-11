@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9DXJgxKv5W8rGyDUUm3YWVdjKAPJKGb1pOx1OitqWDk=",
+  "Hash": "7DZpFWAE/HRwXJpTh5tUR9MaO5gVXg5jl/CV2ZHgmjM=",
   "Source": "SCGP",
   "BasePath": "_content/SCGP",
   "Mode": "Default",
@@ -2038,6 +2038,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\custom-script.js"
+    },
+    {
+      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\storage-script.js",
+      "SourceId": "SCGP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\",
+      "BasePath": "_content/SCGP",
+      "RelativePath": "js/storage-script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\storage-script.js"
     },
     {
       "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
