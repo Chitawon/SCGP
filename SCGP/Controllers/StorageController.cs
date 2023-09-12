@@ -44,10 +44,7 @@ namespace SCGP.Controllers
                 return View(obj);
             }
 
-            var changeModel = obj.submitStorage;
-
-
-            //_db.SaveChanges();
+            _db.SaveChanges();
             return RedirectToAction("Index");
         }
 

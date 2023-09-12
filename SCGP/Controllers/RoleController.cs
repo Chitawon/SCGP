@@ -32,6 +32,7 @@ namespace SCGP.Controllers
             return View();
         }
 
+        [HttpPost]
         public IActionResult Create(Role role)
         {
             _db.Roles.Add(role);

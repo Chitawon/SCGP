@@ -252,11 +252,12 @@
     <!-- BEGIN: Modal Edit -->
     <div id="edit-data-modal" class="modal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="font-medium text-base mr-auto">Edit Server</h2>
-                </div>
-                <form>
+			<form>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="font-medium text-base mr-auto">Edit Server</h2>
+                    </div>
+                    
                     <div class="modal-body p-10 ">
                         <div class="form-inline">
                             <label for="" class="form-label sm:w-32" asp-for="submitServer.ServerName">Server Name</label>
@@ -283,8 +284,9 @@
                         <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-20 mr-1">Cancel</button>
                         <button type="submit" class="btn btn-primary w-20" asp-action="Edit">Save</button>
                     </div>
-                </form>
-            </div>
+                    
+                </div>
+			</form>
         </div>
     </div>
     <!-- END: Modal Edit -->

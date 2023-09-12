@@ -3,7 +3,7 @@ using SCGP.Models.MasterData.PlantModel;
 using SCGP.Models.MasterData.RoleManagementModel;
 using SCGP.Models.MasterData.ServerModel;
 using SCGP.Models.MasterData.StorageModel;
-using SCGP.Models.MasterData.User;
+using SCGP.Models.MasterData.UserModel;
 
 namespace SCGP.Data
 {
