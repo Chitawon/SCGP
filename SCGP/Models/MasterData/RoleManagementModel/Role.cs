@@ -4,8 +4,8 @@
     {
         public string Name { get; set; }
 
-        public AssignPC AssignPC { get; set; }
+        public Assign AssignPC { get; set; }
 
-        public AssignPDA AssignPDA { get; set; }
+        public Assign AssignPDA { get; set; }
     }
 }

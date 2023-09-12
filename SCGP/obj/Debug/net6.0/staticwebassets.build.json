@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fXU6gb0qF19ECZI04xborglPzieYBj3z8q3VzSHWQVM=",
+  "Hash": "97x7dRBY+aNkhq0zQ+MAwqO0YgBdmOU9412DABi+S3M=",
   "Source": "SCGP",
   "BasePath": "_content/SCGP",
   "Mode": "Default",
@@ -2055,6 +2055,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\plant-script.js"
+    },
+    {
+      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\role-script.js",
+      "SourceId": "SCGP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\",
+      "BasePath": "_content/SCGP",
+      "RelativePath": "js/role-script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\role-script.js"
     },
     {
       "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\server-script.js",

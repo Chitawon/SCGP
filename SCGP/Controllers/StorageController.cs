@@ -19,21 +19,6 @@ namespace SCGP.Controllers
         public IActionResult Index()
         {
             var viweModel = new StorageViewModel();
-
-            var testStorage_1 = new Storage();
-            testStorage_1.StorageLocation = "okl";
-            testStorage_1.Description = ";lkjhgfd";
-
-            var testStorage_2 = new Storage();
-            testStorage_2.StorageLocation = "popoik";
-            testStorage_2.Description = "nhuhbnmkl";
-
-            var storageList = new List<Storage>();
-            storageList.Add(testStorage_1);
-            storageList.Add(testStorage_2);
-
-            IEnumerable<Storage> objStorageList = storageList;
-            viweModel.storages = objStorageList;
             //viweModel.storages = _db.Storages.ToList();
             return View(viweModel);
         }

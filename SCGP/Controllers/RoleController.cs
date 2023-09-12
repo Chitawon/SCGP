@@ -17,10 +17,9 @@ namespace SCGP.Controllers
 
         public IActionResult Index()
         {
-            var viewModel = new RoleManagementViewModel();
-            //viewModel.roles = _db.Roles.ToList();
+            //IEnumerable<Role> viewModel = _db.Roles.ToList();
 
-            return View(viewModel);
+            return View();
         }
 
         public IActionResult Detail(Role role)
@@ -43,5 +42,10 @@ namespace SCGP.Controllers
         {
             return View(role);
         }
-    }
+
+		public IActionResult EditRole(Role role)
+		{
+            return RedirectToAction("Index");
+        }
+	}
 }

@@ -477,6 +477,10 @@
       "PackagePath": "staticwebassets\\js\\plant-script.js"
     },
     {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\role-script.js",
+      "PackagePath": "staticwebassets\\js\\role-script.js"
+    },
+    {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\server-script.js",
       "PackagePath": "staticwebassets\\js\\server-script.js"
     },
