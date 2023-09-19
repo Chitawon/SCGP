@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SCGP.Data;
 using SCGP.Models.MasterData.RoleManagementModel;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -8,12 +7,6 @@ namespace SCGP.Controllers
 {
     public class RoleController : Controller
     {
-        private readonly ApplicationDBContext _db;
-
-        public RoleController(ApplicationDBContext db)
-        {
-            _db = db;
-        }
 
         public IActionResult Index()
         {
@@ -35,7 +28,7 @@ namespace SCGP.Controllers
         [HttpPost]
         public IActionResult Create(Role role)
         {
-            _db.Roles.Add(role);
+            
             return RedirectToAction("Index");
         }
 

@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SCGP.Data;
+using SCGP.Models.MasterData.ListProblemModel;
 using SCGP.Models.MasterData.PlantModel;
+using SCGP.Models.MasterData.ServerModel;
+using System.Collections.Generic;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,12 +10,7 @@ namespace SCGP.Controllers
 {
     public class PlantController : Controller
     {
-        private readonly ApplicationDBContext _db;
 
-        public PlantController(ApplicationDBContext db)
-        {
-            _db = db;
-        }
 
         // GET: /<controller>/
         public IActionResult Index()
@@ -21,6 +18,22 @@ namespace SCGP.Controllers
             var viweModel = new PlantViewModel();
             /*viweModel.plants = _db.Plants.ToList();
             viweModel.servers = _db.Servers.ToList();*/
+            var list = new List<Server>();
+            var listP = new List<Plant>();
+            for (int i = 0; i < 5; i++)
+            {
+                var plant = new Plant();
+                var server = new Server();
+                server.ServerName = "AC" + i;
+                plant.server = server;
+                plant.PlantNO = "P" + i;
+                plant.Location = "L :" + i;
+                plant.Plant_Description = "Description" + i;
+                list.Add(server);
+                listP.Add(plant);
+            }
+            viweModel.servers = list;
+            viweModel.plants = listP;
             return View(viweModel);
         }
 
@@ -32,9 +45,6 @@ namespace SCGP.Controllers
             {
                 return View(obj);
             }
-
-            _db.Plants.Add(obj.submitPlant);
-            _db.SaveChanges();
             return RedirectToAction("Index");
         }
 

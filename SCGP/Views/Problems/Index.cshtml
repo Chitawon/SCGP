@@ -5,7 +5,6 @@
     ViewData["Title"] = "Problems";
 }
 
-
 <div class="content">
     <h2 class="intro-y text-lg font-medium mt-10">
         List Problems
@@ -57,7 +56,7 @@
                     @foreach (var problem in Model.ListProblems)
                     {
                         <tr class="intro-x h-16">
-                            <td class="font-medium w-40" id="@nameof(problem.ProblemType)">@problem.ProblemType</td>
+                            <td class="font-medium w-40" data-value="@problem.ProblemTypeId" id="@nameof(problem.ProblemType)">@problem.ProblemType</td>
                             <td class="whitespace-nowrap" id="@nameof(problem.Description)">@problem.Description</td>
                             <td class="table-report__action w-56">
                                 <div class="flex justify-center items-center">
@@ -235,10 +234,13 @@
                     <div class="modal-body p-10 ">
                     <div class="form-inline mt-5">
                         <label for="" class="form-label sm:w-32">Type</label>
-                        <select id="EditProblemType" asp-for="SubmitProblem.ProblemType" class="form-control" aria-label="">
-                            <option>GR</option>
-                            <option>GI</option>
-                            <option selected>GT</option>
+                        <select id="EditProblemType" asp-for="SubmitProblem.ProblemType" asp-items="@Html.GetEnumSelectList<ProblemTypeEnum>()" class="form-control" aria-label="">
+@*                             @model YourViewModel
+
+<!-- Assuming you have a SelectList in your ViewBag -->
+<select asp-for="SelectedServerIP" asp-items="@(new SelectList(ViewBag.ServerList, "IP", "ServerName"))">
+</select> *@
+
                         </select>
                     </div>
                     <div class="form-inline mt-5">
@@ -265,10 +267,7 @@
                 <div class="modal-body p-10 ">
                     <div class="form-inline mt-5">
                         <label for="" class="form-label sm:w-32">Type</label>
-                        <select id="ViewProblemType" class="form-control" aria-label="" disabled>
-                            <option>GR</option>
-                            <option>GI</option>
-                            <option selected>GT</option>
+                        <select id="ViewProblemType" asp-items="@Html.GetEnumSelectList<ProblemTypeEnum>()" class="form-control" aria-label="" disabled>
                         </select>
                     </div>
                     <div class="form-inline mt-5">

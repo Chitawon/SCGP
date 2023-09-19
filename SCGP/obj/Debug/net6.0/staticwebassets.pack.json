@@ -473,8 +473,20 @@
       "PackagePath": "staticwebassets\\js\\custom-script.js"
     },
     {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\goodsTransfer-script.js",
+      "PackagePath": "staticwebassets\\js\\goodsTransfer-script.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\loaddp-script.js",
+      "PackagePath": "staticwebassets\\js\\loaddp-script.js"
+    },
+    {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\plant-script.js",
       "PackagePath": "staticwebassets\\js\\plant-script.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\problems-script.js",
+      "PackagePath": "staticwebassets\\js\\problems-script.js"
     },
     {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\role-script.js",
@@ -701,8 +713,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\AUTHORS.txt"
+    },
+    {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\README.md",
+      "PackagePath": "staticwebassets\\lib\\jquery\\README.md"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery\\bower.json"
     },
     {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
@@ -715,6 +739,482 @@
     {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\package-lock.json",
+      "PackagePath": "staticwebassets\\lib\\jquery\\package-lock.json"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\package.json",
+      "PackagePath": "staticwebassets\\lib\\jquery\\package.json"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\ajax.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\ajax.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\ajax\\jsonp.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\ajax\\jsonp.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\ajax\\load.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\ajax\\load.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\ajax\\script.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\ajax\\script.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\ajax\\var\\location.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\ajax\\var\\location.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\ajax\\var\\nonce.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\ajax\\var\\nonce.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\ajax\\var\\rquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\ajax\\var\\rquery.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\ajax\\xhr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\ajax\\xhr.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\attributes.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\attributes.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\attributes\\attr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\attributes\\attr.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\attributes\\classes.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\attributes\\classes.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\attributes\\prop.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\attributes\\prop.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\attributes\\support.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\attributes\\support.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\attributes\\val.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\attributes\\val.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\callbacks.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\callbacks.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\DOMEval.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\DOMEval.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\access.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\access.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\camelCase.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\camelCase.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\init.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\init.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\isAttached.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\isAttached.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\nodeName.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\nodeName.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\parseHTML.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\parseHTML.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\parseXML.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\parseXML.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\ready-no-deferred.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\ready-no-deferred.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\ready.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\ready.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\readyException.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\readyException.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\stripAndCollapse.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\stripAndCollapse.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\support.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\support.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\toType.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\toType.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\var\\rhtml.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\var\\rhtml.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\core\\var\\rsingleTag.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\core\\var\\rsingleTag.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\addGetHookIf.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\addGetHookIf.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\adjustCSS.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\adjustCSS.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\curCSS.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\curCSS.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\finalPropName.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\finalPropName.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\hiddenVisibleSelectors.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\hiddenVisibleSelectors.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\showHide.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\showHide.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\support.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\support.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\var\\cssExpand.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\var\\cssExpand.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\var\\getStyles.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\var\\getStyles.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\var\\isHiddenWithinTree.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\var\\isHiddenWithinTree.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\var\\rboxStyle.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\var\\rboxStyle.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\var\\rcustomProp.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\var\\rcustomProp.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\var\\rnumnonpx.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\var\\rnumnonpx.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\css\\var\\swap.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\css\\var\\swap.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\data.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\data.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\data\\Data.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\data\\Data.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\data\\var\\acceptData.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\data\\var\\acceptData.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\data\\var\\dataPriv.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\data\\var\\dataPriv.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\data\\var\\dataUser.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\data\\var\\dataUser.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\deferred.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\deferred.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\deferred\\exceptionHook.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\deferred\\exceptionHook.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\deprecated.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\deprecated.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\deprecated\\ajax-event-alias.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\deprecated\\ajax-event-alias.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\deprecated\\event.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\deprecated\\event.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\dimensions.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\dimensions.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\effects.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\effects.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\effects\\Tween.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\effects\\Tween.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\effects\\animatedSelector.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\effects\\animatedSelector.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\event.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\event.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\event\\trigger.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\event\\trigger.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\exports\\amd.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\exports\\amd.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\exports\\global.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\exports\\global.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\jquery.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\manipulation.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\manipulation.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\manipulation\\_evalUrl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\manipulation\\_evalUrl.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\manipulation\\buildFragment.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\manipulation\\buildFragment.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\manipulation\\getAll.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\manipulation\\getAll.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\manipulation\\setGlobalEval.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\manipulation\\setGlobalEval.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\manipulation\\support.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\manipulation\\support.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\manipulation\\var\\rscriptType.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\manipulation\\var\\rscriptType.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\manipulation\\var\\rtagName.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\manipulation\\var\\rtagName.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\manipulation\\wrapMap.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\manipulation\\wrapMap.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\offset.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\offset.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\queue.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\queue.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\queue\\delay.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\queue\\delay.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\selector-native.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\selector-native.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\selector.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\selector.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\selector\\contains.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\selector\\contains.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\selector\\escapeSelector.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\selector\\escapeSelector.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\serialize.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\serialize.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\traversing.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\traversing.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\traversing\\findFilter.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\traversing\\findFilter.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\traversing\\var\\dir.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\traversing\\var\\dir.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\traversing\\var\\rneedsContext.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\traversing\\var\\rneedsContext.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\traversing\\var\\siblings.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\traversing\\var\\siblings.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\ObjectFunctionString.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\ObjectFunctionString.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\arr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\arr.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\class2type.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\class2type.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\document.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\document.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\documentElement.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\documentElement.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\flat.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\flat.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\fnToString.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\fnToString.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\getProto.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\getProto.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\hasOwn.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\hasOwn.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\indexOf.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\indexOf.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\isFunction.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\isFunction.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\isWindow.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\isWindow.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\pnum.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\pnum.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\pop.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\pop.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\push.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\push.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\rcheckableType.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\rcheckableType.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\rcssNum.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\rcssNum.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\rnothtmlwhite.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\rnothtmlwhite.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\rtrimCSS.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\rtrimCSS.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\slice.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\slice.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\sort.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\sort.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\splice.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\splice.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\support.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\support.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\toString.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\toString.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\var\\whitespace.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\var\\whitespace.js"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\lib\\jquery\\src\\wrap.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\src\\wrap.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SCGP.Microsoft.AspNetCore.StaticWebAssets.props",

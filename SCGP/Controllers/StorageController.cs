@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SCGP.Data;
 using SCGP.Models.MasterData.StorageModel;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -8,12 +7,6 @@ namespace SCGP.Controllers
 {
     public class StorageController : Controller
     {
-        private readonly ApplicationDBContext _db;
-
-        public StorageController(ApplicationDBContext db)
-        {
-            _db = db;
-        }
 
         // GET: /<controller>/
         public IActionResult Index()
@@ -32,8 +25,6 @@ namespace SCGP.Controllers
                 return View(obj);
             }
 
-            _db.Storages.Add(obj.submitStorage);
-            _db.SaveChanges();
             return RedirectToAction("Index");
         }
 
@@ -44,7 +35,6 @@ namespace SCGP.Controllers
                 return View(obj);
             }
 
-            _db.SaveChanges();
             return RedirectToAction("Index");
         }
 

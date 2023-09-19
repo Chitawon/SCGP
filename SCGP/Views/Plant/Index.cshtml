@@ -58,7 +58,7 @@
                     @foreach (var plant in Model.plants)
                     {
                         <tr class="intro-x h-16">
-                            <td class="font-medium whitespace-nowrap" id="@nameof(plant.server.ServerName)">@plant.server.ServerName</td>
+                            <td class="font-medium whitespace-nowrap" data-value="" id="@nameof(plant.server.ServerName)">@plant.server.ServerName</td>
                             <td class="text-center whitespace-nowrap" id="@nameof(plant.PlantNO)">@plant.PlantNO</td>
                             <td class="text-center whitespace-nowrap" id="@nameof(plant.Location)">@plant.Location</td>
                             <td class="text-center whitespace-nowrap" id="@nameof(plant.Plant_Description)">@plant.Plant_Description</td>
@@ -283,6 +283,8 @@
                                 <option>TCP 1</option>
                                 <option>TCP 2</option>
                             </select>
+                           @*  @Html.DropDownList("w" , new SelectList(Model.servers.Select(x => new {Value = x.ServerName, Text= x.ServerName}), "Value", "Text"),
+                            new {@i="EditServerName", @class="form-control tom-select w-full", @placeholder=""}) *@
                         </div>
                         <div class="form-inline mt-5">
                             <label for="" class="form-label sm:w-32" asp-for="submitPlant.PlantNO">Plant</label>

@@ -2,7 +2,7 @@
 $("[data-tw-target='#view-data-modal']").on("click",
     function () {
         let row = $(this).closest("tr");
-        let problemType = row.find("#ProblemType").text().replace(/[\n\r]+|[\s]{2,}/g, ' ').trim();
+        let problemType = row.find("#ProblemType").data("value");
         let description = row.find("#Description").text().replace(/[\n\r]+|[\s]{2,}/g, ' ').trim();
         $("#ViewProblemType").val(problemType);
         $("#ViewDescription").val(description);
@@ -13,7 +13,7 @@ $("[data-tw-target='#view-data-modal']").on("click",
 $("[data-tw-target='#edit-data-modal']").on("click",
     function () {
         let row = $(this).closest("tr");
-        let problemType = row.find("#ProblemType").text().replace(/[\n\r]+|[\s]{2,}/g, ' ').trim();
+        let problemType = row.find("#ProblemType").data("value");
         let description = row.find("#Description").text().replace(/[\n\r]+|[\s]{2,}/g, ' ').trim();
         $("#EditProblemType").val(problemType);
         $("#EditDescription").val(description);

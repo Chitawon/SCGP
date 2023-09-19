@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SCGP.Models.MasterData.PlantModel;
+using SCGP.Models.MasterData.StorageModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace SCGP.Models.GoodsTransfer;
 
@@ -14,11 +16,11 @@ public class MOVEMENT_ITEM_IN
 
     [Required]
     [StringLength(4)]
-    public string? PLANT { get; set; }
+    public Plant? PLANT { get; set; }
 
     [Required]
     [StringLength(4)]
-    public string? STORAGE { get; set; }
+    public Storage? STORAGE { get; set; }
 
     [StringLength(50)]
     public string ITEM_TEXT { get; set; }

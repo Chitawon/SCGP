@@ -1,5 +1,4 @@
-﻿@* @model MOVEMENT_ITEM_IN *@
-@{
+﻿@{
     ViewData["Title"] = "Goods Transfer";
 }
 
@@ -20,7 +19,7 @@
                             <label for="rewind-no" class="form-label">Movement Type</label>
                             <select data-placeholder="" class="form-control tom-select w-52" id="movement-select">
                                 <option selected disabled>Select</option>
-                                <option value="101">101: </option>
+                                <option value="101">101</option>
                                 <option value="102">102</option>
                                 <option value="521">521</option>
                                 <option value="522">522</option>
@@ -58,73 +57,73 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>101</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type Indicator</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="movement-indicator">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">PO No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="po-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">PO Item</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="po-Item">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Contract No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="contract-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Export Order No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="export-order-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="length" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="diameter" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="container-item" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="roll-batch" readonly>
                     </div>
                 </div>
             </div>
@@ -139,73 +138,73 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>102</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type Indicator</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="movement-indicator">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">PO No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="po-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">PO Item</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="po-Item">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Contract No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="contract-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Export Order No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="export-order-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="length" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="diameter" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="container-item" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="roll-batch" readonly>
                     </div>
                 </div>
             </div>
@@ -220,77 +219,77 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>521</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" disabled>
+                        <input type="text" class="form-control" data-value="material-no" disabled>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" disabled>
+                        <input type="text" class="form-control" data-value="batch-no" disabled>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Cost Center</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="cost-center" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Contract No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="contract-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Export Order No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="export-order-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="length" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="diameter" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="container-item" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="roll-batch" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Date for Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="date-batch" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">SQM Conversion</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="sqm" readonly>
                     </div>
                 </div>
             </div>
@@ -305,77 +304,77 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>522</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Cost Center</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="cost-center" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Contract No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="contract-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Export Order No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="export-order-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="length" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="diameter" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="container-item" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="roll-batch" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Date for Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="date-batch" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">SQM Conversion</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="sqm" readonly>
                     </div>
                 </div>
             </div>
@@ -390,69 +389,69 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>201</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Cost Center</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="cost-center" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Contract No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="contract-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Export Order No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="export-order-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="length" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="diameter" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="container-item" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="roll-batch" readonly>
                     </div>
                 </div>
             </div>
@@ -467,69 +466,69 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>202</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Cost Center</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="cost-center" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Contract No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="contract-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Export Order No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="export-order-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="length" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="diameter" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="container-item" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="roll-batch" readonly>
                     </div>
                 </div>
             </div>
@@ -544,69 +543,69 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>909</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">G/L No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="gl-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Contract No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="contract-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Export Order No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="export-order-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="length" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="diameter" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="container-item" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="roll-batch" readonly>
                     </div>
                 </div>
             </div>
@@ -621,69 +620,69 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>910</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">G/L No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="gl-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Contract No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="contract-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Export Order No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="export-order-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="length" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="diameter" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="container-item" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="roll-batch" readonly>
                     </div>
                 </div>
             </div>
@@ -698,57 +697,57 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>301</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Material No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-material-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Plant</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-plant">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                 </div>
             </div>
@@ -763,57 +762,57 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>302</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Material No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-material-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Plant</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-plant">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                 </div>
             </div>
@@ -828,81 +827,81 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>309</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Material No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-material-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Plant</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-plant">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Contract No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="contract-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Export Order No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="export-order-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="length" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="diameter" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="container-item" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="roll-batch" readonly>
                     </div>
                 </div>
             </div>
@@ -917,81 +916,81 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>310</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Material No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-material-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Plant</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-plant">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Contract No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="contract-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Export Order No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="export-order-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="length" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="diameter" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="container-item" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="roll-batch" readonly>
                     </div>
                 </div>
             </div>
@@ -1006,49 +1005,49 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>311</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                 </div>
             </div>
@@ -1063,49 +1062,49 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>312</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                 </div>
             </div>
@@ -1120,49 +1119,49 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>321</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                 </div>
             </div>
@@ -1177,49 +1176,49 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>322</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                 </div>
             </div>
@@ -1234,49 +1233,49 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>323</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                 </div>
             </div>
@@ -1291,49 +1290,49 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>324</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                 </div>
             </div>
@@ -1348,49 +1347,49 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>343</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                 </div>
             </div>
@@ -1405,49 +1404,49 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="movement-type" disabled>
                             <option selected>344</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="material-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">From Plant</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="plant" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage From</label>
-                        <select class="form-control" disabled>
+                        <select class="form-control" data-value="storage" disabled>
                             <option selected disabled>Select</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Item Text</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="item-text">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Batch No.</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="receiving-batch-no" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Receiving Storage Location</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="receiving-storage-location">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Quantity</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Qnt" readonly>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Entry Unit</label>
-                        <input type="text" class="form-control" readonly>
+                        <input type="text" class="form-control" data-value="entry-Uom" readonly>
                     </div>
                 </div>
             </div>
@@ -1523,7 +1522,7 @@
 
     <div class="flex justify-end flex-col md:flex-row gap-2 mt-5" id="btn-general">
         <button type="button" class="btn py-3 border-slate-300 text-slate-500 w-full md:w-52">Cancel</button>
-        <button type="button" class="btn py-3 btn-primary w-full md:w-52">OK</button>
+        <button type="button" class="btn py-3 btn-primary w-full md:w-52" onclick="submitForm()">OK</button>
     </div>
 
     <div class="flex justify-end flex-col md:flex-row gap-2 mt-5 hidden" id="btn-321qi">
@@ -1533,3 +1532,5 @@
     </div>
 
 </div>
+
+<script src="~/js/goodsTransfer-script.js"></script>
