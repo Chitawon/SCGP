@@ -10,11 +10,12 @@
     <div class="grid grid-cols-12 gap-6 mt-5">
 
         <div class="intro-y box col-span-12 p-5 mt-5">
-            <div class="border border-slate-200/60 rounded-md p-5">
+            <button class="btn btn-success text-white" data-tw-toggle="modal" data-tw-target="#stock-add-modal">Add Stock Count</button>
+            <div class="border border-slate-200/60 rounded-md p-5 mt-5">
                 <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Search</div>
                 <div class="mt-5">
 
-                    <div class="grid grid-cols-12 gap-6">
+                    <div class="grid grid-cols-12 gap-6 mt-5">
                         <div class="col-span-3">
                             <label for="" class="form-label">Plant</label>
                             <select class="form-control">
@@ -55,8 +56,7 @@
 
                         <div class="col-span-12">
                             <button class="btn btn-primary">Search</button>
-                            <button class="btn btn-danger" data-tw-toggle="modal" data-tw-target="#stock-add-modal">Add Stock Count</button>
-                            <button class="btn btn-pending">Delete All</button>
+                            <button class="btn btn-danger">Delete All</button>
                         </div>
                     </div>
 
@@ -72,10 +72,33 @@
             <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Result</div>
             <div class="mt-5">
 
-                <div class="w-full sm:w-auto mt-3 sm:mt-0">
-                    <div class="w-56 relative text-slate-500 ml-auto ">
-                        <input type="text" class="form-control w-56 box shadow-md pr-10" placeholder="Search...">
-                        <i class="w-4 h-4 absolute my-auto inset-y-0 mr-3 right-0" data-lucide="search"></i>
+                <div class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle btn px-2  shadow-lg" aria-expanded="false" data-tw-toggle="dropdown">
+                            <span class="w-5 h-5 flex items-center justify-center"> <i class="w-4 h-4" data-lucide="plus"></i> </span>
+                        </button>
+                        <div class="dropdown-menu w-40">
+                            <ul class="dropdown-content">
+                                <li>
+                                    <a href="" class="dropdown-item"> <i data-lucide="copy" class="w-4 h-4 mr-2"></i> Copy </a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item"> <i data-lucide="printer" class="w-4 h-4 mr-2"></i> Print </a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item"> <i data-lucide="file-text" class="w-4 h-4 mr-2"></i> Export to Excel </a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item"> <i data-lucide="file-text" class="w-4 h-4 mr-2"></i> Export to CSV </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-auto mt-3 sm:mt-0 sm:ml-auto md:ml-auto">
+                        <div class="w-56 relative text-slate-500 shadow-md">
+                            <input type="text" class="form-control w-56 box pr-10" placeholder="Search...">
+                            <i class="w-4 h-4 absolute my-auto inset-y-0 mr-3 right-0" data-lucide="search"></i>
+                        </div>
                     </div>
                 </div>
 
@@ -357,7 +380,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="overflow-auto h-[320px] mt-5">
+                    <div class="overflow-auto max-h-[400px] mt-5">
                         <table class="table table-bordered">
                             <thead>
                                 <tr>

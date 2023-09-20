@@ -17,17 +17,17 @@
                     <div class="intro-y flex flex-wrap gap-5 md:border p-5">
                         <div>
                             <label for="" class="form-label">Load Lastese Date/Time</label>
-                            <input id="" type="text" class="form-control" placeholder="">
+                            <input id="" type="text" class="form-control" placeholder="" readonly>
                         </div>
 
                         <div>
                             <label for="" class="form-label">IP Adress</label>
-                            <input id="" type="text" class="form-control" placeholder="">
+                            <input id="" type="text" class="form-control" placeholder="" readonly>
                         </div>
 
                         <div>
                             <label for="" class="form-label">User Name</label>
-                            <input id="" type="text" class="form-control" placeholder="">
+                            <input id="" type="text" class="form-control" placeholder="" readonly>
                         </div>
                     </div>
 
@@ -60,11 +60,128 @@
                     <p class="text-danger mt-5">** Please select "Show Blocked stock" when export batch count stock **</p>
                 </div>
             </div>
+            <div class="flex justify-center flex-col md:flex-row gap-2 mt-5">
+                <button type="button" class="btn py-3 btn-primary w-full md:w-52">Import</button>
+            </div>
         </div>
-    </div>
-    <div class="flex justify-end flex-col md:flex-row gap-2 mt-5">
-        <!-- <button type="button" class="btn py-3 border-slate-300 text-slate-500 w-full md:w-52">Reset</button> -->
-        <button type="button" class="btn py-3 btn-primary w-full md:w-52">Import</button>
+
+        <div class="intro-y box col-span-12 p-5 mt-5">
+            <div class="border border-slate-200/60 rounded-md p-5">
+                <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Result</div>
+                <div class="mt-5">
+
+                    <div class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle btn px-2  shadow-lg" aria-expanded="false" data-tw-toggle="dropdown">
+                                <span class="w-5 h-5 flex items-center justify-center"> <i class="w-4 h-4" data-lucide="plus"></i> </span>
+                            </button>
+                            <div class="dropdown-menu w-40">
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="" class="dropdown-item"> <i data-lucide="copy" class="w-4 h-4 mr-2"></i> Copy </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="dropdown-item"> <i data-lucide="printer" class="w-4 h-4 mr-2"></i> Print </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="dropdown-item"> <i data-lucide="file-text" class="w-4 h-4 mr-2"></i> Export to Excel </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="dropdown-item"> <i data-lucide="file-text" class="w-4 h-4 mr-2"></i> Export to CSV </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-auto mt-3 sm:mt-0 sm:ml-auto md:ml-auto">
+                            <div class="w-56 relative text-slate-500 shadow-md">
+                                <input type="text" class="form-control w-56 box pr-10" placeholder="Search...">
+                                <i class="w-4 h-4 absolute my-auto inset-y-0 mr-3 right-0" data-lucide="search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-x-auto max-h-[400px] mt-5">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th class="text-center whitespace-nowrap uppercase">plant</th>
+                                    <th class="text-center whitespace-nowrap uppercase">storange</th>
+                                    <th class="text-center whitespace-nowrap uppercase">material</th>
+                                    <th class="text-center whitespace-nowrap uppercase">description</th>
+                                    <th class="text-center whitespace-nowrap uppercase">ur qty</th>
+                                    <th class="text-center whitespace-nowrap uppercase">qi qty</th>
+                                    <th class="text-center whitespace-nowrap uppercase">bl qty</th>
+                                    <th class="text-center whitespace-nowrap uppercase">sales unit</th>
+                                    <th class="text-center whitespace-nowrap uppercase">ur weight</th>
+                                    <th class="text-center whitespace-nowrap uppercase">qi weight</th>
+                                    <th class="text-center whitespace-nowrap uppercase">bl weight</th>
+                                    <th class="text-center whitespace-nowrap uppercase">uom</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center">7521</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">Z02CA-125D1030117N</td>
+                                    <td class="text-center">CA-125D-103 / 40 INCH DIA117N</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">0</td>
+                                    <td class="text-center">0</td>
+                                    <td class="text-center">TON</td>
+                                    <td class="text-center">766.000</td>
+                                    <td class="text-center">0.000</td>
+                                    <td class="text-center">0.000</td>
+                                    <td class="text-center">TON</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">7521</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">Z02CA-125D1030117N</td>
+                                    <td class="text-center">CA-125D-103 / 40 INCH DIA117N</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">0</td>
+                                    <td class="text-center">0</td>
+                                    <td class="text-center">TON</td>
+                                    <td class="text-center">766.000</td>
+                                    <td class="text-center">0.000</td>
+                                    <td class="text-center">0.000</td>
+                                    <td class="text-center">TON</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">7521</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">Z02CA-125D1030117N</td>
+                                    <td class="text-center">CA-125D-103 / 40 INCH DIA117N</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">0</td>
+                                    <td class="text-center">0</td>
+                                    <td class="text-center">TON</td>
+                                    <td class="text-center">766.000</td>
+                                    <td class="text-center">0.000</td>
+                                    <td class="text-center">0.000</td>
+                                    <td class="text-center">TON</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">7521</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">Z02CA-125D1030117N</td>
+                                    <td class="text-center">CA-125D-103 / 40 INCH DIA117N</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">0</td>
+                                    <td class="text-center">0</td>
+                                    <td class="text-center">TON</td>
+                                    <td class="text-center">766.000</td>
+                                    <td class="text-center">0.000</td>
+                                    <td class="text-center">0.000</td>
+                                    <td class="text-center">TON</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
     <!-- END: Content -->
 </div>

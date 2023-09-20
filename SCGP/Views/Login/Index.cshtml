@@ -9,12 +9,11 @@
 <!-- BEGIN: Head -->
 
 <head>
-    <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Login - SCGP</title>
         <link rel="stylesheet" href="~/css/app.css" asp-append-version="true" />
-    </head>
+    
 </head>
 <!-- END: Head -->
 
@@ -31,19 +30,19 @@
             <!-- BEGIN: Login Form -->
             <div class="h-screen xl:h-auto flex py-5 xl:py-0 my-10 xl:my-0">
                 <div class="my-auto mx-auto  bg-white dark:bg-darkmode-600 xl:bg-transparent px-5 sm:px-8 py-8 xl:p-0 rounded-md shadow-md xl:shadow-none w-full sm:w-3/4 lg:w-2/4 xl:w-auto">
-                    <img class="-intro-x w-56 -mt-16 mx-auto" src="~/images/SCGP_Primary Logo-02.png">
-                    <div class="intro-x w-80 mt-8" id="role-auth">
+                    <img class="-intro-x w-56 mx-auto" src="~/images/SCGP_Primary_Logo-02.png">
+                    <div class="intro-x w-full md:w-80 mt-8" id="role-auth">
                         <a href="" class="btn btn-primary py-3 block">SCG USER</a>
                         <a href="javascript:;" class="btn btn-primary py-3 block mt-4" id="btn-private">PRIVATE USER</a>
                     </div>
 
                     <div class="hidden" id="private-user">
-                        <div class="intro-x mt-8">
+                        <div class="intro-x mt-8 ">
                             <input type="text" class="intro-x login__input form-control py-3 px-4 block" placeholder="Username">
                             <input type="password" class="intro-x login__input form-control py-3 px-4 block mt-4" placeholder="Password">
                         </div>
                         <div class="intro-x mt-5 xl:mt-8 text-center xl:text-left">
-                            <a href="/" class="btn btn-primary py-3 w-full align-top">Login</a>
+                            <a href="/home" class="btn btn-primary py-3 w-full align-top">Login</a>
                             <a href="jacascript:;" class="btn btn-secondary py-3  mt-4 w-full align-top" id="btn-back">Back</a>
                         </div>
                     </div>

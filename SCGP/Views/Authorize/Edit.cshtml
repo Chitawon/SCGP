@@ -1,15 +1,12 @@
-﻿@using SCGP.Models.MasterData.UserModel
-@model User
+﻿@page
 @{
-    ViewData["Title"] = "Edit Authorize";
 }
 
 <div class="content">
     <div class="grid grid-cols-11 gap-x-6 mt-5 pb-20">
-        <form>
-            <div class="intro-y col-span-11 2xl:col-span-9">
+        <div class="intro-y col-span-11 2xl:col-span-9">
 
-                <div class="intro-y box p-5 mt-5">
+            <div class="intro-y box p-5 mt-5">
                 <div class="border border-slate-200/60 rounded-md p-5">
                     <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">User Detail </div>
                     <div class="mt-5">
@@ -22,7 +19,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <input id="" asp-for="UserName" value="@Model.UserName" type="text" class="form-control" placeholder="">
+                                <input id="" type="text" class="form-control" placeholder="">
                             </div>
                         </div>
                         <div class="form-inline items-start flex-col xl:flex-row mt-5 pt-5 first:mt-0 first:pt-0">
@@ -34,7 +31,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <select asp-for="Company" value="@Model.Company" id="category" class="form-select">
+                                <select id="category" class="form-select">
                                     <option value="">Company 1</option>
                                     <option value="">Company 2</option>
                                 </select>
@@ -49,7 +46,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <input id="" asp-for="FirstName" value="@Model.FirstName" type="text" class="form-control" placeholder="">
+                                <input id="" type="text" class="form-control" placeholder="">
                             </div>
                         </div>
                         <div class="form-inline items-start flex-col xl:flex-row mt-5 pt-5 first:mt-0 first:pt-0">
@@ -61,7 +58,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <input id="" asp-for="LastName" value="@Model.LastName" type="text" class="form-control" placeholder="">
+                                <input id="" type="text" class="form-control" placeholder="">
                             </div>
                         </div>
                         <div class="form-inline items-start flex-col xl:flex-row mt-5 pt-5 first:mt-0 first:pt-0">
@@ -73,7 +70,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <input id="" asp-for="Position" value="@Model.Position" type="text" class="form-control" placeholder="">
+                                <input id="" type="text" class="form-control" placeholder="">
                             </div>
                         </div>
                         <div class="form-inline items-start flex-col xl:flex-row mt-5 pt-5 first:mt-0 first:pt-0">
@@ -85,7 +82,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <select asp-for="Sex" value="@Model.Sex" id="category" class="form-select">
+                                <select id="category" class="form-select">
                                     <option value="">Male</option>
                                     <option value="">Female</option>
                                 </select>
@@ -100,7 +97,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <select asp-for="Status" value="@Model.Status" id="category" class="form-select">
+                                <select id="category" class="form-select">
                                     <option value="">Active</option>
                                     <option value="">Inactive</option>
                                 </select>
@@ -117,7 +114,7 @@
                             <div class="w-full mt-3 xl:mt-0 flex-1">
                                 <div class="input-group">
                                     <div id="input-group-email" class="input-group-text">[0-9][A-Z][a-z]</div>
-                                    <input asp-for="PasswordHash" id="" type="password" class="form-control" placeholder="">
+                                    <input id="" type="password" class="form-control" placeholder="">
                                 </div>
                             </div>
                         </div>
@@ -145,7 +142,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <select asp-for="AuthorizeType" value="@Model.AuthorizeType" id="category" class="form-select">
+                                <select id="category" class="form-select">
                                     <option value="">Private</option>
                                     <option value="">Domain</option>
                                 </select>
@@ -160,7 +157,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <select asp-for="UserRole" value="@Model.UserRole" id="category" class="form-select">
+                                <select id="category" class="form-select">
                                     <option value="">WH</option>
                                 </select>
                             </div>
@@ -169,7 +166,7 @@
                 </div>
             </div>
 
-                <div class="intro-y box p-5 mt-5">
+            <div class="intro-y box p-5 mt-5">
                 <div class="border border-slate-200/60 rounded-md p-5">
                     <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">PM </div>
                     <div class="mt-5">
@@ -228,7 +225,7 @@
                 </div>
             </div>
 
-                <div class="intro-y box p-5 mt-5">
+            <div class="intro-y box p-5 mt-5">
                 <div class="border border-slate-200/60 rounded-md p-5">
                     <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Plant and Storage</div>
                     <div class="mt-5">
@@ -475,11 +472,12 @@
                 </div>
             </div>
 
-                <div class="flex justify-end flex-col md:flex-row gap-2 mt-5">
-                    <a href="@Url.Action("Index")" class="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Cancel</a>
-                    <button type="submit" asp-action="EditUser" class="btn py-3 btn-primary w-full md:w-52">Save</button>
-                </div>
+
+
+            <div class="flex justify-end flex-col md:flex-row gap-2 mt-5">
+                <a href="/authorize" class="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Cancel</a>
+                <button type="button" class="btn py-3 btn-primary w-full md:w-52">Save</button>
             </div>
-		</form>
+        </div>
     </div>
 </div>

@@ -18,32 +18,27 @@
     <None Remove="Views\Login\" />
     <None Remove="Views\DPRewind\" />
     <None Remove="Views\Report\" />
+    <None Remove="Views\GoodsReceiptForPO\" />
+    <None Remove="Views\GoodsReceiptProduction\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\" />
+    <Folder Include="wwwroot\js\" />
     <Folder Include="Views\Authorize\" />
     <Folder Include="Views\Role\" />
     <Folder Include="Views\Server\" />
     <Folder Include="Views\Plant\" />
+    <Folder Include="Views\Storage\" />
     <Folder Include="Views\Problems\" />
     <Folder Include="Views\GoodsTransfer\" />
     <Folder Include="Views\GoodsIssue\" />
     <Folder Include="Views\Login\" />
     <Folder Include="Views\DPRewind\" />
     <Folder Include="Views\Report\" />
+    <Folder Include="Views\GoodsReceiptForPO\" />
+    <Folder Include="Views\GoodsReceiptProduction\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\js\" />
     <Content Remove="wwwroot\images\" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.151" />
-    <PackageReference Include="jQuery" Version="3.7.1" />
-    <PackageReference Include="jQuery.UI" Version="1.12.1.1" />
-    <PackageReference Include="jQuery.UI.Combined" Version="1.13.2" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 </Project>

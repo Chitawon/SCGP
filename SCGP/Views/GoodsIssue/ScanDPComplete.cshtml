@@ -8,41 +8,24 @@
     </h2>
 
     <div class="grid grid-cols-12 gap-6 mt-5">
-        <div class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2">
-            <select class="tom-select w-32 mr-2" aria-label="Default select example">
+        <div class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2 gap-2">
+            <select class="tom-select w-32" aria-label="Default select example">
                 <option selected disabled>Select PM</option>
                 <option>PM 1-3</option>
                 <option>PM 4-7</option>
                 <option>PM 16</option>
             </select>
-            <select class="tom-select w-32 mr-2" aria-label="Default select example">
+            <select class="tom-select w-32" aria-label="Default select example">
                 <option selected disabled>Select Plant</option>
                 <option>7521</option>
                 <option>7523</option>
                 <option>7567</option>
             </select>
-            <button class="btn btn-primary shadow-md mr-2" data-tw-merge>View DP</button>
-            <button class="btn btn-danger shadow-md mr-2" data-tw-merge>Delete DP</button>
-            <button class="btn btn-secondary shadow-md " data-tw-merge>Refresh</button>
-        </div>
-        <div class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2">
-            <!-- <select class="tom-select w-32 mr-2" aria-label="Default select example">
-                <option selected disabled>Select PM</option>
-                <option>PM 1-3</option>
-                <option>PM 4-7</option>
-                <option>PM 16</option>
-            </select>
-            <select class="tom-select w-32 mr-2" aria-label="Default select example">
-                <option selected disabled>Select Plant</option>
-                <option>7521</option>
-                <option>7523</option>
-                <option>7567</option>
-            </select>
-            <button class="btn btn-primary shadow-md mr-2" data-tw-merge>View DP</button>
-            <button class="btn btn-danger shadow-md mr-2" data-tw-merge>Delete DP</button>
-            <button class="btn btn-secondary shadow-md " data-tw-merge>Refresh</button> -->
-            <!-- <div class="dropdown">
-                <button class="dropdown-toggle btn px-2 box" aria-expanded="false" data-tw-toggle="dropdown">
+            <button class="btn btn-primary shadow-md whitespace-nowrap" data-tw-merge>View DP</button>
+            <button class="btn btn-danger shadow-md whitespace-nowrap" data-tw-merge>Delete DP</button>
+            <button class="btn btn-secondary shadow-md" data-tw-merge>Refresh</button>
+            <div class="dropdown">
+                <button class="dropdown-toggle btn px-2  shadow-lg" aria-expanded="false" data-tw-toggle="dropdown">
                     <span class="w-5 h-5 flex items-center justify-center"> <i class="w-4 h-4" data-lucide="plus"></i> </span>
                 </button>
                 <div class="dropdown-menu w-40">
@@ -61,8 +44,9 @@
                         </li>
                     </ul>
                 </div>
-            </div> -->
-            <!-- <div class="hidden md:block mx-auto text-slate-500">Showing 1 to 10 of 150 entries</div> -->
+            </div>
+        </div>
+        <div class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2">
             <div class="w-full sm:w-auto mt-3 sm:mt-0 sm:ml-auto md:ml-auto">
                 <div class="w-56 relative text-slate-500">
                     <input type="text" class="form-control w-56 box pr-10" placeholder="Search...">
@@ -217,11 +201,12 @@
                     <div class="overflow-x-auto mt-5">
                         <table class="table table-bordered">
                             <thead>
-                                <tr class="whitespace-nowrap">
-                                    <th>DELIVERY ITEM NO.</th>
-                                    <th>MATERIAL NUMBER</th>
+                                <tr class="text-center">
+                                    <!-- <th>ACTION</th> -->
+                                    <th class="w-32">DELIVERY ITEM NO.</th>
+                                    <th class="w-1/4">MATERIAL NUMBER</th>
                                     <th>PLANT</th>
-                                    <th>STORAGE LOCATION</th>
+                                    <th class="w-32">STORAGE LOCATION</th>
                                     <th>QUANTITY</th>
                                     <th>SALES UNIT</th>
                                     <th>NET WEIGHT</th>
@@ -230,33 +215,34 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td class="">10</td>
-                                    <td class="">Z02DW300D40000160P</td>
+                                <tr class="text-center">
+                                    <!-- <td><button class="btn btn-primary"><i data-lucide="plus" class="w-4 h-4"></i></button></td> -->
+                                    <td class="w-32">10</td>
+                                    <td class="w-1/4 font-bold text-primary"><a href="javascript:;" data-tw-toggle="modal" data-tw-target="#batch-modal">Z02DW300D40000160P</a></td>
                                     <td class="">7581</td>
-                                    <td>9</td>
+                                    <td class="w-32">9</td>
                                     <td>10</td>
                                     <td>RM</td>
                                     <td>0.050</td>
                                     <td>0.055</td>
                                     <td>TON</td>
                                 </tr>
-                                <tr>
-                                    <td class="">20</td>
-                                    <td class="">Z02DW300D40000160P</td>
+                                <tr class="text-center">
+                                    <td class="w-32">20</td>
+                                    <td class="w-1/4 font-bold text-primary"><a href="javascript:;" data-tw-toggle="modal" data-tw-target="#batch-modal">Z02DW300D40000160P</a></td>
                                     <td class="">7581</td>
-                                    <td>9</td>
+                                    <td class="w-32">9</td>
                                     <td>5</td>
                                     <td>RM</td>
                                     <td>0.020</td>
                                     <td>0.025</td>
                                     <td>TON</td>
                                 </tr>
-                                <tr>
-                                    <td class="">30</td>
-                                    <td class="">Z02DW300D40000160P</td>
+                                <tr class="text-center">
+                                    <td class="w-32">30</td>
+                                    <td class="w-1/4 font-bold text-primary"><a href="javascript:;" data-tw-toggle="modal" data-tw-target="#batch-modal">Z02DW300D40000160P</a></td>
                                     <td class="">7581</td>
-                                    <td>9</td>
+                                    <td class="w-32">9</td>
                                     <td>20</td>
                                     <td>RM</td>
                                     <td>0.100</td>
@@ -266,9 +252,58 @@
                             </tbody>
                         </table>
                     </div>
+
+                    <div id="batch-modal" class="modal" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="font-medium text-base mr-auto">Material</h2>
+                                </div>
+                                <div class="modal-body p-10 ">
+
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th class="whitespace-nowrap">NO.</th>
+                                                <th class="text-center whitespace-nowrap">BATCH</th>
+                                                <th class="text-center whitespace-nowrap">SAP WEIGHT</th>
+                                                <th class="text-center whitespace-nowrap">HH WEIGHT</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="intro-x h-16">
+                                                <td class="font-medium">1</td>
+                                                <td class="text-center">333A28504T</td>
+                                                <td class="text-center">1.246</td>
+                                                <td class="text-center">1.246</td>
+                                            </tr>
+                                            <tr class="intro-x h-16">
+                                                <td class="font-medium">2</td>
+                                                <td class="text-center">333A28504T</td>
+                                                <td class="text-center">1.255</td>
+                                                <td class="text-center">1.255</td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <td class="text-right" colspan="2">TOTAL</td>
+                                                <td class="text-center">2.501</td>
+                                                <td class="text-center">2.501</td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-20 mr-1">Close</button>
+                                    <!-- <button type="button" class="btn btn-primary w-20">Save</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="modal-footer">
-                    <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-20 mr-1">Cancel</button>
+                    <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-20 mr-1">Close</button>
                     <!-- <button type="button" class="btn btn-primary w-20">Save</button> -->
                 </div>
             </div>

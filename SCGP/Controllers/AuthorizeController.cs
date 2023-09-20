@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SCGP.Models.MasterData.UserModel;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -7,8 +10,8 @@ namespace SCGP.Controllers
 {
     public class AuthorizeController : Controller
     {
-        
-        public IActionResult Index()
+       
+        public IActionResult index()
         {
             return View();
         }
@@ -23,26 +26,9 @@ namespace SCGP.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Create(User user)
+        public IActionResult Edit()
         {
-            if (!ModelState.IsValid)
-            {
-                return View(user);
-            }
-
-            return RedirectToAction("Index");
-        }
-
-        public IActionResult Edit(User user)
-        {
-            return View(user);
-        }
-
-        public IActionResult EditUser(User user)
-        {
-
-            return RedirectToAction("Index");
+            return View();
         }
     }
 }

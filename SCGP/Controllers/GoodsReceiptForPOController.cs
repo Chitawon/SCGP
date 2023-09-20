@@ -8,8 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SCGP.Controllers
 {
-    public class ServerController : Controller
+    public class GoodsReceiptForPOController : Controller
     {
+        // GET: /<controller>/
         public IActionResult Index()
         {
             return View();
