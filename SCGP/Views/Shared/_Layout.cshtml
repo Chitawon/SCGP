@@ -6,18 +6,17 @@
     <title>@ViewData["Title"] - SCGP</title>
     @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
     @*<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/SCGP.styles.css" asp-append-version="true" />*@
+        <link rel="stylesheet" href="~/SCGP.styles.css" asp-append-version="true" />*@
     <link rel="stylesheet" href="~/css/app.css" asp-append-version="true" />
   </head>
 <body class="py-5 md:py-0">
     <div class="mobile-menu md:hidden">
         <div class="mobile-menu-bar">
             <a href="" class="flex mr-auto">
-                <img alt="Midone - HTML Admin Template" class="w-6" src="~/images/logo.svg">
+                <img alt="Midone - HTML Admin Template" class="w-48" src="~/images/SCGP_Primary_Logo-02.png">
             </a>
-            <a href="javascript:;" id="mobile-menu-toggler"> <i data-lucide="bar-chart-2" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
-        </div>Ï
-
+            <a href="javascript:;" id="mobile-menu-toggler"> <i data-lucide="bar-chart-2" class="w-8 h-8 transform -rotate-90"></i> </a>
+        </div>
         <ul class="border-t border-white/[0.08] py-5 hidden">
             <li>
                 <a href="index.php" class="menu">
@@ -37,39 +36,63 @@
                 <ul class="">
                     <li>
                         <a href="authorize.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="settings"></i> </div>
                             <div class="menu__title"> Authorize</div>
                         </a>
                     </li>
                     <li>
                         <a href="role-management.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="settings"></i> </div>
                             <div class="menu__title"> Role Management</div>
                         </a>
                     </li>
 
                     <li>
                         <a href="server.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="settings"></i> </div>
                             <div class="menu__title"> Server</div>
                         </a>
                     </li>
                     <li>
                         <a href="plant.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="settings"></i> </div>
                             <div class="menu__title"> Plant</div>
                         </a>
                     </li>
                     <li>
                         <a href="storage.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="settings"></i> </div>
                             <div class="menu__title"> Storage</div>
                         </a>
                     </li>
                     <li>
                         <a href="list-problems.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="settings"></i> </div>
                             <div class="menu__title"> List Problems</div>
+                        </a>
+                    </li>
+                </ul>
+
+            </li>
+            <li>
+                <a href="javascript:;.html" class="menu">
+                    <div class="menu__icon"> <i data-lucide="plus"></i> </div>
+                    <div class="menu__title">
+                        Goods Receipt
+                        <div class="menu__sub-icon "> <i data-lucide="chevron-down"></i> </div>
+                    </div>
+                </a>
+                <ul class="">
+                    <li>
+                        <a href="goods-receipt-product.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="plus"></i> </div>
+                            <div class="menu__title"> Goods Receipt Products</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="goods-receipt-for-po.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="plus"></i> </div>
+                            <div class="menu__title"> Goods Receipt for PO</div>
                         </a>
                     </li>
                 </ul>
@@ -92,37 +115,37 @@
                 <ul class="">
                     <li>
                         <a href="load-dp.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="repeat"></i> </div>
                             <div class="menu__title"> Load DP No. </div>
                         </a>
                     </li>
                     <li>
                         <a href="display-dp.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="repeat"></i> </div>
                             <div class="menu__title"> Display DP No. </div>
                         </a>
                     </li>
                     <li>
                         <a href="scan-dp-complete.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="repeat"></i> </div>
                             <div class="menu__title"> Scan DP Complete </div>
                         </a>
                     </li>
                     <li>
                         <a href="send-to-sap-complete.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="repeat"></i> </div>
                             <div class="menu__title"> Send to SAP Complete </div>
                         </a>
                     </li>
                     <li>
                         <a href="send-to-sap-error.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="repeat"></i> </div>
                             <div class="menu__title"> Send to SAP Error </div>
                         </a>
                     </li>
                     <li>
                         <a href="view-weight.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="repeat"></i> </div>
                             <div class="menu__title"> View Weight by DP </div>
                         </a>
                     </li>
@@ -139,43 +162,37 @@
                 <ul class="">
                     <li>
                         <a href="load-rewind-no.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="rewind"></i> </div>
                             <div class="menu__title"> Load Rewind No. </div>
                         </a>
                     </li>
                     <li>
                         <a href="create-rewind-no.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="rewind"></i> </div>
                             <div class="menu__title"> Create Rewind No. </div>
                         </a>
                     </li>
                     <li>
                         <a href="view-dp-detail.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="rewind"></i> </div>
                             <div class="menu__title"> View DP Detail</div>
                         </a>
                     </li>
                     <li>
                         <a href="print-dp.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="rewind"></i> </div>
                             <div class="menu__title"> Print DP</div>
                         </a>
                     </li>
                     <li>
-                        <a href="receipt-dp-rewind.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
-                            <div class="menu__title"> Reciept DP Rewind</div>
-                        </a>
-                    </li>
-                    <li>
                         <a href="dp-rewind-report.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="rewind"></i> </div>
                             <div class="menu__title"> DP Rewind Report</div>
                         </a>
                     </li>
                     <li>
                         <a href="dp-rewind-receive.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="rewind"></i> </div>
                             <div class="menu__title"> DP Rewind Reciept</div>
                         </a>
                     </li>
@@ -191,51 +208,75 @@
                 </a>
                 <ul class="">
                     <li>
-                        <a href="loading-efficiency.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
-                            <div class="menu__title"> Loading Efficiency </div>
-                        </a>
-                    </li>
-                    <li>
                         <a href="import-stock-sap.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
                             <div class="menu__title"> Import Stock SAP </div>
                         </a>
                     </li>
                     <li>
+                        <a href="check-stock-sap.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
+                            <div class="menu__title"> Check Stock SAP </div>
+                        </a>
+                    </li>
+                    <li>
                         <a href="input-stock-count.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
                             <div class="menu__title"> Input Stock Count </div>
                         </a>
                     </li>
                     <li>
-                        <a href="report-stock-sap.php" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
-                            <div class="menu__title"> Report Stock SAP </div>
+                        <a href="report-stock-sap-barcode.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
+                            <div class="menu__title"> Report Stock SAP - Barcode</div>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
-                            <div class="menu__title"> Report Stock</div>
+                        <a href="report-stock-count-diff.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
+                            <div class="menu__title"> Report Stock Count Diff</div>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
-                            <div class="menu__title"> Report Goods Receipt </div>
+                        <a href="report-stock-count-grade-size.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
+                            <div class="menu__title"> Report Stock Count By Grade, Size</div>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
-                            <div class="menu__title"> Report Goods Issue </div>
+                        <a href="report-stock-count-section.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
+                            <div class="menu__title"> Report Stock Count By Section</div>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="menu">
-                            <div class="menu__icon"> <i data-lucide="activity"></i> </div>
-                            <div class="menu__title"> Report Goods Transfer </div>
+                        <a href="report-gr-by-batch.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
+                            <div class="menu__title"> Report Goods Receipt by Batch </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="report-gr-by-material.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
+                            <div class="menu__title"> Report Goods Receipt by Material</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="report-gi-by-batch.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
+                            <div class="menu__title"> Report Goods Issue by Batch</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="report-gi-by-material.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
+                            <div class="menu__title"> Report Goods Issue by Material</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="report-gt-by-batch.php" class="menu">
+                            <div class="menu__icon"> <i data-lucide="file-text"></i> </div>
+                            <div class="menu__title"> Report Goods Transfer by Batch</div>
                         </a>
                     </li>
                 </ul>
@@ -247,7 +288,7 @@
         <div class="h-full flex items-center">
             <!-- BEGIN: Logo -->
             <a href="" class="logo -intro-x hidden md:flex xl:w-[180px] block">
-                <img alt="SCGP Logo" class="logo__image w-52" src="~/images/SCGPLogo.png">
+                <img alt="Midone - HTML Admin Template" class="logo__image w-52" src="~/images/SCGP_Primary_Logo-02.png">
                 <!-- <span class="logo__text text-white text-lg ml-3"> Enigma </span>  -->
             </a>
             <!-- END: Logo -->
@@ -261,11 +302,11 @@
             <!-- END: Breadcrumb -->
 
 
-            <div class="intro-x text-white font-bold  mr-5">
+            <div class="intro-x text-primary md:text-white font-bold  mr-5">
                 <div>PM : <a href="javascript:;" data-tw-toggle="modal" data-tw-target="#set-pm-modal" class="underline underline-offset-4">PM 16</a></div>
             </div>
 
-            <div class="intro-x text-white font-bold mr-5">
+            <div class="intro-x text-primary md:text-white font-bold mr-5">
                 <div>Plant : <a href="javascript:;" data-tw-toggle="modal" data-tw-target="#set-plant-modal" class="underline underline-offset-4">7550</a></div>
             </div>
 
@@ -284,23 +325,8 @@
                         <li>
                             <hr class="dropdown-divider border-white/[0.08]">
                         </li>
-                        <!-- <li>
-                            <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="user" class="w-4 h-4 mr-2"></i> Profile </a>
-                        </li>
                         <li>
-                            <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="edit" class="w-4 h-4 mr-2"></i> Add Account </a>
-                        </li>
-                        <li>
-                            <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="lock" class="w-4 h-4 mr-2"></i> Reset Password </a>
-                        </li>
-                        <li>
-                            <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="help-circle" class="w-4 h-4 mr-2"></i> Help </a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider border-white/[0.08]">
-                        </li> -->
-                        <li>
-                            <a href="" class="dropdown-item hover:bg-white/5"> <i data-lucide="toggle-right" class="w-4 h-4 mr-2"></i> Logout </a>
+                            <a href="/login" class="dropdown-item hover:bg-white/5"> <i data-lucide="toggle-right" class="w-4 h-4 mr-2"></i> Logout </a>
                         </li>
                     </ul>
                 </div>
@@ -355,12 +381,14 @@
         </div>
     </div>
 
+   
+
 
     <div class="flex overflow-hidden">
         <nav class="side-nav">
             <ul>
                 <li>
-                    <a href="/" class="side-menu">
+                    <a href="/home" class="side-menu">
                         <div class="side-menu__icon"> <i data-lucide="home"></i> </div>
                         <div class="side-menu__title"> Home </div>
                     </a>
@@ -377,39 +405,63 @@
                     <ul class="">
                         <li>
                             <a href="/authorize" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="settings"></i> </div>
                                 <div class="side-menu__title"> Authorize</div>
                             </a>
                         </li>
                         <li>
                             <a href="/role" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="settings"></i> </div>
                                 <div class="side-menu__title"> Role Management</div>
                             </a>
                         </li>
 
                         <li>
                             <a href="/server" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="settings"></i> </div>
                                 <div class="side-menu__title"> Server</div>
                             </a>
                         </li>
                         <li>
                             <a href="/plant" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="settings"></i> </div>
                                 <div class="side-menu__title"> Plant</div>
                             </a>
                         </li>
                         <li>
                             <a href="/storage" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="settings"></i> </div>
                                 <div class="side-menu__title"> Storage</div>
                             </a>
                         </li>
                         <li>
                             <a href="/problems" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="settings"></i> </div>
                                 <div class="side-menu__title"> List Problems</div>
+                            </a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="javascript:;.html" class="side-menu">
+                        <div class="side-menu__icon"> <i data-lucide="plus"></i> </div>
+                        <div class="side-menu__title">
+                            Goods Receipt
+                            <div class="side-menu__sub-icon "> <i data-lucide="chevron-down"></i> </div>
+                        </div>
+                    </a>
+                    <ul class="">
+                        <li>
+                            <a href="/goodsreceiptproduction" class="side-menu">
+                                <div class="side-menu__icon"> <i data-lucide="plus"></i> </div>
+                                <div class="side-menu__title"> Goods Receipt Production</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/goodsreceiptforpo" class="side-menu">
+                                <div class="side-menu__icon"> <i data-lucide="plus"></i> </div>
+                                <div class="side-menu__title"> Goods Receipt for PO</div>
                             </a>
                         </li>
                     </ul>
@@ -432,37 +484,37 @@
                     <ul class="">
                         <li>
                             <a href="/goodsissue/loaddp" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="repeat"></i> </div>
                                 <div class="side-menu__title"> Load DP No. </div>
                             </a>
                         </li>
                         <li>
                             <a href="/goodsissue/displaydp" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="repeat"></i> </div>
                                 <div class="side-menu__title"> Display DP No. </div>
                             </a>
                         </li>
                         <li>
                             <a href="/goodsissue/scandpcomplete" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="repeat"></i> </div>
                                 <div class="side-menu__title"> Scan DP Complete </div>
                             </a>
                         </li>
                         <li>
                             <a href="/goodsissue/sendtosapcomplete" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="repeat"></i> </div>
                                 <div class="side-menu__title"> Send to SAP Complete </div>
                             </a>
                         </li>
                         <li>
                             <a href="/goodsissue/sendtosaperror" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="repeat"></i> </div>
                                 <div class="side-menu__title"> Send to SAP Error </div>
                             </a>
                         </li>
                         <li>
                             <a href="/goodsissue/viewweight" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="repeat"></i> </div>
                                 <div class="side-menu__title"> View Weight by DP </div>
                             </a>
                         </li>
@@ -479,37 +531,37 @@
                     <ul class="">
                         <li>
                             <a href="/dprewind/loadrewind" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="rewind"></i> </div>
                                 <div class="side-menu__title"> Load Rewind No. </div>
                             </a>
                         </li>
                         <li>
                             <a href="/dprewind/createrewind" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="rewind"></i> </div>
                                 <div class="side-menu__title"> Create Rewind No. </div>
                             </a>
                         </li>
                         <li>
                             <a href="/dprewind/viewdp" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="rewind"></i> </div>
                                 <div class="side-menu__title"> View DP Detail</div>
                             </a>
                         </li>
                         <li>
                             <a href="/dprewind/printdp" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="rewind"></i> </div>
                                 <div class="side-menu__title"> Print DP</div>
                             </a>
                         </li>
                         <li>
                             <a href="/dprewind/dprewindreport" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="rewind"></i> </div>
                                 <div class="side-menu__title"> DP Rewind Report</div>
                             </a>
                         </li>
                         <li>
                             <a href="/dprewind/dprewindreciept" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="rewind"></i> </div>
                                 <div class="side-menu__title"> DP Rewind Reciept</div>
                             </a>
                         </li>
@@ -526,44 +578,74 @@
                     <ul class="">
                         <li>
                             <a href="/report/importstock" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
                                 <div class="side-menu__title"> Import Stock SAP </div>
                             </a>
                         </li>
                         <li>
                             <a href="/report/checkstock" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
                                 <div class="side-menu__title"> Check Stock SAP </div>
                             </a>
                         </li>
                         <li>
                             <a href="/report/inputstock" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
                                 <div class="side-menu__title"> Input Stock Count </div>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="side-menu__title"> Report Stock</div>
+                            <a href="/report/reportstocksapbarcode" class="side-menu">
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
+                                <div class="side-menu__title"> Report Stock SAP - Barcode</div>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="side-menu__title"> Report Goods Receipt </div>
+                            <a href="/report/reportstockcountdiff" class="side-menu">
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
+                                <div class="side-menu__title"> Report Stock Count Diff</div>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="side-menu__title"> Report Goods Issue </div>
+                            <a href="/report/reportstockcountbygradesize" class="side-menu">
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
+                                <div class="side-menu__title"> Report Stock Count By Grade, Size</div>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="side-menu">
-                                <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
-                                <div class="side-menu__title"> Report Goods Transfer </div>
+                            <a href="/report/reportstockcountsection" class="side-menu">
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
+                                <div class="side-menu__title"> Report Stock Count By Section</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/report/reportgoodsreceiptbybatch" class="side-menu">
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
+                                <div class="side-menu__title"> Report Goods Receipt by Batch </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/report/reportgoodsreceiptbymaterial" class="side-menu">
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
+                                <div class="side-menu__title"> Report Goods Receipt by Material</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/report/reportgoodsissuebybatch" class="side-menu">
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
+                                <div class="side-menu__title"> Report Goods Issue by Batch</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/report/reportgoodsissuebymaterial" class="side-menu">
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
+                                <div class="side-menu__title"> Report Goods Issue by Material</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/report/reportgoodstransferbybatch" class="side-menu">
+                                <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
+                                <div class="side-menu__title"> Report Goods Transfer by Batch</div>
                             </a>
                         </li>
                     </ul>
@@ -583,3 +665,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+

@@ -7,7 +7,6 @@ namespace SCGP.Controllers
 {
     public class StorageController : Controller
     {
-
         // GET: /<controller>/
         public IActionResult Index()
         {
@@ -40,8 +39,6 @@ namespace SCGP.Controllers
 
         public IActionResult Delete(Guid id)
         {
-
-            //_db.SaveChanges();
             return RedirectToAction("Index");
         }
     }

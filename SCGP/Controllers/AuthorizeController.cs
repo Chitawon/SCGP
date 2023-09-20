@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SCGP.Models.MasterData.UserModel;
+﻿using SCGP.Models.MasterData.UserModel;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -7,18 +7,8 @@ namespace SCGP.Controllers
 {
     public class AuthorizeController : Controller
     {
-        
+       
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Detail()
-        {
-            return View();
-        }
-
-        public IActionResult Add()
         {
             return View();
         }
@@ -32,6 +22,16 @@ namespace SCGP.Controllers
             }
 
             return RedirectToAction("Index");
+        }
+
+        public IActionResult Detail()
+        {
+            return View();
+        }
+
+        public IActionResult Add()
+        {
+            return View();
         }
 
         public IActionResult Edit(User user)

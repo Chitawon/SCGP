@@ -7,7 +7,6 @@ namespace SCGP.Controllers
 {
     public class RoleController : Controller
     {
-
         public IActionResult Index()
         {
             //IEnumerable<Role> viewModel = _db.Roles.ToList();
@@ -28,7 +27,6 @@ namespace SCGP.Controllers
         [HttpPost]
         public IActionResult Create(Role role)
         {
-            
             return RedirectToAction("Index");
         }
 
@@ -37,9 +35,9 @@ namespace SCGP.Controllers
             return View(role);
         }
 
-		public IActionResult EditRole(Role role)
-		{
+        public IActionResult EditRole(Role role)
+        {
             return RedirectToAction("Index");
         }
-	}
+    }
 }

@@ -1,6 +1,5 @@
-﻿@using SCGP.Models.MasterData.PlantModel
+﻿﻿@using SCGP.Models.MasterData.PlantModel
 @model PlantViewModel
-
 @{
     ViewData["Title"] = "Plant";
 }
@@ -55,6 +54,7 @@
                     </tr>
                 </thead>
                 <tbody>
+
                     @foreach (var plant in Model.plants)
                     {
                         <tr class="intro-x h-16">
@@ -222,12 +222,11 @@
     <!-- BEGIN: Modal Content -->
     <div id="add-data-modal" class="modal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-lg">
-			<form method="post">
+            <form method="post">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h2 class="font-medium text-base mr-auto">Add New Plant</h2>
-                    </div>
-                
+                    <h2 class="font-medium text-base mr-auto">Add New Plant</h2>
+                </div>
                     <div class="modal-body p-10 ">
                         <div class="form-inline">
                             <label for="" class="form-label sm:w-32" asp-for="submitPlant.server">PM</label>
@@ -257,55 +256,50 @@
                         <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-20 mr-1">Cancel</button>
                         <button type="submit" class="btn btn-primary w-20" asp-action="Create">Save</button>
                     </div>
-                
                 </div>
-			</form>
+            </form>
         </div>
     </div>
     <!-- END: Modal Content -->
     <!-- BEGIN: Modal Edit -->
     <div id="edit-data-modal" class="modal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-lg">
-			<form>
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="font-medium text-base mr-auto">Edit Plant</h2>
-                    </div>
-                
-                    <div class="modal-body p-10 ">
-                        <div class="form-inline">
-                            <label for="" class="form-label sm:w-32" asp-for="submitPlant.server">PM</label>
-                            <select id="EditServerName" data-placeholder="" asp-for="submitPlant.server" class="form-control tom-select w-full">
-                                <option>PM 1-3</option>
-                                <option>PM 4-7</option>
-                                <option>PM 16</option>
-                                <option>PM 17</option>
-                                <option>TCP 1</option>
-                                <option>TCP 2</option>
-                            </select>
-                           @*  @Html.DropDownList("w" , new SelectList(Model.servers.Select(x => new {Value = x.ServerName, Text= x.ServerName}), "Value", "Text"),
-                            new {@i="EditServerName", @class="form-control tom-select w-full", @placeholder=""}) *@
-                        </div>
-                        <div class="form-inline mt-5">
-                            <label for="" class="form-label sm:w-32" asp-for="submitPlant.PlantNO">Plant</label>
-                            <input id="EditPlantNO" type="text" class="form-control" asp-for="submitPlant.PlantNO" value="" placeholder="">
-                        </div>
-                        <div class="form-inline mt-5">
-                            <label for="" class="form-label sm:w-32" asp-for="submitPlant.Location">Location</label>
-                            <input id="EditLocation" type="text" class="form-control" asp-for="submitPlant.Location" value="" placeholder="">
-                        </div>
-                        <div class="form-inline mt-5">
-                            <label for="" class="form-label sm:w-32" asp-for="submitPlant.Plant_Description">Plant Description</label>
-                            <input id="EditPlant_Description" type="text" class="form-control" asp-for="submitPlant.Plant_Description" value="" placeholder="">
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-20 mr-1">Cancel</button>
-                        <button type="submit" class="btn btn-primary w-20" asp-action="Edit">Save</button>
-                    </div>
-                
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="font-medium text-base mr-auto">Edit Plant</h2>
                 </div>
-			</form>
+                <div class="modal-body p-10 ">
+                    <div class="form-inline">
+                        <label for="" class="form-label sm:w-32">PM</label>
+                        <select data-placeholder="" class="form-control tom-select w-full">
+                            <option>PM 1-3</option>
+                            <option>PM 4-7</option>
+                            <option>PM 16</option>
+                            <option>PM 17</option>
+                            <option>TCP 1</option>
+                            <option>TCP 2</option>
+                        </select>
+                    </div>
+                    @*  @Html.DropDownList("w" , new SelectList(Model.servers.Select(x => new {Value = x.ServerName, Text= x.ServerName}), "Value", "Text"),
+                            new {@i="EditServerName", @class="form-control tom-select w-full", @placeholder=""}) *@
+                    <div class="form-inline mt-5">
+                        <label for="" class="form-label sm:w-32" asp-for="submitPlant.PlantNO">Plant</label>
+                        <input id="" type="text" class="form-control" value="7567" placeholder="" asp-for="submitPlant.PlantNO">
+                    </div>
+                    <div class="form-inline mt-5">
+                        <label for="" class="form-label sm:w-32" asp-for="submitPlant.Location">Location</label>
+                        <input id="" type="text" class="form-control" value="ESC/NPT" placeholder="" asp-for="submitPlant.Location">
+                    </div>
+                    <div class="form-inline mt-5">
+                        <label for="" class="form-label sm:w-32" asp-for="submitPlant.Plant_Description">Plant Description</label>
+                        <input id="" type="text" class="form-control" value="ESC" placeholder="" asp-for="submitPlant.Plant_Description">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-20 mr-1">Cancel</button>
+                    <button type="submit" class="btn btn-primary w-20" asp-action="Edit">Save</button>
+                </div>
+            </div>
         </div>
     </div>
     <!-- END: Modal Edit -->
@@ -319,7 +313,7 @@
                 <div class="modal-body p-10 ">
                     <div class="form-inline">
                         <label for="" class="form-label sm:w-32">PM</label>
-                        <select id="ViewServerName" data-placeholder="" class="form-control tom-select w-full" >
+                        <select id="ViewServerName" data-placeholder="" class="form-control tom-select w-full" disabled>
                             <option>PM 1-3</option>
                             <option>PM 4-7</option>
                             <option>PM 16</option>
@@ -330,15 +324,15 @@
                     </div>
                     <div class="form-inline mt-5">
                         <label for="" class="form-label sm:w-32">Plant</label>
-                        <input id="ViewPlantNO" type="text" class="form-control" value="" placeholder="" readonly>
+                        <input id="ViewPlantNO" type="text" class="form-control" value="7567" placeholder="" readonly>
                     </div>
                     <div class="form-inline mt-5">
                         <label for="" class="form-label sm:w-32">Location</label>
-                        <input id="ViewLocation" type="text" class="form-control" value="" placeholder="" readonly>
+                        <input id="ViewLocation" type="text" class="form-control" value="ESC/NPT" placeholder="" readonly>
                     </div>
                     <div class="form-inline mt-5">
                         <label for="" class="form-label sm:w-32">Plant Description</label>
-                        <input id="ViewPlant_Description" type="text" class="form-control" value="" placeholder="" readonly>
+                        <input id="ViewPlant_Description" type="text" class="form-control" value="ESC" placeholder="" readonly>
                     </div>
                 </div>
                 <div class="modal-footer">

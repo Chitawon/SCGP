@@ -80,6 +80,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNJc3N1ZVxWaWV3V2VpZ2h0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Work/Orange/SCGP/SCGP/Views/GoodsReceiptForPO/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNSZWNlaXB0Rm9yUE9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Orange/SCGP/SCGP/Views/GoodsReceiptProduction/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNSZWNlaXB0UHJvZHVjdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Work/Orange/SCGP/SCGP/Views/GoodsTransfer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNUcmFuc2ZlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -110,6 +118,42 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Work/Orange/SCGP/SCGP/Views/Report/InputStock.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XElucHV0U3RvY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Orange/SCGP/SCGP/Views/Report/ReportGoodsIssueByBatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFJlcG9ydEdvb2RzSXNzdWVCeUJhdGNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Orange/SCGP/SCGP/Views/Report/ReportGoodsIssueByMaterial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFJlcG9ydEdvb2RzSXNzdWVCeU1hdGVyaWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Orange/SCGP/SCGP/Views/Report/ReportGoodsReceiptByBatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFJlcG9ydEdvb2RzUmVjZWlwdEJ5QmF0Y2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Orange/SCGP/SCGP/Views/Report/ReportGoodsReceiptByMaterial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFJlcG9ydEdvb2RzUmVjZWlwdEJ5TWF0ZXJpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Orange/SCGP/SCGP/Views/Report/ReportGoodsTransferByBatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFJlcG9ydEdvb2RzVHJhbnNmZXJCeUJhdGNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Orange/SCGP/SCGP/Views/Report/ReportStockCountByGradeSize.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFJlcG9ydFN0b2NrQ291bnRCeUdyYWRlU2l6ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Orange/SCGP/SCGP/Views/Report/ReportStockCountDiff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFJlcG9ydFN0b2NrQ291bnREaWZmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Orange/SCGP/SCGP/Views/Report/ReportStockCountSection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFJlcG9ydFN0b2NrQ291bnRTZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Orange/SCGP/SCGP/Views/Report/ReportStockSapBarcode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFJlcG9ydFN0b2NrU2FwQmFyY29kZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Work/Orange/SCGP/SCGP/Views/Role/Add.cshtml]

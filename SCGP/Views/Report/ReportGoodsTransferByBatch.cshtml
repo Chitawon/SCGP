@@ -4,7 +4,7 @@
 
 <div class="content">
     <h2 class="intro-y text-lg font-medium mt-10">
-        Check Stock SAP
+        Report Goods Transfer by Batch
     </h2>
 
     <div class="grid grid-cols-12 gap-6 mt-5">
@@ -15,18 +15,10 @@
                 <div class="mt-5">
 
                     <div class="flex flex-wrap gap-6">
-                        <div class="">
-                            <label for="" class="form-label">Plant</label>
-                            <select class="form-control">
-                                <option selected disabled>Please Select</option>
-                            </select>
-                        </div>
 
                         <div class="">
-                            <label for="plant" class="form-label">Storage Location</label>
-                            <select class="form-control">
-                                <option selected disabled>Please Select</option>
-                            </select>
+                            <label for="plant" class="form-label">Date</label>
+                            <input type="text" class="datepicker form-control" data-single-mode="true">
                         </div>
 
                         <div class="self-end">
@@ -79,37 +71,77 @@
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
+                                    <th class="text-center whitespace-nowrap uppercase">date</th>
+                                    <th class="text-center whitespace-nowrap uppercase">time</th>
                                     <th class="text-center whitespace-nowrap uppercase">plant</th>
-                                    <th class="text-center whitespace-nowrap uppercase">grade</th>
-                                    <th class="text-center whitespace-nowrap uppercase">size</th>
-                                    <th class="text-center whitespace-nowrap uppercase">sap qty</th>
-                                    <th class="text-center whitespace-nowrap uppercase">sap weight</th>
+                                    <th class="text-center whitespace-nowrap uppercase">storage ต้นทาง</th>
+                                    <th class="text-center whitespace-nowrap uppercase">storage ปลายทาง</th>
+                                    <th class="text-center whitespace-nowrap uppercase">movment type</th>
+                                    <th class="text-center whitespace-nowrap uppercase">material</th>
+                                    <th class="text-center whitespace-nowrap uppercase">batch</th>
+                                    <th class="text-center whitespace-nowrap uppercase">weight</th>
+                                    <th class="text-center whitespace-nowrap uppercase">user</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td class="text-center">31/8/2023</td>
+                                    <td class="text-center">09:54:44</td>
                                     <td class="text-center">7521</td>
-                                    <td class="text-center">CA-125D</td>
-                                    <td class="text-center">1030</td>
                                     <td class="text-center">1</td>
-                                    <td class="text-center">0.766</td>
+                                    <td class="text-center">4</td>
+                                    <td class="text-center">311</td>
+                                    <td class="text-center">Z02TA-230D1390117N</td>
+                                    <td class="text-center">663A37072A</td>
+                                    <td class="text-center">1.246</td>
+                                    <td class="text-center">Somphopy</td>
                                 </tr>
                                 <tr>
+                                    <td class="text-center">31/8/2023</td>
+                                    <td class="text-center">10:54:54</td>
                                     <td class="text-center">7521</td>
-                                    <td class="text-center">CA-125D</td>
-                                    <td class="text-center">1030</td>
                                     <td class="text-center">1</td>
-                                    <td class="text-center">0.766</td>
+                                    <td class="text-center">4</td>
+                                    <td class="text-center">311</td>
+                                    <td class="text-center">Z02TA-230D1390117N</td>
+                                    <td class="text-center">663A37072B</td>
+                                    <td class="text-center">1.259</td>
+                                    <td class="text-center">Somphopy</td>
                                 </tr>
                                 <tr>
+                                    <td class="text-center">31/8/2023</td>
+                                    <td class="text-center">11:55:04</td>
                                     <td class="text-center">7521</td>
-                                    <td class="text-center">CA-125D</td>
-                                    <td class="text-center">1030</td>
-                                    <td class="text-center">1</td>
-                                    <td class="text-center">0.766</td>
+                                    <td class="text-center">3</td>
+                                    <td class="text-center">5</td>
+                                    <td class="text-center">311</td>
+                                    <td class="text-center">Z02TA-185D1390117N</td>
+                                    <td class="text-center">663A36895C</td>
+                                    <td class="text-center">1.336</td>
+                                    <td class="text-center">Somphopy</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">31/8/2023</td>
+                                    <td class="text-center">12:56:54</td>
+                                    <td class="text-center">7521</td>
+                                    <td class="text-center">3</td>
+                                    <td class="text-center">5</td>
+                                    <td class="text-center">311</td>
+                                    <td class="text-center">Z02TI-150D1490117N</td>
+                                    <td class="text-center">B03A17283A</td>
+                                    <td class="text-center">1.413</td>
+                                    <td class="text-center">Somphopy</td>
                                 </tr>
 
                             </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="7" class="text-right uppercase">sum</td>
+                                    <td class="text-right">4</td>
+                                    <td class="text-right">5.254</td>
+                                    <td colspan=""></td>
+                                </tr>
+                            </tfoot>
                         </table>
                     </div>
 

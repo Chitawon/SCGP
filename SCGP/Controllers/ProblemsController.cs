@@ -10,7 +10,7 @@ namespace SCGP.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-			var viewModel = new ListProblemViewModel();
+            var viewModel = new ListProblemViewModel();
             var list = new List<Problem>();
 
             for (int i = 0; i < 5; i++)
@@ -27,9 +27,9 @@ namespace SCGP.Controllers
             return View(viewModel);
         }
 
-		[HttpPost]
-		public IActionResult Create(ListProblemViewModel obj)
-		{
+        [HttpPost]
+        public IActionResult Create(ListProblemViewModel obj)
+        {
             ModelState.Remove("ListProblems");
 
             if (!ModelState.IsValid)
@@ -38,10 +38,10 @@ namespace SCGP.Controllers
             }
 
             return RedirectToAction("Index");
-		}
+        }
 
-		public IActionResult Edit(ListProblemViewModel obj)
-		{
+        public IActionResult Edit(ListProblemViewModel obj)
+        {
             ModelState.Remove("ListProblems");
 
             if (!ModelState.IsValid)
@@ -50,12 +50,11 @@ namespace SCGP.Controllers
             }
 
             return RedirectToAction("Index");
-		}
+        }
 
-		public IActionResult Delete()
-		{
-			return View();
-		}
-	}
+        public IActionResult Delete()
+        {
+            return View();
+        }
+    }
 }
-

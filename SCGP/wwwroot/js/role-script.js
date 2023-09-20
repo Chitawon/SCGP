@@ -1,5 +1,5 @@
 ﻿//Check All AssignPC
-$("#AssignPC input#checkallPC").on("click",
+$("#AssignPC input#checkall").on("click",
     function () {
         let checkbox = [];
         $("#AssignPC input").each((index, elem) => {
@@ -13,7 +13,7 @@ $("#AssignPC input#checkallPC").on("click",
 )
 
 //Check All AssignPDA
-$("#AssignPDA input#checkallPDA").on("click",
+$("#AssignPDA input#checkall").on("click",
     function () {
         let checkbox = [];
         $("#AssignPDA input").each((index, elem) => {

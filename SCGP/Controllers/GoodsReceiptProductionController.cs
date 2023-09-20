@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SCGP.Controllers
 {
-    public class LoginController : Controller
+    public class GoodsReceiptProductionController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()

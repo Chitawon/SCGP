@@ -11,27 +11,22 @@ namespace SCGP.Controllers
         {
             return View();
         }
-
         public IActionResult DisplayDP()
         {
             return View();
         }
-
         public IActionResult ScanDPComplete()
         {
             return View();
         }
-
         public IActionResult SendToSAPComplete()
         {
             return View();
         }
-
         public IActionResult SendToSAPError()
         {
             return View();
         }
-
         public IActionResult ViewWeight()
         {
             return View();

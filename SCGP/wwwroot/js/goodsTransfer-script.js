@@ -18,72 +18,32 @@ function submitForm() {
 
     GetCommonData(formData, selectForm);
 
-    if (selector == "101" || selector == "102")
-    {
-        const movementIndicator = document.querySelector(selectForm + " [data-value='movement-indicator']").value;
-        formData.append("MOVE_INDICATOR", movementIndicator);
-
-        const poNo = document.querySelector(selectForm + " [data-value='po-no']").value;
-        formData.append("PO_NUMBER", poNo);
-
-        const poItem = document.querySelector(selectForm + " [data-value='po-Item']").value;
-        formData.append("PO_ITEM", poItem);
-    }
-    else
-    {
-        const itemText = document.querySelector(selectForm + " [data-value='item-text']").value;
-        formData.append("ITEM_TEXT", itemText);
-    }
+    const itemText = document.querySelector(selectForm + " [data-value='item-text']").value;
+    formData.append("ITEM_TEXT", itemText);
 
     if (selector == "301" || selector == "302" || selector == "309" || selector == "310")
     {
-        const receivingMatNo = document.querySelector(selectForm + " [data-value='receiving-material-no']").value;
-        formData.append("MOV_MATERIAL", receivingMatNo);
-
-        const receivingPlant = document.querySelector(selectForm + " [data-value='receiving-plant']").value;
-        formData.append("MOV_PLANT", receivingPlant);
+        const movPlant = document.querySelector(selectForm + " [data-value='mov-plant']").value;
+        formData.append("MOV_PLANT", movPlant);
     }
 
-    if (selector == "301" || selector == "302" || selector == "309" || selector == "310"
-        || selector == "311" || selector == "312" || selector == "321" || selector == "322"
-        || selector == "323" || selector == "324" || selector == "343" || selector == "344")
+    if (selector != "z15" && selector == "202")
     {
-        const receivingBatchNo = document.querySelector(selectForm + " [data-value='receiving-batch-no']").value;
-        formData.append("MOV_BATCH", receivingBatchNo);
-
-        const receivingStorageLoc = document.querySelector(selectForm + " [data-value='receiving-storage-location']").value;
+        const receivingStorageLoc = document.querySelector(selectForm + " [data-value='mov-storage']").value;
         formData.append("MOV_STORAGE", receivingStorageLoc);
     }
-
-    if (selector == "521" || selector == "522" || selector == "201" || selector == "202")
+    else
     {
         const costCenter = document.querySelector(selectForm + " [data-value='cost-center']").value;
         formData.append("COSTCENTER", costCenter);
     }
 
-    if (selector == "909" || selector == "910")
+    if (selector == "202" || selector == "309" || selector == "310" || selector == "z15")
     {
-        const glNo = document.querySelector(selectForm + " [data-value='gl-no']").value;
-        formData.append("GLACCOUNT", glNo);
-    }
-
-    if (selector == "521" || selector == "522")
-    {
-        const pdTime = document.querySelector(selectForm + " [data-value='date-batch']").value;
-        formData.append("PD_TIME", pdTime);
-
-        const sqm = document.querySelector(selectForm + " [data-value='sqm']").value;
-        formData.append("CONVERSION_FACT_SQM", sqm);
-    }
-
-    if (selector == "101" || selector == "102" || selector == "521" || selector == "522"
-        || selector == "201" || selector == "202" || selector == "909" || selector == "910"
-        || selector == "309" || selector == "310")
-    {
-        const contractNo = document.querySelector(selectForm + " [data-value='contract-no']").value;
+        const contractNo = document.querySelector(selectForm + " [data-value='pi-no']").value;
         formData.append("PI_NUMBER", contractNo);
 
-        const eoNumber = document.querySelector(selectForm + " [data-value='export-order-no']").value;
+        const eoNumber = document.querySelector(selectForm + " [data-value='eo-no']").value;
         formData.append("EO_Number", eoNumber);
 
         const length = document.querySelector(selectForm + " [data-value='length']").value;

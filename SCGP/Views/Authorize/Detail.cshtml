@@ -1,4 +1,4 @@
-﻿@using SCGP.Models.MasterData.UserModel
+﻿﻿@using SCGP.Models.MasterData.UserModel
 @model User
 @{
     ViewData["Title"] = "Detail Authorize";
@@ -21,7 +21,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <input value="@Model.UserName" id="" type="text" class="form-control" placeholder="" readonly>
+								<input id="" value="@Model.UserName" type="text" class="form-control" placeholder="" readonly>
                             </div>
                         </div>
                         <div class="form-inline items-start flex-col xl:flex-row mt-5 pt-5 first:mt-0 first:pt-0">
@@ -33,7 +33,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <select value="@Model.Company" id="category" class="form-select" disabled>
+								<select id="category" value="@Model.Company" class="form-select" disabled>
                                     <option value="">Company 1</option>
                                     <option value="">Company 2</option>
                                 </select>
@@ -48,7 +48,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <input value="@Model.FirstName" id="" type="text" class="form-control" placeholder="" readonly>
+								<input id="" value="@Model.FirstName" type="text" class="form-control" placeholder="" readonly>
                             </div>
                         </div>
                         <div class="form-inline items-start flex-col xl:flex-row mt-5 pt-5 first:mt-0 first:pt-0">
@@ -60,7 +60,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <input id="" value="@Model.LastName" type="text" class="form-control" placeholder="" readonly>
+								<input id="" value="@Model.LastName" type="text" class="form-control" placeholder="" readonly>
                             </div>
                         </div>
                         <div class="form-inline items-start flex-col xl:flex-row mt-5 pt-5 first:mt-0 first:pt-0">
@@ -84,7 +84,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <select value="@Model.Sex" id="category" class="form-select" disabled>
+                                <select id="category" value="@Model.Sex" class="form-select" disabled>
                                     <option value="">Male</option>
                                     <option value="">Female</option>
                                 </select>
@@ -129,7 +129,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <select value="@Model.AuthorizeType" id="category" class="form-select" disabled>
+                                <select id="category" value="@Model.AuthorizeType" class="form-select" disabled>
                                     <option value="">Private</option>
                                     <option value="">Domain</option>
                                 </select>
@@ -144,7 +144,7 @@
                                 </div>
                             </div>
                             <div class="w-full mt-3 xl:mt-0 flex-1">
-                                <select value="@Model.UserRole" id="category" class="form-select" disabled>
+                                <select id="category" value="@Model.UserRole" class="form-select" disabled>
                                     <option value="">WH</option>
                                 </select>
                             </div>

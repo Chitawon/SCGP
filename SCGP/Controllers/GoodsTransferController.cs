@@ -46,7 +46,7 @@ namespace SCGP.Controllers
 
         private void CheckPO(MOVEMENT_ITEM_IN transferForm, IFormCollection form)
         {
-            if (transferForm.MOVEMENTTYPE == "101" || transferForm.MOVEMENTTYPE == "102") 
+            if (transferForm.MOVEMENTTYPE == "101" || transferForm.MOVEMENTTYPE == "102")
             {
                 transferForm.MOVE_INDICATOR = form["MOVE_INDICATOR"];
                 transferForm.PO_NUMBER = form["PO_NUMBER"];
@@ -60,7 +60,7 @@ namespace SCGP.Controllers
 
         private void CheckMOMaternial(MOVEMENT_ITEM_IN transferForm, IFormCollection form)
         {
-            if (transferForm.MOVEMENTTYPE == "301" || transferForm.MOVEMENTTYPE == "302" 
+            if (transferForm.MOVEMENTTYPE == "301" || transferForm.MOVEMENTTYPE == "302"
                 || transferForm.MOVEMENTTYPE == "309" || transferForm.MOVEMENTTYPE == "310")
             {
                 transferForm.MOV_MATERIAL = form["MOV_MATERIAL"];
@@ -72,9 +72,9 @@ namespace SCGP.Controllers
         {
             if (transferForm.MOVEMENTTYPE == "301" || transferForm.MOVEMENTTYPE == "302"
                 || transferForm.MOVEMENTTYPE == "309" || transferForm.MOVEMENTTYPE == "310"
-                || transferForm.MOVEMENTTYPE == "311" || transferForm.MOVEMENTTYPE == "312" 
+                || transferForm.MOVEMENTTYPE == "311" || transferForm.MOVEMENTTYPE == "312"
                 || transferForm.MOVEMENTTYPE == "321" || transferForm.MOVEMENTTYPE == "322"
-                || transferForm.MOVEMENTTYPE == "323" || transferForm.MOVEMENTTYPE == "324" 
+                || transferForm.MOVEMENTTYPE == "323" || transferForm.MOVEMENTTYPE == "324"
                 || transferForm.MOVEMENTTYPE == "343" || transferForm.MOVEMENTTYPE == "344")
             {
                 transferForm.MOV_BATCH = form["MOV_BATCH"];
@@ -84,7 +84,7 @@ namespace SCGP.Controllers
 
         private void CheckCostCenter(MOVEMENT_ITEM_IN transferForm, IFormCollection form)
         {
-            if (transferForm.MOVEMENTTYPE == "521" || transferForm.MOVEMENTTYPE == "522" 
+            if (transferForm.MOVEMENTTYPE == "521" || transferForm.MOVEMENTTYPE == "522"
                 || transferForm.MOVEMENTTYPE == "201" || transferForm.MOVEMENTTYPE == "202")
             {
                 transferForm.COSTCENTER = form["COSTCENTER"];
@@ -93,7 +93,7 @@ namespace SCGP.Controllers
 
         private void CheckGLNo(MOVEMENT_ITEM_IN transferForm, IFormCollection form)
         {
-            if(transferForm.MOVEMENTTYPE == "909" || transferForm.MOVEMENTTYPE == "910")
+            if (transferForm.MOVEMENTTYPE == "909" || transferForm.MOVEMENTTYPE == "910")
             {
                 transferForm.GLACCOUNT = form["GLACCOUNT"];
             }
@@ -110,9 +110,9 @@ namespace SCGP.Controllers
 
         private void CheckExport(MOVEMENT_ITEM_IN transferForm, IFormCollection form)
         {
-            if (transferForm.MOVEMENTTYPE == "101" || transferForm.MOVEMENTTYPE == "102" 
+            if (transferForm.MOVEMENTTYPE == "101" || transferForm.MOVEMENTTYPE == "102"
                 || transferForm.MOVEMENTTYPE == "521" || transferForm.MOVEMENTTYPE == "522"
-                || transferForm.MOVEMENTTYPE == "201" || transferForm.MOVEMENTTYPE == "202" 
+                || transferForm.MOVEMENTTYPE == "201" || transferForm.MOVEMENTTYPE == "202"
                 || transferForm.MOVEMENTTYPE == "909" || transferForm.MOVEMENTTYPE == "910"
                 || transferForm.MOVEMENTTYPE == "309" || transferForm.MOVEMENTTYPE == "310")
             {

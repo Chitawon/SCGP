@@ -2,7 +2,6 @@
 using SCGP.Models.MasterData.ListProblemModel;
 using SCGP.Models.MasterData.PlantModel;
 using SCGP.Models.MasterData.ServerModel;
-using System.Collections.Generic;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,14 +9,10 @@ namespace SCGP.Controllers
 {
     public class PlantController : Controller
     {
-
-
         // GET: /<controller>/
         public IActionResult Index()
         {
             var viweModel = new PlantViewModel();
-            /*viweModel.plants = _db.Plants.ToList();
-            viweModel.servers = _db.Servers.ToList();*/
             var list = new List<Server>();
             var listP = new List<Plant>();
             for (int i = 0; i < 5; i++)
@@ -48,15 +43,13 @@ namespace SCGP.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Edit(PlantViewModel obj) 
+        public IActionResult Edit(PlantViewModel obj)
         {
-            //_db.SaveChanges();
             return View();
         }
 
         public IActionResult Delete(PlantViewModel obj)
         {
-            //_db.SaveChanges();
             return View();
         }
     }

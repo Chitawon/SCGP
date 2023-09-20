@@ -18,19 +18,25 @@
     <None Remove="Views\Login\" />
     <None Remove="Views\DPRewind\" />
     <None Remove="Views\Report\" />
+    <None Remove="Views\GoodsReceiptForPO\" />
+    <None Remove="Views\GoodsReceiptProduction\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App\" />
+    <Folder Include="wwwroot\js\" />
     <Folder Include="Views\Authorize\" />
     <Folder Include="Views\Role\" />
     <Folder Include="Views\Server\" />
     <Folder Include="Views\Plant\" />
+    <Folder Include="Views\Storage\" />
     <Folder Include="Views\Problems\" />
     <Folder Include="Views\GoodsTransfer\" />
     <Folder Include="Views\GoodsIssue\" />
     <Folder Include="Views\Login\" />
     <Folder Include="Views\DPRewind\" />
     <Folder Include="Views\Report\" />
+    <Folder Include="Views\GoodsReceiptForPO\" />
+    <Folder Include="Views\GoodsReceiptProduction\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\js\" />

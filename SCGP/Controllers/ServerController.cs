@@ -7,13 +7,10 @@ namespace SCGP.Controllers
 {
     public class ServerController : Controller
     {
-
-
-        // GET: /<controller>/
         public IActionResult Index()
         {
-            var viweModel =  new ServerViewModel();
-            
+            var viweModel = new ServerViewModel();
+
             return View(viweModel);
         }
 
@@ -32,7 +29,6 @@ namespace SCGP.Controllers
 
         public IActionResult Edit(ServerViewModel obj)
         {
-            //_db.SaveChanges();
             return View();
         }
 

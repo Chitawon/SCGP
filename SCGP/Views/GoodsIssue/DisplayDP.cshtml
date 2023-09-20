@@ -1,4 +1,4 @@
-﻿@* @model something *@
+﻿﻿@* @model something *@
 @{
     ViewData["Title"] = "Display DP No.";
 }
@@ -15,13 +15,12 @@
                 <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Display DP No.</div>
                 <div class="mt-5">
 
-                    <div class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2">
-                        <button class="btn btn-success text-white shadow-md mr-2" data-tw-merge>Save DP</button>
-                        <button class="btn btn-danger shadow-md mr-2" data-tw-merge>Delete DP</button>
-                        <button class="btn btn-primary shadow-md mr-2" data-tw-merge>Refresh</button>
+                    <div class="intro-y col-span-12 flex flex-wrap items-center gap-2 mt-2">
+                        <button class="btn btn-success text-white shadow-md" data-tw-merge>Save DP</button>
+                        <button class="btn btn-danger shadow-md" data-tw-merge>Delete DP</button>
+                        <button class="btn btn-primary shadow-md" data-tw-merge>Refresh</button>
 
-                        <div class="hidden md:block mx-auto text-slate-500">Showing 1 to 10 of 150 entries</div>
-                        <div class="w-full sm:w-auto mt-3 sm:mt-0 sm:ml-auto md:ml-0">
+                        <div class="w-full sm:w-auto mt-3 sm:mt-0 sm:ml-auto">
                             <div class="w-56 relative text-slate-500 shadow-md">
                                 <input type="text" class="form-control w-56 box pr-10" placeholder="Search...">
                                 <i class="w-4 h-4 absolute my-auto inset-y-0 mr-3 right-0" data-lucide="search"></i>
@@ -87,39 +86,22 @@
             <div class="border border-slate-200/60 rounded-md p-5">
                 <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Display Delivery No when goods issue</div>
                 <div class="mt-5">
-                    <div class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2">
-                        <select class="tom-select w-32 mr-2" aria-label="Default select example">
+                    <div class="intro-y col-span-12 flex flex-wrap items-center gap-2 mt-2">
+                        <select class="tom-select w-32" aria-label="Default select example">
                             <option selected disabled>Select PM</option>
                             <option>PM 1-3</option>
                             <option>PM 4-7</option>
                             <option>PM 16</option>
                         </select>
-                        <select class="tom-select w-32 mr-2" aria-label="Default select example">
+                        <select class="tom-select w-32" aria-label="Default select example">
                             <option selected disabled>Select Plant</option>
                             <option>7521</option>
                             <option>7523</option>
                             <option>7567</option>
                         </select>
-                        <button class="btn btn-primary shadow-md mr-2" data-tw-merge>View DP</button>
-                        <button class="btn btn-danger shadow-md mr-2" data-tw-merge>Delete DP</button>
-                    </div>
-
-                    <div class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2">
-                        <!-- <select class="tom-select w-32 mr-2" aria-label="Default select example">
-                            <option selected disabled>Select PM</option>
-                            <option>PM 1-3</option>
-                            <option>PM 4-7</option>
-                            <option>PM 16</option>
-                        </select>
-                        <select class="tom-select w-32 mr-2" aria-label="Default select example">
-                            <option selected disabled>Select Plant</option>
-                            <option>7521</option>
-                            <option>7523</option>
-                            <option>7567</option>
-                        </select>
-                        <button class="btn btn-primary shadow-md mr-2" data-tw-merge>View DP</button>
-                        <button class="btn btn-danger shadow-md mr-2" data-tw-merge>Delete DP</button> -->
-                        <!-- <div class="dropdown">
+                        <button class="btn btn-primary shadow-md" data-tw-merge>View DP</button>
+                        <button class="btn btn-danger shadow-md" data-tw-merge>Delete DP</button>
+                        <div class="dropdown">
                             <button class="dropdown-toggle btn px-2  shadow-lg" aria-expanded="false" data-tw-toggle="dropdown">
                                 <span class="w-5 h-5 flex items-center justify-center"> <i class="w-4 h-4" data-lucide="plus"></i> </span>
                             </button>
@@ -139,8 +121,10 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div> -->
-                        <!-- <div class="hidden md:block mx-auto text-slate-500">Showing 1 to 10 of 150 entries</div> -->
+                        </div>
+                    </div>
+
+                    <div class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2">
                         <div class="w-full sm:w-auto mt-3 sm:mt-0 sm:ml-auto md:ml-auto">
                             <div class="w-56 relative text-slate-500 shadow-md">
                                 <input type="text" class="form-control w-56 box pr-10" placeholder="Search...">
@@ -195,7 +179,7 @@
                                         </div>
                                     </td>
                                     <td class="text-center">
-                                        <a class="text-primary font-bold" href="javascript:;" onclick="ViewDP(1)" data-tw-toggle="modal" data-tw-target="#data-modal">415051943</a>
+                                        <a class="text-primary font-bold" href="javascript:;" onclick="ViewDP()" data-tw-toggle="modal" data-tw-target="#data-modal">415051943</a>
                                     </td>
                                     <td class="text-center">17/8/2023 12:20:59</td>
                                     <td class="text-center">Betagro (Cambodia) Company Limited</td>
@@ -279,7 +263,6 @@
             </div>
         </div>
     </div>
-
     <!-- BEGIN: Modal Content -->
     <div id="data-modal" class="modal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog w-11/12">
@@ -291,11 +274,11 @@
                     <div class="overflow-x-auto mt-5">
                         <table class="table table-bordered" id="display">
                             <thead>
-                                <tr class="whitespace-nowrap">
-                                    <th>DELIVERY ITEM NO.</th>
-                                    <th>MATERIAL NUMBER</th>
+                                <tr class="text-center">
+                                    <th class="w-32">DELIVERY ITEM NO.</th>
+                                    <th class="w-1/4">MATERIAL NUMBER</th>
                                     <th>PLANT</th>
-                                    <th>STORAGE LOCATION</th>
+                                    <th class="w-32">STORAGE LOCATION</th>
                                     <th>QUANTITY</th>
                                     <th>SALES UNIT</th>
                                     <th>NET WEIGHT</th>
@@ -304,33 +287,33 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td class="">10</td>
-                                    <td class="">Z02DW300D40000160P</td>
+                                <tr class="text-center">
+                                    <td class="w-32">10</td>
+                                    <td class="w-1/4">Z02DW300D40000160P</td>
                                     <td class="">7581</td>
-                                    <td>9</td>
+                                    <td class="w-32">9</td>
                                     <td>10</td>
                                     <td>RM</td>
                                     <td>0.050</td>
                                     <td>0.055</td>
                                     <td>TON</td>
                                 </tr>
-                                <tr>
-                                    <td class="">20</td>
-                                    <td class="">Z02DW300D40000160P</td>
+                                <tr class="text-center">
+                                    <td class="w-32">20</td>
+                                    <td class="w-1/4">Z02DW300D40000160P</td>
                                     <td class="">7581</td>
-                                    <td>9</td>
+                                    <td class="w-32">9</td>
                                     <td>5</td>
                                     <td>RM</td>
                                     <td>0.020</td>
                                     <td>0.025</td>
                                     <td>TON</td>
                                 </tr>
-                                <tr>
-                                    <td class="">30</td>
-                                    <td class="">Z02DW300D40000160P</td>
+                                <tr class="text-center">
+                                    <td class="w-32">30</td>
+                                    <td class="w-1/4">Z02DW300D40000160P</td>
                                     <td class="">7581</td>
-                                    <td>9</td>
+                                    <td class="w-32">9</td>
                                     <td>20</td>
                                     <td>RM</td>
                                     <td>0.100</td>
@@ -340,16 +323,15 @@
                             </tbody>
                         </table>
                     </div>
+
                 </div>
                 <div class="modal-footer">
-                    <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-20 mr-1">Cancel</button>
-                    <!-- <button type="button" class="btn btn-primary w-20">Save</button> -->
+                    <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-20 mr-1">Close</button>
                 </div>
             </div>
         </div>
     </div>
     <!-- END: Modal Content -->
-
 </div>
 
 @* <script>
