@@ -1,4 +1,4 @@
-﻿@using SCGP.Models.MasterData.RoleManagementModel
+﻿﻿@using SCGP.Models.MasterData.RoleManagementModel
 @model Role
 @{
     ViewData["Title"] = "Add Role";
@@ -13,25 +13,25 @@
                 <div class="border border-slate-200/60 rounded-md p-5">
                     <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Role</div>
                     <div class="mt-5">
-                        <input type="text" value="" asp-for="@Model.Name" class="form-control">
+                            <input type="text" class="form-control" asp-for="@Model.Name">
                     </div>
                 </div>
             </div>
 
                 <div id="AssignPC" class="intro-y box p-5 mt-5">
                     <div class="border border-slate-200/60 rounded-md p-5">
-                        <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Assign PC </div>
-                        <div class="mt-5">
+                    <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Assign PC </div>
+                    <div class="mt-5">
 
-                            <div class="form-check mr-2">
-                                <input id="checkallPC" class="form-check-input" type="checkbox" value="">
-                                <label class="form-check-label" for="checkallPC">Check All</label>
-                            </div>
+                        <div class="form-check mr-2">
+                            <input id="checkall" class="form-check-input" type="checkbox" value="">
+                            <label class="form-check-label" for="checkall">Check All</label>
+                        </div>
 
-                            <!-- <div class="grid grid-cols-5 gap-3 mt-5"> -->
-                            <fieldset class="flex flex-col gap-3 mt-5">
+                        <!-- <div class="grid grid-cols-5 gap-3 mt-5"> -->
+                        <fieldset class="flex flex-col gap-3 mt-5">
                             <legend class="px-2">Master Data</legend>
-                            <div class="grid grid-cols-5 gap-3 mt-5">
+                            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-3 mt-5">
                                 <!-- <div>Authorize</div> -->
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
@@ -191,9 +191,9 @@
                             </div>
                         </fieldset>
 
-                            <fieldset class="flex flex-col gap-3 mt-5">
-                            <legend class="px-2">Goods Transfer</legend>
-                            <div class="grid grid-cols-5 gap-3 mt-5">
+                        <fieldset class="flex flex-col gap-3 mt-5">
+                            <legend class="px-2">Goods Receipt</legend>
+                            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-3 mt-5">
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
                                         <p>Movement Type 101</p>
@@ -206,46 +206,12 @@
                                         <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType102">
                                     </div>
                                 </div>
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 521</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType521">
-                                    </div>
-                                </div>
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 522</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType522">
-                                    </div>
-                                </div>
+                            </div>
+                        </fieldset>
 
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 201</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType201">
-                                    </div>
-                                </div>
-
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 202</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType202">
-                                    </div>
-                                </div>
-
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 909</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType909">
-                                    </div>
-                                </div>
-
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 910</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType910">
-                                    </div>
-                                </div>
+                        <fieldset class="flex flex-col gap-3 mt-5">
+                            <legend class="px-2">Goods Transfer</legend>
+                            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-3 mt-5">
 
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
@@ -305,20 +271,6 @@
 
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
-                                        <p>Movement Type 323</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType323">
-                                    </div>
-                                </div>
-
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 324</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType324">
-                                    </div>
-                                </div>
-
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
                                         <p>Movement Type 343</p>
                                         <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType343">
                                     </div>
@@ -333,16 +285,23 @@
 
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
-                                        <p>Movement Type 321 QI to UR</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType321QIToUR">
+                                        <p>Movement Type Z15</p>
+                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementTypeZ15">
+                                    </div>
+                                </div>
+
+                                <div class="border w-full p-3 rounded-lg zoom-in">
+                                    <div class="form-check">
+                                        <p>Movement Type 202</p>
+                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPC.GoodsTransfer.MovementType202">
                                     </div>
                                 </div>
                             </div>
                         </fieldset>
 
-                            <fieldset class="flex flex-col gap-3 mt-5">
+                        <fieldset class="flex flex-col gap-3 mt-5">
                             <legend class="px-2">Goods Issue</legend>
-                            <div class="grid grid-cols-5 gap-3 mt-5">
+                            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-3 mt-5">
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
                                         <p>Load DP No.</p>
@@ -382,9 +341,9 @@
                             </div>
                         </fieldset>
 
-                            <fieldset class="flex flex-col gap-3 mt-5">
+                        <fieldset class="flex flex-col gap-3 mt-5">
                             <legend class="px-2">DP Rewind</legend>
-                            <div class="grid grid-cols-5 gap-3 mt-5">
+                            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-3 mt-5">
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
                                         <p>Load Rewind No</p>
@@ -430,9 +389,9 @@
                             </div>
                         </fieldset>
 
-                            <fieldset class="flex flex-col gap-3 mt-5">
+                        <fieldset class="flex flex-col gap-3 mt-5">
                             <legend class="px-2">Report</legend>
-                            <div class="grid grid-cols-5 gap-3 mt-5">
+                            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-3 mt-5">
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
                                         <p>Loading Efficientcy</p>
@@ -483,24 +442,23 @@
                                 </div>
                             </div>
                         </fieldset>
-                            <!-- </div> -->
-                        </div>
+                        <!-- </div> -->
                     </div>
+                </div>
                 </div>
 
                 <div id="AssignPDA" class="intro-y box p-5 mt-5">
-                    <div class="border border-slate-200/60 rounded-md p-5">
-                        <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Assign PDA </div>
-                        <div class="mt-5">
+                    <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Assign PDA </div>
+                    <div class="mt-5">
 
-                            <div class="form-check mr-2">
-                                <input id="checkallPDA" class="form-check-input" type="checkbox" value="">
-                                <label class="form-check-label" for="checkallPDA">Check All</label>
-                            </div>
+                        <div class="form-check mr-2">
+                            <input id="checkall" class="form-check-input" type="checkbox" value="">
+                            <label class="form-check-label" for="checkall">Check All</label>
+                        </div>
 
-                            <fieldset class="flex flex-col gap-3 mt-5">
+                        <fieldset class="flex flex-col gap-3 mt-5">
                             <legend class="px-2">Master Data</legend>
-                            <div class="grid grid-cols-5 gap-3 mt-5">
+                            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-3 mt-5">
                                 <!-- <div>Authorize</div> -->
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
@@ -660,9 +618,9 @@
                             </div>
                         </fieldset>
 
-                            <fieldset class="flex flex-col gap-3 mt-5">
-                            <legend class="px-2">Goods Transfer</legend>
-                            <div class="grid grid-cols-5 gap-3 mt-5">
+                        <fieldset class="flex flex-col gap-3 mt-5">
+                            <legend class="px-2">Goods Receipt</legend>
+                            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-3 mt-5">
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
                                         <p>Movement Type 101</p>
@@ -675,46 +633,12 @@
                                         <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType102">
                                     </div>
                                 </div>
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 521</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType521">
-                                    </div>
-                                </div>
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 522</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType522">
-                                    </div>
-                                </div>
+                            </div>
+                        </fieldset>
 
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 201</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType201">
-                                    </div>
-                                </div>
-
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 202</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType202">
-                                    </div>
-                                </div>
-
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 909</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType909">
-                                    </div>
-                                </div>
-
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 910</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType910">
-                                    </div>
-                                </div>
+                        <fieldset class="flex flex-col gap-3 mt-5">
+                            <legend class="px-2">Goods Transfer</legend>
+                            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-3 mt-5">
 
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
@@ -774,20 +698,6 @@
 
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
-                                        <p>Movement Type 323</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType323">
-                                    </div>
-                                </div>
-
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
-                                        <p>Movement Type 324</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType324">
-                                    </div>
-                                </div>
-
-                                <div class="border w-full p-3 rounded-lg zoom-in">
-                                    <div class="form-check">
                                         <p>Movement Type 343</p>
                                         <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType343">
                                     </div>
@@ -802,16 +712,23 @@
 
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
-                                        <p>Movement Type 321 QI to UR</p>
-                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType321QIToUR">
+                                        <p>Movement Type Z15</p>
+                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementTypeZ15">
+                                    </div>
+                                </div>
+
+                                <div class="border w-full p-3 rounded-lg zoom-in">
+                                    <div class="form-check">
+                                        <p>Movement Type 202</p>
+                                        <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.GoodsTransfer.MovementType202">
                                     </div>
                                 </div>
                             </div>
                         </fieldset>
 
-                            <fieldset class="flex flex-col gap-3 mt-5">
+                        <fieldset class="flex flex-col gap-3 mt-5">
                             <legend class="px-2">Goods Issue</legend>
-                            <div class="grid grid-cols-5 gap-3 mt-5">
+                            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-3 mt-5">
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
                                         <p>Load DP No.</p>
@@ -851,9 +768,9 @@
                             </div>
                         </fieldset>
 
-                            <fieldset class="flex flex-col gap-3 mt-5">
+                        <fieldset class="flex flex-col gap-3 mt-5">
                             <legend class="px-2">DP Rewind</legend>
-                            <div class="grid grid-cols-5 gap-3 mt-5">
+                            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-3 mt-5">
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
                                         <p>Load Rewind No</p>
@@ -899,9 +816,8 @@
                             </div>
                         </fieldset>
 
-                            <fieldset class="flex flex-col gap-3 mt-5">
+                        <fieldset class="flex flex-col gap-3 mt-5">
                             <legend class="px-2">Report</legend>
-                            <div class="grid grid-cols-5 gap-3 mt-5">
                                 <div class="border w-full p-3 rounded-lg zoom-in">
                                     <div class="form-check">
                                         <p>Loading Efficientcy</p>
@@ -952,15 +868,14 @@
                                 </div>
                             </div>
                         </fieldset>
-                        </div>
                     </div>
                 </div>
+            </div>
 
                 <div class="flex justify-end flex-col md:flex-row gap-2 mt-5">
-                <a href="@Url.Action("Index")" class="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Cancel</a>
-                <button type="submit" asp-action="Create" class="btn py-3 btn-primary w-full md:w-52">Save</button>
-            </div>
-            </div>
+                    <a href="@Url.Action("Index")" class="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Cancel</a>
+                    <button type="submit" asp-action="Create" class="btn py-3 btn-primary w-full md:w-52">Save</button>
+                </div>
 		</form>
     </div>
 </div>

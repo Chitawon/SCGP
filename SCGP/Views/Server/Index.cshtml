@@ -213,80 +213,78 @@
     <!-- BEGIN: Modal Add -->
     <div id="add-data-modal" class="modal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="font-medium text-base mr-auto">Add New Server</h2>
-                </div>
-                <form method="post">
+            <form method="post">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="font-medium text-base mr-auto">Add New Server</h2>
+                    </div>
                     <div class="modal-body p-10 ">
                         <div class="form-inline">
                             <label for="" class="form-label sm:w-32" asp-for="submitServer.ServerName">Server Name</label>
-                            <input id="" type="text" class="form-control" asp-for="submitServer.ServerName" placeholder="">
+                            <input id="" type="text" class="form-control" placeholder="" asp-for="submitServer.ServerName">
                         </div>
                         <div class="form-inline mt-5">
                             <label for="" class="form-label sm:w-32" asp-for="submitServer.DataBaseName">Database Name</label>
-                            <input id="" type="text" class="form-control" asp-for="submitServer.DataBaseName" placeholder="">
+                            <input id="" type="text" class="form-control" placeholder="" asp-for="submitServer.DataBaseName">
                         </div>
                         <div class="form-inline mt-5">
                             <label for="" class="form-label sm:w-32" asp-for="submitServer.IPAddress">IP Adress</label>
-                            <input id="" type="text" class="form-control" asp-for="submitServer.IPAddress" placeholder="">
+                            <input id="" type="text" class="form-control" placeholder="" asp-for="submitServer.IPAddress">
                         </div>
                         <div class="form-inline mt-5">
-                            <label for="" class="form-label sm:w-32" asp-for="submitServer.UserName">>User Name</label>
-                            <input id="" type="text" class="form-control" asp-for="submitServer.UserName"> placeholder="">
+                            <label for="" class="form-label sm:w-32" asp-for="submitServer.UserName">User Name</label>
+                            <input id="" type="text" class="form-control" placeholder="" asp-for="submitServer.UserName">
                         </div>
                         <div class="form-inline mt-5">
                             <label for="" class="form-label sm:w-32" asp-for="submitServer.Password">Password</label>
-                            <input id="" type="text" class="form-control" asp-for="submitServer.Password" placeholder="">
+                            <input id="" type="text" class="form-control" placeholder="" asp-for="submitServer.Password">
                         </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-20 mr-1">Cancel</button>
-                        <button type="button" class="btn btn-primary w-20" asp-action="Create">Save</button>
+                        <button type="submit" class="btn btn-primary w-20" asp-action="Create">Save</button>
                     </div>
-                </form>
             </div>
+            </form>
         </div>
     </div>
     <!-- END: Modal Add -->
     <!-- BEGIN: Modal Edit -->
     <div id="edit-data-modal" class="modal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-lg">
-			<form>
+            <form>
                 <div class="modal-content">
                     <div class="modal-header">
                         <h2 class="font-medium text-base mr-auto">Edit Server</h2>
                     </div>
-                    
                     <div class="modal-body p-10 ">
                         <div class="form-inline">
                             <label for="" class="form-label sm:w-32" asp-for="submitServer.ServerName">Server Name</label>
-                            <input id="EditServerName" type="text" class="form-control" asp-for="submitServer.ServerName" value="" placeholder="">
+                            <input id="" type="text" class="form-control" asp-for="submitServer.ServerName" value="PM 1-3" placeholder="">
                         </div>
                         <div class="form-inline mt-5">
                             <label for="" class="form-label sm:w-32" asp-for="submitServer.DataBaseName">Database Name</label>
-                            <input id="EditDataBaseName" type="text" class="form-control" asp-for="submitServer.DataBaseName" value="" placeholder="">
+                            <input id="" type="text" class="form-control" asp-for="submitServer.DataBaseName" value="PLSSKIC" placeholder="">
                         </div>
                         <div class="form-inline mt-5">
                             <label for="" class="form-label sm:w-32" asp-for="submitServer.IPAddress">IP Adress</label>
-                            <input id="EditIPAddress" type="text" class="form-control" asp-for="submitServer.IPAddress" value="" placeholder="">
+                            <input id="" type="text" class="form-control" asp-for="submitServer.IPAddress" value="172.29.56.105" placeholder="">
                         </div>
                         <div class="form-inline mt-5">
                             <label for="" class="form-label sm:w-32" asp-for="submitServer.UserName">User Name</label>
-                            <input id="EditUserName" type="text" class="form-control" asp-for="submitServer.UserName"> value="" placeholder="">
+                            <input id="" type="text" class="form-control" asp-for="submitServer.UserName" value="handheld" placeholder="">
                         </div>
                         <div class="form-inline mt-5">
                             <label for="" class="form-label sm:w-32" asp-for="submitServer.Password">Password</label>
-                            <input id="EditPassword" type="text" class="form-control" asp-for="submitServer.Password" value="" placeholder="">
+                            <input id="" type="text" class="form-control" asp-for="submitServer.Password" value="handheld" placeholder="">
                         </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-20 mr-1">Cancel</button>
                         <button type="submit" class="btn btn-primary w-20" asp-action="Edit">Save</button>
                     </div>
-                    
                 </div>
-			</form>
+            </form>
         </div>
     </div>
     <!-- END: Modal Edit -->
