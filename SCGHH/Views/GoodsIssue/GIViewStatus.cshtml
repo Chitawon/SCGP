@@ -1,0 +1,46 @@
+﻿@page
+
+@{
+}
+
+<!-- navigate title -->
+<div class="container px-4 d-flex" style="background: #3249BF;">
+    <a href="~/mainmenu"><p class="navigate-text">Main Menu</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="/goodsissue/mainmenu"><p class="navigate-text">GI Menu</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="/goodsissue/gi"><p class="navigate-text">Goods Issue</p></a>
+</div>
+<!-- end navigate title -->
+
+<div class="container px-4 mt-4">
+    <form action="">
+        <div class="row g-3 align-items-center text-start">
+            <div class="col-4">
+                <label for="dpNumber" class="font-size-75">DP No.</label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="dpNumber" class="form-control form-control-22" placeholder="0413347872" disabled>
+            </div>
+        </div>
+
+        <a href="#"><p class="link-text font-size-75 mt-4 mb-3">Have old scan Do you want delete data?</p></a>
+
+        <div class="form-check my-3 d-flex align-items-center">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label font-size-75" for="exampleRadios1">
+                Yes delete all data
+            </label>
+        </div>
+        <div class="form-check my-3 d-flex align-items-center">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label font-size-75" for="exampleRadios2">
+                No delete & keep all data
+            </label>
+        </div>
+
+        <div class="row mt-5 justify-content-center">
+            <button type="submit" formaction="/goodsissue/giviewstatusdetail" class="btn-blue btn-col-12">OK</button>
+        </div>
+    </form>
+</div>

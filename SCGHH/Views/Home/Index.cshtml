@@ -1,0 +1,97 @@
+﻿@page
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robot" content="index, follow" />
+    <meta name='copyright' content='Orange Technology Solution co.,ltd.'>
+    <meta name='designer' content='Netthakan O.'>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta property="og:image" content="~i/mages/logo.png" />
+    <link type="text/css" rel="stylesheet" href="~/css/layout.css" />
+    <link type="image/ico" rel="shortcut icon" href="~/images/SCGP_Logo-01.png">
+
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="~/js/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery-ui.js" asp-append-version="true"></script>
+    <script src="~/js/modernizr.js" asp-append-version="true"></script>
+    <script src="~/js/owl.carousel.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery.fancybox.min.js" asp-append-version="true"></script>
+
+
+</head>
+
+
+<div class="container px-35 text-center">
+    <img src="~/images/SCGP_Logo-01.png" class="img-fluid mt-5 pt-5 pb-3" alt="SCGP-Logo" width="65%">
+
+
+    <div class="row mt-5" id="indexButton">
+        <a href="#" class="btn-blue btn-block" id="scgButton">
+            <button type="button" class="btn-blue">SCG USER</button>
+        </a>
+        <a href="#" class="btn-blue btn-block mt-3" id="privateButton">
+            <button type="button" class="btn-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" onclick="hideButton(0)">PRIVATE USER</button>
+        </a>
+    </div>
+
+    <div class="collapse" id="collapseExample">
+        <form>
+            <div class="row g-3 align-items-center text-start mt-4">
+                <div class="col-4">
+                    <label for="username" class="col-form-label">Username</label>
+                </div>
+                <div class="col-8">
+                    <input type="text" id="username" class="form-control">
+                </div>
+
+                <div class="col-4">
+                    <label for="password" class="col-form-label">Password</label>
+                </div>
+                <div class="col-8">
+                    <input type="password" id="password" class="form-control">
+                </div>
+            </div>
+
+            <div class="row mt-5 justify-content-between">
+                <a href="/Home/Pmplant" class="col-6 btn-blue btn-col-6 mt-3">
+                    <button type="button" class="btn-blue ">Log In</button>
+                </a>
+                <a href="#" class="col-6 btn-black btn-col-6 mt-3">
+                    <button type="button" class="btn-black" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" onclick="hideButton(1)">Back</button>
+                </a>
+            </div>
+        </form>
+    </div>
+
+
+</div>
+
+<script>
+    function hideButton(b) {
+        if (b == 0) {
+            document.getElementById("indexButton").style.display = 'none';
+            document.getElementById("scgButton").style.display = 'none';
+            document.getElementById("privateButton").style.display = 'none';
+        } else {
+            document.getElementById("indexButton").style.display = 'block';
+            document.getElementById("scgButton").style.display = 'block';
+            document.getElementById("privateButton").style.display = 'block';
+        }
+    }
+</script>
+
+</html>

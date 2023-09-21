@@ -1,0 +1,526 @@
+﻿@page
+
+@{
+}
+
+<!-- navigate title -->
+<div class="container px-4 d-flex" style="background: #3249BF;">
+    <a href="~/mainmenu"><p class="navigate-text">Main Menu</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="/goodsissue/mainmenu"><p class="navigate-text">Goods Issue</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="#"><p class="navigate-text">Movement Type</p></a>
+</div>
+<!-- end navigate title -->
+
+<div class="container px-4 mt-4">
+    <form action="">
+        <div class="row g-3 mb-0 align-items-center text-start">
+            <div class="col-4">
+                <label for="batch" class="font-size-75">Movement Type</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size" id="movementType" onchange="changeForm()">
+                    <option selected>Select</option>
+                    <option value="201">201 - GI for cost center</option>
+                    <option value="202">202 - RE for cost center</option>
+                    <option value="Z09">Z09 - GI scrapping</option>
+                    <option value="Z10">Z10 - RE GI scrapping</option>
+                </select>
+            </div>
+        </div>
+
+
+        <!-- 201 Form -->
+        <div class="row g-3 mt-0 align-items-center text-start d-none mvt-form" id="201">
+            <div class="col-4">
+                <label for="batchNo" class="font-size-75">Batch No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="batchNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="materialNo" class="font-size-75">Material No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="materialNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="fromPlant" class="font-size-75">Plant</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="">Select</option>
+                    <option value="">7567</option>
+                    <option value="">7521</option>
+                    <option value="">7523</option>
+                    <option value="">7531</option>
+                    <option value="">7533</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="storageFrom" class="font-size-75">Storage</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="">Select</option>
+                    <option value="">1</option>
+                    <option value="">3</option>
+                    <option value="">P1</option>
+                    <option value="">P3</option>
+                    <option value="">S1</option>
+                    <option value="">S3</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="itemText" class="font-size-75">Text</label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="itemText" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="entryQuantity" class="font-size-75">Quantity</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="entryQuantity" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="entryUnit" class="font-size-75">Unit</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="entryUnit" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="costCenter" class="font-size-75">Cost Center</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="costCenter" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="contractNo" class="font-size-75">PI No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="contractNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="exportOrderNo" class="font-size-75">EO No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="exportOrderNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="length" class="font-size-75">Length</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="length" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="diameter" class="font-size-75">Diameter</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="diameter" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="containerItem" class="font-size-75">Container Item</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="containerItem" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="rollBatch" class="font-size-75">Roll Batch</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="rollBatch" class="form-control form-control-22">
+            </div>
+        </div>
+        <!-- end 201 Form -->
+        <!-- 202 Form -->
+        <div class="row g-3 mt-0 align-items-center text-start d-none mvt-form" id="202">
+            <div class="col-4">
+                <label for="batchNo" class="font-size-75">Batch No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="batchNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="materialNo" class="font-size-75">Material No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="materialNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="fromPlant" class="font-size-75">Plant</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="">Select</option>
+                    <option value="">7567</option>
+                    <option value="">7521</option>
+                    <option value="">7523</option>
+                    <option value="">7531</option>
+                    <option value="">7533</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="storageFrom" class="font-size-75">Storage</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="">Select</option>
+                    <option value="">1</option>
+                    <option value="">3</option>
+                    <option value="">P1</option>
+                    <option value="">P3</option>
+                    <option value="">S1</option>
+                    <option value="">S3</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="itemText" class="font-size-75">Text</label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="itemText" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="entryQuantity" class="font-size-75">Quantity</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="entryQuantity" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="entryUnit" class="font-size-75">Unit</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="entryUnit" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="costCenter" class="font-size-75">Cost Center</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="costCenter" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="contractNo" class="font-size-75">PI No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="contractNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="exportOrderNo" class="font-size-75">EO No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="exportOrderNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="length" class="font-size-75">Length</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="length" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="diameter" class="font-size-75">Diameter</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="diameter" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="containerItem" class="font-size-75">Container Item</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="containerItem" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="rollBatch" class="font-size-75">Roll Batch</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="rollBatch" class="form-control form-control-22">
+            </div>
+        </div>
+        <!-- end 202 Form -->
+        <!-- Z09 Form -->
+        <div class="row g-3 mt-0 align-items-center text-start d-none mvt-form" id="Z09">
+            <div class="col-4">
+                <label for="batchNo" class="font-size-75">Batch No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="batchNo" class="form-control form-control-22">
+            </div>
+
+            <div class="col-4">
+                <label for="materialNo" class="font-size-75">Material No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="materialNo" class="form-control form-control-22">
+            </div>
+
+            <div class="col-4">
+                <label for="fromPlant" class="font-size-75">Plant</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="">7567</option>
+                    <option value="">7521</option>
+                    <option value="">7523</option>
+                    <option value="">7531</option>
+                    <option value="">7533</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="storageFrom" class="font-size-75">Storage</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="">1</option>
+                    <option value="">3</option>
+                    <option value="">P1</option>
+                    <option value="">P3</option>
+                    <option value="">S1</option>
+                    <option value="">S3</option>
+                </select>
+            </div>
+
+            <div class="col-4">
+                <label for="itemText" class="font-size-75">Item Text</label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="itemText" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="entryQuantity" class="font-size-75">Quantity</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="entryQuantity" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="entryUnit" class="font-size-75">Unit</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="entryUnit" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="glNo" class="font-size-75">G/L No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="glNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="contractNo" class="font-size-75">Contract No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="contractNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="exportOrderNo" class="font-size-75">Export Order No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="exportOrderNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="length" class="font-size-75">Length</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="length" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="diameter" class="font-size-75">Diameter</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="diameter" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="containerItem" class="font-size-75">Container Item</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="containerItem" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="rollBatch" class="font-size-75">Roll Batch</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="rollBatch" class="form-control form-control-22">
+            </div>
+        </div>
+        <!-- end Z09 Form -->
+        <!-- Z10 Form -->
+        <div class="row g-3 mt-0 align-items-center text-start d-none mvt-form" id="Z10">
+            <div class="col-4">
+                <label for="batchNo" class="font-size-75">Batch No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="batchNo" class="form-control form-control-22">
+            </div>
+
+            <div class="col-4">
+                <label for="materialNo" class="font-size-75">Material No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="materialNo" class="form-control form-control-22">
+            </div>
+
+            <div class="col-4">
+                <label for="fromPlant" class="font-size-75">Plant</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="">7567</option>
+                    <option value="">7521</option>
+                    <option value="">7523</option>
+                    <option value="">7531</option>
+                    <option value="">7533</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="storageFrom" class="font-size-75">Storage</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="">1</option>
+                    <option value="">3</option>
+                    <option value="">P1</option>
+                    <option value="">P3</option>
+                    <option value="">S1</option>
+                    <option value="">S3</option>
+                </select>
+            </div>
+
+            <div class="col-4">
+                <label for="itemText" class="font-size-75">Item Text</label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="itemText" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="entryQuantity" class="font-size-75">Quantity</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="entryQuantity" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="entryUnit" class="font-size-75">Unit</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="entryUnit" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="glNo" class="font-size-75">G/L No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="glNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="contractNo" class="font-size-75">Contract No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="contractNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="exportOrderNo" class="font-size-75">Export Order No.</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="exportOrderNo" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="length" class="font-size-75">Length</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="length" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="diameter" class="font-size-75">Diameter</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="diameter" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="containerItem" class="font-size-75">Container Item</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="containerItem" class="form-control form-control-22">
+            </div>
+            <div class="col-4">
+                <label for="rollBatch" class="font-size-75">Roll Batch</label>
+            </div>
+            <div class="col-8">
+                <!-- get value -->
+                <input type="text" id="rollBatch" class="form-control form-control-22">
+            </div>
+        </div>
+        <!-- end Z10 Form -->
+
+
+        <div class="row mx-0 my-4 pb-4 justify-content-between text-center d-none" id="formButton">
+            <a href="#" class="col-6 btn-blue btn-col-6">
+                <button type="button" class="btn-blue">OK</button>
+            </a>
+            <a href="/goodsissue/mainmenu" class="col-6 btn-black btn-col-6">
+                <button type="button" class="btn-black">Back</button>
+            </a>
+        </div>
+
+    </form>
+
+</div>
+
+
+<script>
+    const mvtSelectEl = document.querySelector("#movementType");
+    const mvtFormEl = document.querySelectorAll(".mvt-form");
+    const formButton = document.querySelector("#formButton");
+
+    function changeForm() {
+        for (let i = 0; i < mvtFormEl.length; i++) {
+            if (mvtFormEl[i].getAttribute("id") == mvtSelectEl.value) {
+                mvtFormEl[i].classList.remove("d-none");
+                formButton.classList.remove("d-none");
+            } else if (mvtSelectEl.value == 'Select') {
+                mvtFormEl[i].classList.add("d-none");
+                formButton.classList.add("d-none");
+            } else {
+                mvtFormEl[i].classList.add("d-none");
+            }
+        }
+    }
+</script>

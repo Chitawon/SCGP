@@ -1,0 +1,142 @@
+﻿
+@page
+@{
+    Layout = null;
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robot" content="index, follow" />
+    <meta name='copyright' content='Orange Technology Solution co.,ltd.'>
+    <meta name='designer' content='Netthakan O.'>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta property="og:image" content="~i/mages/logo.png" />
+    <link type="text/css" rel="stylesheet" href="~/css/layout.css" />
+    <link type="image/ico" rel="shortcut icon" href="~/images/SCGP_Logo-01.png">
+
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="~/js/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery-ui.js" asp-append-version="true"></script>
+    <script src="~/js/modernizr.js" asp-append-version="true"></script>
+    <script src="~/js/owl.carousel.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery.fancybox.min.js" asp-append-version="true"></script>
+
+
+</head>
+<body>
+    <div class="container px-35 text-center">
+        <img src="~/images/SCGP_Logo-01.png" class="img-fluid mt-5 pt-5" alt="SCGP-Logo" width="65%">
+
+        <form action="">
+            <div class="row g-3 align-items-center text-start mt-5">
+                <div class="col-4">
+                    <label for="pm" class="col-form-label">PM</label>
+                </div>
+                <div class="col-8">
+                    <select id="pm" onchange="changeForm()">
+                        <option value="1-3" selected>PM 1-3</option>
+                        <option value="16">PM 16</option>
+                        <option value="17">PM 17</option>
+                        <option value="TCP1">TCP1</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- PM 1-3 Form -->
+            <div class="row g-3 mt-0 align-items-center text-start mvt-form" id="1-3">
+                <div class="col-4">
+                    <label for="plant" class="col-form-label">Plant</label>
+                </div>
+                <div class="col-8">
+                    <select class="select-size">
+                        <option value="7521-SKBP" selected>7521 : SKBP</option>
+                        <option value="7534-WS">7534 : WS คลังแป้งมัน</option>
+                        <option value="7531-OSBP">7531 : OutSource [BP]</option>
+                        <option value="7533-WSOS">7533 : WS OutSource</option>
+                        <option value="7533-OSBP">7533 : OutSource BP</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end PM 1-3 Form -->
+            <!-- PM 16 Form -->
+            <div class="row g-3 mt-0 align-items-center text-start d-none mvt-form" id="16">
+                <div class="col-4">
+                    <label for="plant" class="col-form-label">Plant</label>
+                </div>
+                <div class="col-8">
+                    <select class="select-size">
+                        <option value="7550-PM16" selected>7550 : PM16</option>
+                        <option value="7531-OSPM16">7531 : OutSource PM16</option>
+                        <option value="7533-WSOS">7533 : WS OutSource</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end PM 16 Form -->
+            <!-- PM 17 Form -->
+            <div class="row g-3 mt-0 align-items-center text-start d-none mvt-form" id="17">
+                <div class="col-4">
+                    <label for="plant" class="col-form-label">Plant</label>
+                </div>
+                <div class="col-8">
+                    <select class="select-size">
+                        <option value="7551-PM17" selected>7551 : PM17</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end PM 17 Form -->
+            <!-- PM TCP1 Form -->
+            <div class="row g-3 mt-0 align-items-center text-start d-none mvt-form" id="TCP1">
+                <div class="col-4">
+                    <label for="plant" class="col-form-label">Plant</label>
+                </div>
+                <div class="col-8">
+                    <select class="select-size">
+                        <option value="NotFound" selected>Not Found</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end PM TCP1 Form -->
+
+            <div class="row mt-5 justify-content-between">
+                <a href="/mainmenu" class="col-6 btn-blue btn-col-6 mt-3">
+                    <button type="button" class="btn-blue ">OK</button>
+                </a>
+                <a href="/home" class="col-6 btn-black btn-col-6 mt-3">
+                    <button type="button" class="btn-black">Back</button>
+                </a>
+            </div>
+        </form>
+
+
+    </div>
+
+
+
+
+<script>
+    const pmSelectEl = document.querySelector("#pm");
+    const mvtFormEl = document.querySelectorAll(".mvt-form");
+    const formButton = document.querySelector("#formButton");
+
+    function changeForm() {
+        for (let i = 0; i < mvtFormEl.length; i++) {
+            if (mvtFormEl[i].getAttribute("id") == pmSelectEl.value) {
+                mvtFormEl[i].classList.remove("d-none");
+            } else {
+                mvtFormEl[i].classList.add("d-none");
+            }
+        }
+    }
+</script>
+</body>
+</html>

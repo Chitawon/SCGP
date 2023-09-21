@@ -1,0 +1,74 @@
+﻿@page
+
+@{
+}
+
+<!-- navigate title -->
+<div class="container px-4 d-flex" style="background: #3249BF;">
+    <a href="~/mainmenu"><p class="navigate-text">Main Menu</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="/dprewind/mainmenu"><p class="navigate-text">DP Rewind</p></a>
+</div>
+<!-- end navigate title -->
+
+<div class="container px-4 mt-4">
+    <form action="">
+        <div class="row g-3 align-items-center text-start">
+            <div class="col-4">
+                <label for="dpNumber" class="font-size-75">DP No.</label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="dpNumber" class="form-control form-control-22" placeholder="SKC160516007" disabled>
+            </div>
+
+            <div class="col-4">
+                <label for="batchNumber" class="font-size-75">Batch No.</label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="batchNumber" class="form-control form-control-22">
+            </div>
+
+            <div class="col-4">
+                <label for="scanTotal" class="font-size-75">Scan Total</label>
+            </div>
+            <div class="col-8 font-size-75 d-flex align-items-center">
+                <p class="flex-grow-1 mb-0">1/2</p>
+                <p class="flex-grow-1 mb-0">1.280/2.560 Ton</p>
+            </div>
+        </div>
+
+        <div class="row mx-0 mt-5 justify-content-between text-center">
+            <a href="#" class="col-6 btn-blue btn-col-6">
+                <button type="submit" class="btn-blue">Send to SAP</button>
+            </a>
+            <a href="/dprewind/mainmenu" class="col-6 btn-black btn-col-6">
+                <button type="button" class="btn-black">Back</button>
+            </a>
+        </div>
+
+    </form>
+
+    <div class="row mt-4 mx-0">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Batch</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Material</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>118A07708A</td>
+                    <td>1.280</td>
+                    <td>Z02CA-150D1690117N</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+</div>

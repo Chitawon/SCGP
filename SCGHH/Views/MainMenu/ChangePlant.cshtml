@@ -1,0 +1,114 @@
+﻿@page
+
+@{
+}
+
+<!-- navigate title -->
+<div class="container px-4 d-flex" style="background: #3249BF;">
+    <a href="/mainmenu"><p class="navigate-text">Main Menu</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="/changeplant"><p class="navigate-text">Change Plant</p></a>
+</div>
+<!-- end navigate title -->
+
+<div class="container px-4 mt-4">
+    <form action="">
+        <div class="row g-3 mb-0 align-items-center text-start">
+            <div class="col-4">
+                <label for="pm" class="font-size-75">PM</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size" id="pm" onchange="changeForm()">
+                    <option value="1-3" selected>PM 1-3</option>
+                    <option value="16">PM 16</option>
+                    <option value="17">PM 17</option>
+                    <option value="TCP1">TCP1</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- PM 1-3 Form -->
+        <div class="row g-3 mt-0 align-items-center text-start mvt-form" id="1-3">
+            <div class="col-4">
+                <label for="plant" class="font-size-75">Plant</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="7521-SKBP" selected>7521 : SKBP</option>
+                    <option value="7534-WS">7534 : WS คลังแป้งมัน</option>
+                    <option value="7531-OSBP">7531 : OutSource [BP]</option>
+                    <option value="7533-WSOS">7533 : WS OutSource</option>
+                    <option value="7533-OSBP">7533 : OutSource BP</option>
+                </select>
+            </div>
+        </div>
+        <!-- end PM 1-3 Form -->
+        <!-- PM 16 Form -->
+        <div class="row g-3 mt-0 align-items-center text-start d-none mvt-form" id="16">
+            <div class="col-4">
+                <label for="plant" class="font-size-75">Plant</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="7550-PM16" selected>7550 : PM16</option>
+                    <option value="7531-OSPM16">7531 : OutSource PM16</option>
+                    <option value="7533-WSOS">7533 : WS OutSource</option>
+                </select>
+            </div>
+        </div>
+        <!-- end PM 16 Form -->
+        <!-- PM 17 Form -->
+        <div class="row g-3 mt-0 align-items-center text-start d-none mvt-form" id="17">
+            <div class="col-4">
+                <label for="plant" class="font-size-75">Plant</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="7551-PM17" selected>7551 : PM17</option>
+                </select>
+            </div>
+        </div>
+        <!-- end PM 17 Form -->
+        <!-- PM TCP1 Form -->
+        <div class="row g-3 mt-0 align-items-center text-start d-none mvt-form" id="TCP1">
+            <div class="col-4">
+                <label for="plant" class="font-size-75">Plant</label>
+            </div>
+            <div class="col-8">
+                <select class="select-size">
+                    <option value="NotFound" selected>Not Found</option>
+                </select>
+            </div>
+        </div>
+        <!-- end PM TCP1 Form -->
+
+        <div class="row mx-0 my-5 pb-4 justify-content-between text-center" id="formButton">
+            <a href="" class="col-6 btn-blue btn-col-6">
+                <button type="button" class="btn-blue">OK</button>
+            </a>
+            <a href="/mainmenu" class="col-6 btn-black btn-col-6">
+                <button type="button" class="btn-black">Back</button>
+            </a>
+        </div>
+
+    </form>
+
+</div>
+
+
+
+<script>
+    const pmSelectEl = document.querySelector("#pm");
+    const mvtFormEl = document.querySelectorAll(".mvt-form");
+    const formButton = document.querySelector("#formButton");
+
+    function changeForm() {
+        for (let i = 0; i < mvtFormEl.length; i++) {
+            if (mvtFormEl[i].getAttribute("id") == pmSelectEl.value) {
+                mvtFormEl[i].classList.remove("d-none");
+            } else {
+                mvtFormEl[i].classList.add("d-none");
+            }
+        }
+    }
+</script>

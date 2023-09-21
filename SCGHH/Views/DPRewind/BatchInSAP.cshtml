@@ -1,0 +1,31 @@
+﻿@page
+
+@{
+}
+
+<!-- navigate title -->
+<div class="container px-4 d-flex" style="background: #3249BF;">
+    <a href="~/mainmenu"><p class="navigate-text">Main Menu</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="/dprewind/mainmenu"><p class="navigate-text">DP Rewind</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="#"><p class="navigate-text">Batch in SAP</p></a>
+</div>
+<!-- end navigate title -->
+
+<div class="container px-4 mt-4">
+    <form action="">
+        <div class="row g-3 align-items-center text-start">
+            <div class="col-4">
+                <label for="dpNumber" class="font-size-75">DP No.</label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="dpNumber" class="form-control form-control-22">
+            </div>
+        </div>
+
+        <div class="row mt-5 justify-content-center">
+            <button type="submit" formaction="/dprewind/dpdetail" class="btn-blue btn-col-12">Rewind Menu</button>
+        </div>
+    </form>
+</div>

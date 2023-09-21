@@ -1,0 +1,36 @@
+﻿@page
+
+@{
+}
+
+<!-- navigate title -->
+<div class="container px-4 d-flex" style="background: #3249BF;">
+    <a href="~/mainmenu"><p class="navigate-text">Main Menu</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="/goodsissue/mainmenu"><p class="navigate-text">GI Menu</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="/goodsissue/gi"><p class="navigate-text">Goods Issue</p></a>
+</div>
+<!-- end navigate title -->
+
+<div class="container px-4 mt-4">
+    <form action="">
+        <div class="row g-3 align-items-center text-start">
+            <div class="col-4">
+                <label for="dpNumber" class="font-size-75">DP No.</label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="dpNumber" class="form-control form-control-22">
+            </div>
+        </div>
+
+        <div class="row mx-0 mt-5 justify-content-between text-center">
+            <a href="/goodsissue/giviewstatus" class="col-6 btn-blue btn-col-6">
+                <button type="button" class="btn-blue">View Status</button>
+            </a>
+            <a href="/goodsissue/mainmenu" class="col-6 btn-black btn-col-6">
+                <button type="button" class="btn-black">Back</button>
+            </a>
+        </div>
+    </form>
+</div>

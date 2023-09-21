@@ -1,0 +1,78 @@
+﻿@page
+
+@{
+}
+
+<!-- navigate title -->
+<div class="container px-4 d-flex" style="background: #3249BF;">
+    <a href="~/mainmenu"><p class="navigate-text">Main Menu</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="/goodsissue/mainmenu"><p class="navigate-text">GI Menu</p></a>
+    <p class="navigate-text">&nbsp;>&nbsp;</p>
+    <a href="/goodsissue/gi"><p class="navigate-text">Goods Issue</p></a>
+</div>
+<!-- end navigate title -->
+
+<div class="container px-4 mt-4">
+    <form action="">
+        <div class="row g-3 align-items-center text-start">
+            <div class="col-4">
+                <label for="dpNumber" class="font-size-75">DP No.</label>
+            </div>
+            <div class="col-8">
+                <input type="text" id="dpNumber" class="form-control form-control-22" placeholder="0413347872" disabled>
+            </div>
+
+            <div class="col-5">
+                <label for="scanTotal" class="font-size-75">Total Material/Total Qty</label>
+            </div>
+            <div class="col-7 font-size-75 d-flex align-items-center">
+                <p class="mb-0">1/9</p>
+            </div>
+
+            <div class="col-5">
+                <label for="scanTotal" class="font-size-75">Total Weight</label>
+            </div>
+            <div class="col-7 font-size-75 d-flex align-items-center">
+                <p class="mb-0">1.280/9.194 Ton</p>
+            </div>
+        </div>
+
+        <div class="row mx-0 mt-5 justify-content-between text-center">
+            <a href="/goodsissue/giviewstatusscandata" class="col-6 btn-blue btn-col-6">
+                <button type="button" class="btn-blue">Scan Data</button>
+            </a>
+            <a href="/goodsissue/gi" class="col-6 btn-black btn-col-6">
+                <button type="button" class="btn-black">Back</button>
+            </a>
+        </div>
+
+    </form>
+
+
+    <div class="row mt-4 mx-0">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Material</th>
+                    <th scope="col">SAP Qty</th>
+                    <th scope="col">HH Qty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Z02CA-150D1690117N</td>
+                    <td>9.194</td>
+                    <td>1.280</td>
+                </tr>
+                <tr style="background: #E2EBFB; border: 1px solid #E2EBFB">
+                    <td colspan="2">Total : </td>
+                    <td>9.194</td>
+                    <td>1.280</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,229 @@
+body{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+html, body {
+    height: 320px;
+    width: 240px;
+    background-color: #F5F5F5;
+    color: #666 !important;
+    font-size: 8px !important;
+}
+
+input, select {
+    border: 1px solid rgba(194, 194, 194, 0.41) !important;
+    background: #F5F5F5 !important;
+    height: 22px;
+    border-radius: 0px !important;
+    font-size: 8px !important;
+    color: #666 !important;
+}
+select {
+    padding-left: 0.3rem;
+    width: 128px !important;
+    background-color: #F5F5F5;
+}
+
+.select-size {
+    width: 100% !important;
+}
+
+select.decorated option:hover {
+    box-shadow: 0 0 10px 100px #1882A8 inset;
+}
+
+
+input:focus, select option{
+    border: 1px solid #666 !important;
+}
+
+
+.col-4 label {
+    font-weight: 500 !important;
+}
+button{
+    border: none !important;
+    font-weight: 700 !important;
+    color: #FFF;
+    height: 25px;
+}
+
+.btn-col-4 {
+    max-width: 67px !important;
+}
+
+.btn-col-6 {
+    max-width: 100px !important;
+}
+
+.btn-col-12 {
+    max-width: 95% !important;
+}
+
+.btn-blue {
+    background: #3249BF;
+}
+
+.btn-red {
+    background: #FF6352;
+}
+
+.btn-black {
+    background: #E6E6E6;
+    color: #222;
+}
+
+.px-35 {
+    padding: 0rem 2.75rem;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: hsl(199, 77%, 62%) !important;
+}
+
+.top-menu {
+    color: #fff;
+    line-height: 0;
+    font-size: 9px;
+}
+
+.navigate-title {
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    font-size: 11px;
+    line-height: 0.5;
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+}
+
+.navigate-text {
+    color: #FFF;
+    font-size: 9px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0.2em;
+}
+
+.btn-menu {
+    border: 1px solid rgba(194, 194, 194, 0.40) !important;
+    background: #F5F5F5;
+    color: #222;
+    font-weight: 700;
+    width: 100%;
+    height: 25px !important;
+    padding: 0rem 1.5rem;
+    margin: 0.75rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-grey {
+    background: rgba(194, 194, 194, 0.40);
+    border: none !important;
+}
+
+.font-size-75 {
+    font-size: 7.5px;
+}
+
+.form-control-22 {
+    height: 22px !important;
+    font-size: 7.5px !important;
+}
+
+td {
+    color: #222;
+    font-size: 7.5px;
+    font-weight: 600;
+}
+
+th {
+    color: #929292;
+    font-size: 7.5px;
+    font-weight: 700;
+
+}
+
+input[disabled="disabled"] , input.disabled, .form-control:disabled,input:read-only, select:disabled
+{
+    color: #666;
+    border: 1px solid rgba(194, 194, 194, 0.41);
+    background: #E6E6E6 !important;
+}
+
+.form-check-input {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px !important;
+    margin-right: 6px;
+}
+.form-check-input:checked {
+    border: 3px solid #3249BF !important;
+}
+
+.form-check-input-checkbox {
+    width: 10px;
+    height: 10px;
+    border-radius: 0px !important;
+    margin-right: 6px;
+    background: #E6E6E6 !important;
+}
+
+.form-check-input-checkbox:checked {
+    border: 5px solid #3249BF !important;
+}
+
+#checkboxClearText {
+    border-radius: 0px !important;
+}
+
+#checkboxClearText:checked {
+    border: 0px solid #3249BF !important;
+    background-color: #3249BF !important;
+}
+
+.link-text {
+    color: #3249BF;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.form-check-label {
+    font-family: 'IBM Plex Sans Thai', sans-serif !important;
+}
+
+.d-none {
+    display: none;
+}
+
+input::file-selector-button {
+    font-weight: 700;
+    color: #3249BF !important;
+    padding: 0.3em 1.5em;
+    border: 1px solid #3249BF !important;
+    background-color: #D4DBFF !important;
+}
+
+.text-status-blue {
+    color: #3249BF;
+    font-weight: 600;
+}
+
+.text-status-red {
+    color: #FF6352;
+    font-weight: 600;
+}
+
+.border-none {
+    border: #f5f5f5;
+}
+
+.save-notice {
+    color: #33363F;
+    font-size: 10px;
+    font-weight: 700;
+}
