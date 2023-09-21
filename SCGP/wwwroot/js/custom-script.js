@@ -31,13 +31,13 @@ movementSelectEl?.addEventListener("change", () => {
     movementFormEl[i].getAttribute("id") == movementSelectEl.value
       ? movementFormEl[i].classList.remove("hidden")
       : movementFormEl[i].classList.add("hidden");
-  }
+    }
 
-  if (movementSelectEl.value == "321qi") {
-    btn321Qi.classList.remove("hidden");
+    if (movementSelectEl.value == "321qi") {
+    btn321Qi?.classList.remove("hidden");
     btnGeneral.classList.add("hidden");
   } else {
-    btn321Qi.classList.add("hidden");
+    btn321Qi?.classList.add("hidden");
     btnGeneral.classList.remove("hidden");
   }
 });

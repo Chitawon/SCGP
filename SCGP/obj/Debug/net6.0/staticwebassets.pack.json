@@ -481,6 +481,10 @@
       "PackagePath": "staticwebassets\\js\\custom-script.js"
     },
     {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\goodsReceiptForPO-script.js",
+      "PackagePath": "staticwebassets\\js\\goodsReceiptForPO-script.js"
+    },
+    {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\goodsTransfer-script.js",
       "PackagePath": "staticwebassets\\js\\goodsTransfer-script.js"
     },

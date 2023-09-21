@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tId3sIzPHmB0LMvhD0iRk5m04ByqPuFqNQyKfn+Bs34=",
+  "Hash": "qTbgz9bBFL92kMoR7m78Af450E3bajAapQPwFTgVlOE=",
   "Source": "SCGP",
   "BasePath": "_content/SCGP",
   "Mode": "Default",
@@ -2072,6 +2072,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\custom-script.js"
+    },
+    {
+      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\goodsReceiptForPO-script.js",
+      "SourceId": "SCGP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\",
+      "BasePath": "_content/SCGP",
+      "RelativePath": "js/goodsReceiptForPO-script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\goodsReceiptForPO-script.js"
     },
     {
       "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\js\\goodsTransfer-script.js",

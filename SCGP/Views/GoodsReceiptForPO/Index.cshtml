@@ -1,5 +1,7 @@
-﻿@page
+﻿@using SCGP.Models.GoodsTransfer
+@model MOVEMENT_ITEM_IN
 @{
+    ViewData["Title"] = "Goods Receipt For PO";
 }
 
 <div class="content">
@@ -31,7 +33,6 @@
         </div>
     </div>
 
-
     <div class="box col-span-12 p-5 mt-5 movement-form hidden" id="101">
         <div class="border border-slate-200/60 rounded-md p-5">
             <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Form 101</div>
@@ -39,69 +40,69 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <input type="text" class="form-control" value="101 - GR Goods receipt" readonly>
+                        <input type="text" class="form-control" value="101 - GR Goods receipt" data-value="movement-type" readonly>
                     </div>
 
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="batch-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="material-no">
                     </div>
 
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Plant</label>
-                        <select class="form-control">
+                        <select class="form-control" data-value="plant">
                             <option selected>7567</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage</label>
-                        <select class="form-control">
+                        <select class="form-control" data-value="storage">
                             <option selected>1</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">PO No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="po-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">PO Item</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="po-item">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Quantity</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="entry-Qnt">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Unit</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="entry-Uom">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">PI No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="pi-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">EO No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="eo-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="length">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="diameter">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="container-item">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="roll-batch">
                     </div>
                 </div>
             </div>
@@ -115,69 +116,69 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Movement Type</label>
-                        <input type="text" class="form-control" value="102 - GR for PO reversal" readonly>
+                        <input type="text" class="form-control" value="102 - GR for PO reversal" data-value="movement-type" readonly>
                     </div>
 
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Batch No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="batch-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Material No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="material-no">
                     </div>
 
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Plant</label>
-                        <select class="form-control">
+                        <select class="form-control" data-value="plant">
                             <option selected>7567</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Storage</label>
-                        <select class="form-control">
+                        <select class="form-control" data-value="storage">
                             <option selected>1</option>
                         </select>
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">PO No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="po-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">PO Item</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="po-item">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Quantity</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="entry-Qnt">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Unit</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="entry-Uom">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">PI No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="pi-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">EO No.</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="eo-no">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Length</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="length">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Diameter</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="diameter">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Container Item</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="container-item">
                     </div>
                     <div class="col-span-12 md:col-span-4">
                         <label class="form-label">Roll Batch</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" data-value="roll-batch">
                     </div>
                 </div>
             </div>
@@ -185,7 +186,9 @@
     </div>
 
     <div class="flex justify-end flex-col md:flex-row gap-2 mt-5" id="btn-general">
-        <button type="button" class="btn py-3 btn-primary w-full md:w-52">OK</button>
+        <button type="button" class="btn py-3 btn-primary w-full md:w-52" onclick="submitForm()">OK</button>
     </div>
 
 </div>
+
+<script src="~/js/goodsReceiptForPO-script.js"></script>
