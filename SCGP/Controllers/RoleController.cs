@@ -35,7 +35,7 @@ namespace SCGP.Controllers
             return View(role);
         }
 
-        public IActionResult EditRole(Role role)
+        public IActionResult Update(Role role)
         {
             return RedirectToAction("Index");
         }
