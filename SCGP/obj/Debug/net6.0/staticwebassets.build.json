@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ej60OA8pvZ1iUh2lPOwHbaU/poczy6ZOxlCB0my7Kos=",
+  "Hash": "tId3sIzPHmB0LMvhD0iRk5m04ByqPuFqNQyKfn+Bs34=",
   "Source": "SCGP",
   "BasePath": "_content/SCGP",
   "Mode": "Default",
@@ -1360,6 +1360,23 @@
       "OriginalItemSpec": "wwwroot\\images\\preview-9.jpg"
     },
     {
+      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\product-jpeg-500x500.webp",
+      "SourceId": "SCGP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\",
+      "BasePath": "_content/SCGP",
+      "RelativePath": "images/product-jpeg-500x500.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product-jpeg-500x500.webp"
+    },
+    {
       "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-1.jpg",
       "SourceId": "SCGP",
       "SourceType": "Discovered",
@@ -1732,6 +1749,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\SCGP_Primary Logo-01.png"
+    },
+    {
+      "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\SCGP_Primary_Logo-02.png",
+      "SourceId": "SCGP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\",
+      "BasePath": "_content/SCGP",
+      "RelativePath": "images/SCGP_Primary_Logo-02.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\SCGP_Primary_Logo-02.png"
     },
     {
       "Identity": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\SCGPLogo.png",

@@ -10,18 +10,18 @@
             <div class="intro-y col-span-11 2xl:col-span-9">
 
                 <div class="intro-y box p-5 mt-5">
-                <div class="border border-slate-200/60 rounded-md p-5">
+                    <div class="border border-slate-200/60 rounded-md p-5">
                     <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Role</div>
-                    <div class="mt-5">
-                            <input type="text" class="form-control" asp-for="@Model.Name">
+                        <div class="mt-5">
+                                <input type="text" class="form-control" asp-for="@Model.Name">
+                        </div>
                     </div>
                 </div>
-            </div>
 
                 <div id="AssignPC" class="intro-y box p-5 mt-5">
                     <div class="border border-slate-200/60 rounded-md p-5">
-                    <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Assign PC </div>
-                    <div class="mt-5">
+                        <div class="font-medium text-base flex items-center border-b border-slate-200/60 pb-5">Assign PC </div>
+                        <div class="mt-5">
 
                         <div class="form-check mr-2">
                             <input id="checkall" class="form-check-input" type="checkbox" value="">
@@ -444,7 +444,7 @@
                         </fieldset>
                         <!-- </div> -->
                     </div>
-                </div>
+                    </div>
                 </div>
 
                 <div id="AssignPDA" class="intro-y box p-5 mt-5">
@@ -866,17 +866,16 @@
                                         <input id="" class="form-check-input ml-auto" type="checkbox" value="" asp-for="@Model.AssignPDA.Report.ReportGoodsTransfer">
                                     </div>
                                 </div>
-                            </div>
                         </fieldset>
                     </div>
                 </div>
             </div>
 
-                <div class="flex justify-end flex-col md:flex-row gap-2 mt-5">
-                    <a href="@Url.Action("Index")" class="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Cancel</a>
-                    <button type="submit" asp-action="Create" class="btn py-3 btn-primary w-full md:w-52">Save</button>
-                </div>
-		</form>
+            <div class="flex justify-end flex-col md:flex-row gap-2 mt-5">
+                <a href="@Url.Action("Index")" class="btn py-3 border-slate-300 dark:border-darkmode-400 text-slate-500 w-full md:w-52">Cancel</a>
+                <button type="submit" asp-action="Create" class="btn py-3 btn-primary w-full md:w-52">Save</button>
+            </div>
+        </form>
     </div>
 </div>
 

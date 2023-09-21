@@ -97,6 +97,10 @@
       "PackagePath": "staticwebassets\\images\\SCGP_Primary Logo-01.png"
     },
     {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\SCGP_Primary_Logo-02.png",
+      "PackagePath": "staticwebassets\\images\\SCGP_Primary_Logo-02.png"
+    },
+    {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\bg-login-page-dark.svg",
       "PackagePath": "staticwebassets\\images\\bg-login-page-dark.svg"
     },
@@ -319,6 +323,10 @@
     {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\preview-9.jpg",
       "PackagePath": "staticwebassets\\images\\preview-9.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\product-jpeg-500x500.webp",
+      "PackagePath": "staticwebassets\\images\\product-jpeg-500x500.webp"
     },
     {
       "Id": "D:\\Work\\Orange\\SCGP\\SCGP\\wwwroot\\images\\profile-1.jpg",
